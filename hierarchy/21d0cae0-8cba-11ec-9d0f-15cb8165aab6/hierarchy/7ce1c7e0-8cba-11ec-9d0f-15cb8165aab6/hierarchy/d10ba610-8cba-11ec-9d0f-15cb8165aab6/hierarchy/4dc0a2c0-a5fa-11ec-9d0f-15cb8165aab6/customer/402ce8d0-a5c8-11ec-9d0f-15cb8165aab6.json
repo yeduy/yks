@@ -1,0 +1,142 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true,
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "4dc0a2c0-a5fa-11ec-9d0f-15cb8165aab6"
+    },
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "402ce8d0-a5c8-11ec-9d0f-15cb8165aab6"
+    },
+    "name" : "A-Tek 2. Cephe",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "4dc0a2c0-a5fa-11ec-9d0f-15cb8165aab6"
+    },
+    "parentCustomerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "4dc0a2c0-a5fa-11ec-9d0f-15cb8165aab6"
+    },
+    "phone" : null,
+    "state" : null,
+    "title" : "A-Tek 2. Cephe",
+    "zip" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "4dc0a2c0-a5fa-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "402ce8d0-a5c8-11ec-9d0f-15cb8165aab6"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "blok",
+      "lastUpdateTs" : 1650616486576,
+      "longValue" : null,
+      "strValue" : "A"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "bobrek",
+      "lastUpdateTs" : 1650616493783,
+      "longValue" : null,
+      "strValue" : "T"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe",
+      "lastUpdateTs" : 1650552202801,
+      "longValue" : 2,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe_totalAcikPencere",
+      "lastUpdateTs" : 1673268212667,
+      "longValue" : 0,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe_totalKapaliPencere",
+      "lastUpdateTs" : 1673268212667,
+      "longValue" : 0,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe_totalPencereSayisi",
+      "lastUpdateTs" : 1653476378995,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.19417609268728517,0.09067777653127246],[0.533012747165218,0.181850694346767]]",
+      "key" : "coordinates",
+      "lastUpdateTs" : 1650553591067,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kilit",
+      "lastUpdateTs" : 1653389379351,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kilitC",
+      "lastUpdateTs" : 1673186423140,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "tip",
+      "lastUpdateTs" : 1648559251301,
+      "longValue" : null,
+      "strValue" : "cephe"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "whiteLabelParams",
+      "lastUpdateTs" : 1673252176526,
+      "longValue" : null,
+      "strValue" : "{\"logoImageUrl\":\"\",\"logoImageChecksum\":null,\"logoImageHeight\":null,\"appTitle\":null,\"favicon\":null,\"faviconChecksum\":null,\"paletteSettings\":null,\"helpLinkBaseUrl\":null,\"uiHelpBaseUrl\":null,\"enableHelpLinks\":null,\"whiteLabelingEnabled\":true,\"showNameVersion\":null,\"platformName\":null,\"platformVersion\":null,\"customCss\":null}"
+    } ]
+  }
+}

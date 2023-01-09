@@ -1,0 +1,144 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : null,
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : null,
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "0d403d40-45d0-11eb-9f07-81d1409b4781"
+    },
+    "name" : "Device Statistics",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : null,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 355,
+        "layoutY" : 354
+      },
+      "configuration" : {
+        "periodValue" : 1,
+        "periodTimeUnit" : "MINUTES",
+        "countAlarmsForChildEntities" : true,
+        "parentEntitiesQuery" : {
+          "type" : "single",
+          "entityId" : {
+            "entityType" : "TENANT",
+            "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
+          },
+          "childRelationsQuery" : {
+            "fetchLastLevelOnly" : null,
+            "direction" : "FROM",
+            "maxLevel" : 4,
+            "filters" : [ {
+              "relationType" : "ToSubCustomerRelation",
+              "entityTypes" : [ "CUSTOMER" ]
+            } ]
+          }
+        },
+        "alarmsCountMappings" : [ {
+          "target" : "aktifAlarmSayisi",
+          "latestInterval" : 2592000000,
+          "typesList" : [ ],
+          "severityList" : [ ],
+          "statusList" : [ "ACTIVE_UNACK", "ACTIVE_ACK" ]
+        } ],
+        "outMsgType" : "POST_TELEMETRY_REQUEST"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0d53c540-45d0-11eb-9f07-81d1409b4781"
+      },
+      "name" : "Customer Alarm Counts",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.analytics.latest.alarm.TbAlarmsCountNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 353,
+        "layoutY" : 436
+      },
+      "configuration" : {
+        "periodValue" : 1,
+        "periodTimeUnit" : "MINUTES",
+        "countAlarmsForChildEntities" : true,
+        "parentEntitiesQuery" : {
+          "type" : "single",
+          "entityId" : {
+            "entityType" : "TENANT",
+            "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
+          },
+          "childRelationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 4,
+            "filters" : [ {
+              "relationType" : "Contains",
+              "entityTypes" : [ "DEVICE" ]
+            } ]
+          }
+        },
+        "alarmsCountMappings" : [ {
+          "target" : "aktifAlarmSayisi",
+          "latestInterval" : 2592000000,
+          "typesList" : [ ],
+          "severityList" : [ ],
+          "statusList" : [ "ACTIVE_UNACK", "ACTIVE_ACK" ]
+        } ],
+        "outMsgType" : "POST_TELEMETRY_REQUEST"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "0d55c110-45d0-11eb-9f07-81d1409b4781"
+      },
+      "name" : "Device Alarm Counts",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.analytics.latest.alarm.TbAlarmsCountNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 670,
+        "layoutY" : 352
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "1d9afcb0-45d1-11eb-9f07-81d1409b4781"
+      },
+      "name" : "Save DB",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

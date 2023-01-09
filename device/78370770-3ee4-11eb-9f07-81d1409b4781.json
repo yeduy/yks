@@ -1,0 +1,722 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "78263e90-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "label" : "",
+    "name" : "TB IoT Gateway",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "gateway"
+  },
+  "credentials" : {
+    "credentialsId" : "0XSGIpBdkxaAMrojs445",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9005e660-8655-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9005e661-8655-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671990-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671991-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671992-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671993-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671994-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e06dd050-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e06df760-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e06ebab0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e074ae20-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e076a9f0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e077e270-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e07d60b0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e08269c0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e082b7e0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e083c950-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0896ea0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e6a438c0-4f67-11eb-8a56-8d1c80a6cc0c"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "ed7b1980-3f85-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5bf0f90-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5bf0f91-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5bf0f92-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5bf0f93-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5bf0f94-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c10b60-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c1f5c0-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c21cd0-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c26af0-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c26af1-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c2b910-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c37c60-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c55121-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c57830-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "494ab520-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "494ab521-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "494ab522-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "494b0340-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "494beda0-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "494d7440-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "494dc260-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4950f6b0-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4950f6b1-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "495192f0-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "49527d50-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4952cb70-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4952f280-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4953b5d0-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4954ee50-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4954ee51-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "495870c0-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1673253579050,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "configuration_drafts",
+      "lastUpdateTs" : 1623658676138,
+      "longValue" : null,
+      "strValue" : "e30="
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1673253518029,
+      "longValue" : 1673253518029,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1673268226550,
+      "longValue" : 1673268225654,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1673253579049,
+      "longValue" : 1673253579049,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1673252588495,
+      "longValue" : 1673252588495,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "RemoteLoggingLevel",
+      "lastUpdateTs" : 1623658676138,
+      "longValue" : null,
+      "strValue" : "ERROR"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "configuration",
+      "lastUpdateTs" : 1623658676135,
+      "longValue" : null,
+      "strValue" : "eyJ0aGluZ3Nib2FyZCI6eyJ0aGluZ3Nib2FyZCI6eyJob3N0IjoibG9jYWxob3N0IiwicmVtb3RlQ29uZmlndXJhdGlvbiI6dHJ1ZSwicG9ydCI6MTg4Miwic2VjdXJpdHkiOnsiYWNjZXNzVG9rZW4iOiIwWFNHSXBCZGt4YUFNcm9qczQ0NSJ9fSwiY29ubmVjdG9ycyI6W10sInN0b3JhZ2UiOnsidHlwZSI6Im1lbW9yeSIsInJlYWRfcmVjb3Jkc19jb3VudCI6NjM2LCJtYXhfcmVjb3Jkc19jb3VudCI6MTAwMH0sImxvZ3MiOiJXMnh2WjJkbGNuTmRmWDFyWlhselBYSnZiM1FzSUhObGNuWnBZMlVzSUdOdmJtNWxZM1J2Y2l3Z1kyOXVkbVZ5ZEdWeUxDQjBZbDlqYjI1dVpXTjBhVzl1TENCemRHOXlZV2RsTENCbGVIUmxibk5wYjI1OWZWdG9ZVzVrYkdWeWMxMTlmV3RsZVhNOVkyOXVjMjlzWlVoaGJtUnNaWElzSUhObGNuWnBZMlZJWVc1a2JHVnlMQ0JqYjI1dVpXTjBiM0pJWVc1a2JHVnlMQ0JqYjI1MlpYSjBaWEpJWVc1a2JHVnlMQ0IwWWw5amIyNXVaV04wYVc5dVNHRnVaR3hsY2l3Z2MzUnZjbUZuWlVoaGJtUnNaWElzSUdWNGRHVnVjMmx2YmtoaGJtUnNaWEo5ZlZ0bWIzSnRZWFIwWlhKelhYMTlhMlY1Y3oxTWIyZEdiM0p0WVhSMFpYSjlmVnRzYjJkblpYSmZjbTl2ZEYxOWZXeGxkbVZzUFVWU1VrOVNmWDFvWVc1a2JHVnljejFqYjI1emIyeGxTR0Z1Wkd4bGNuMTlXMnh2WjJkbGNsOWpiMjV1WldOMGIzSmRmWDFzWlhabGJEMUZVbEpQVW4xOWFHRnVaR3hsY25NOVkyOXVibVZqZEc5eVNHRnVaR3hsY24xOVptOXliV0YwZEdWeVBVeHZaMFp2Y20xaGRIUmxjbjE5Y1hWaGJHNWhiV1U5WTI5dWJtVmpkRzl5ZlgxYmJHOW5aMlZ5WDNOMGIzSmhaMlZkZlgxc1pYWmxiRDFGVWxKUFVuMTlhR0Z1Wkd4bGNuTTljM1J2Y21GblpVaGhibVJzWlhKOWZXWnZjbTFoZEhSbGNqMU1iMmRHYjNKdFlYUjBaWEo5ZlhGMVlXeHVZVzFsUFhOMGIzSmhaMlY5ZlZ0c2IyZG5aWEpmZEdKZlkyOXVibVZqZEdsdmJsMTlmV3hsZG1Wc1BVVlNVazlTZlgxb1lXNWtiR1Z5Y3oxMFlsOWpiMjV1WldOMGFXOXVTR0Z1Wkd4bGNuMTlabTl5YldGMGRHVnlQVXh2WjBadmNtMWhkSFJsY24xOWNYVmhiRzVoYldVOWRHSmZZMjl1Ym1WamRHbHZibjE5VzJ4dloyZGxjbDl6WlhKMmFXTmxYWDE5YkdWMlpXdzlSVkpTVDFKOWZXaGhibVJzWlhKelBYTmxjblpwWTJWSVlXNWtiR1Z5ZlgxbWIzSnRZWFIwWlhJOVRHOW5SbTl5YldGMGRHVnlmWDF4ZFdGc2JtRnRaVDF6WlhKMmFXTmxmWDFiYkc5bloyVnlYMk52Ym5abGNuUmxjbDE5Zld4bGRtVnNQVVZTVWs5U2ZYMW9ZVzVrYkdWeWN6MWpiMjUyWlhKMFpYSklZVzVrYkdWeWZYMW1iM0p0WVhSMFpYSTlURzluUm05eWJXRjBkR1Z5ZlgxeGRXRnNibUZ0WlQxamIyNTJaWEowWlhKOWZWdHNiMmRuWlhKZlpYaDBaVzV6YVc5dVhYMTliR1YyWld3OVJWSlNUMUo5ZldoaGJtUnNaWEp6UFdOdmJtNWxZM1J2Y2toaGJtUnNaWEo5ZldadmNtMWhkSFJsY2oxTWIyZEdiM0p0WVhSMFpYSjlmWEYxWVd4dVlXMWxQV1Y0ZEdWdWMybHZibjE5VzJoaGJtUnNaWEpmWTI5dWMyOXNaVWhoYm1Sc1pYSmRmWDFqYkdGemN6MVRkSEpsWVcxSVlXNWtiR1Z5Zlgxc1pYWmxiRDFGVWxKUFVuMTlabTl5YldGMGRHVnlQVXh2WjBadmNtMWhkSFJsY24xOVlYSm5jejBvYzNsekxuTjBaRzkxZEN3cGZYMWJhR0Z1Wkd4bGNsOWpiMjV1WldOMGIzSklZVzVrYkdWeVhYMTliR1YyWld3OVJWSlNUMUo5ZldOc1lYTnpQV3h2WjJkcGJtY3VhR0Z1Wkd4bGNuTXVWR2x0WldSU2IzUmhkR2x1WjBacGJHVklZVzVrYkdWeWZYMW1iM0p0WVhSMFpYSTlURzluUm05eWJXRjBkR1Z5ZlgxaGNtZHpQU2dpTGk5c2IyZHpMMk52Ym01bFkzUnZjaTVzYjJjaUxDQWlaQ0lzSURFc0lEY3NLWDE5VzJoaGJtUnNaWEpmYzNSdmNtRm5aVWhoYm1Sc1pYSmRmWDFzWlhabGJEMUZVbEpQVW4xOVkyeGhjM005Ykc5bloybHVaeTVvWVc1a2JHVnljeTVVYVcxbFpGSnZkR0YwYVc1blJtbHNaVWhoYm1Sc1pYSjlmV1p2Y20xaGRIUmxjajFNYjJkR2IzSnRZWFIwWlhKOWZXRnlaM005S0NJdUwyeHZaM012YzNSdmNtRm5aUzVzYjJjaUxDQWlaQ0lzSURFc0lEY3NLWDE5VzJoaGJtUnNaWEpmYzJWeWRtbGpaVWhoYm1Sc1pYSmRmWDFzWlhabGJEMUZVbEpQVW4xOVkyeGhjM005Ykc5bloybHVaeTVvWVc1a2JHVnljeTVVYVcxbFpGSnZkR0YwYVc1blJtbHNaVWhoYm1Sc1pYSjlmV1p2Y20xaGRIUmxjajFNYjJkR2IzSnRZWFIwWlhKOWZXRnlaM005S0NJdUwyeHZaM012YzJWeWRtbGpaUzVzYjJjaUxDQWlaQ0lzSURFc0lEY3NLWDE5VzJoaGJtUnNaWEpmWTI5dWRtVnlkR1Z5U0dGdVpHeGxjbDE5Zld4bGRtVnNQVVZTVWs5U2ZYMWpiR0Z6Y3oxc2IyZG5hVzVuTG1oaGJtUnNaWEp6TGxScGJXVmtVbTkwWVhScGJtZEdhV3hsU0dGdVpHeGxjbjE5Wm05eWJXRjBkR1Z5UFV4dlowWnZjbTFoZEhSbGNuMTlZWEpuY3owb0lpNHZiRzluY3k5amIyNTJaWEowWlhJdWJHOW5JaXdnSW1RaUxDQXhMQ0F6TENsOWZWdG9ZVzVrYkdWeVgyVjRkR1Z1YzJsdmJraGhibVJzWlhKZGZYMXNaWFpsYkQxRlVsSlBVbjE5WTJ4aGMzTTliRzluWjJsdVp5NW9ZVzVrYkdWeWN5NVVhVzFsWkZKdmRHRjBhVzVuUm1sc1pVaGhibVJzWlhKOWZXWnZjbTFoZEhSbGNqMU1iMmRHYjNKdFlYUjBaWEo5ZldGeVozTTlLQ0l1TDJ4dlozTXZaWGgwWlc1emFXOXVMbXh2WnlJc0lDSmtJaXdnTVN3Z015d3BmWDFiYUdGdVpHeGxjbDkwWWw5amIyNXVaV04wYVc5dVNHRnVaR3hsY2wxOWZXeGxkbVZzUFVWU1VrOVNmWDFqYkdGemN6MXNiMmRuYVc1bkxtaGhibVJzWlhKekxsUnBiV1ZrVW05MFlYUnBibWRHYVd4bFNHRnVaR3hsY24xOVptOXliV0YwZEdWeVBVeHZaMFp2Y20xaGRIUmxjbjE5WVhKbmN6MG9JaTR2Ykc5bmN5OTBZbDlqYjI1dVpXTjBhVzl1TG14dlp5SXNJQ0prSWl3Z01Td2dNeXdwZlgxYlptOXliV0YwZEdWeVgweHZaMFp2Y20xaGRIUmxjbDE5ZldadmNtMWhkRDBpSlNoaGMyTjBhVzFsS1hNZ0xTQWxLR3hsZG1Wc2JtRnRaU2x6SUMwZ1d5VW9abWxzWlc1aGJXVXBjMTBnTFNBbEtHMXZaSFZzWlNseklDMGdKU2hzYVc1bGJtOHBaQ0F0SUNVb2JXVnpjMkZuWlNseklpQjlmV1JoZEdWbWJYUTlJaVZaTFNWdExTVmtJQ1ZJT2lWTk9pVlRJZz09In19"
+    } ]
+  }
+}

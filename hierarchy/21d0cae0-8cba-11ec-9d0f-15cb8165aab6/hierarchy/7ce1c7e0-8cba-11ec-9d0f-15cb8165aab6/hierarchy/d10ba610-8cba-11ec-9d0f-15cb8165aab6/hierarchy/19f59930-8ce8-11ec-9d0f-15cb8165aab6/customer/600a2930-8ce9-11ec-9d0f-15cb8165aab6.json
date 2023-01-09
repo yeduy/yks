@@ -1,0 +1,122 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true,
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "19f59930-8ce8-11ec-9d0f-15cb8165aab6"
+    },
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "600a2930-8ce9-11ec-9d0f-15cb8165aab6"
+    },
+    "name" : "A09C",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "19f59930-8ce8-11ec-9d0f-15cb8165aab6"
+    },
+    "parentCustomerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "19f59930-8ce8-11ec-9d0f-15cb8165aab6"
+    },
+    "phone" : null,
+    "state" : null,
+    "title" : "A09C",
+    "zip" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "19f59930-8ce8-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "600a2930-8ce9-11ec-9d0f-15cb8165aab6"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "600a2930-8ce9-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "135ccf30-9e04-11ec-9d0f-15cb8165aab6"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "positionC",
+      "lastUpdateTs" : 1649245550414,
+      "longValue" : 6,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "positionCommand",
+      "lastUpdateTs" : 1648567564976,
+      "longValue" : 6,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "tip",
+      "lastUpdateTs" : 1647349390011,
+      "longValue" : null,
+      "strValue" : "bobrek"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "totalAcikPencere",
+      "lastUpdateTs" : 1673268213099,
+      "longValue" : 0,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "totalKapaliPencere",
+      "lastUpdateTs" : 1673268212997,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "totalPencereSayisi",
+      "lastUpdateTs" : 1673268213097,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "whiteLabelParams",
+      "lastUpdateTs" : 1673252176590,
+      "longValue" : null,
+      "strValue" : "{\"logoImageUrl\":\"\",\"logoImageChecksum\":null,\"logoImageHeight\":null,\"appTitle\":null,\"favicon\":null,\"faviconChecksum\":null,\"paletteSettings\":null,\"helpLinkBaseUrl\":null,\"uiHelpBaseUrl\":null,\"enableHelpLinks\":null,\"whiteLabelingEnabled\":true,\"showNameVersion\":null,\"platformName\":null,\"platformVersion\":null,\"customCss\":null}"
+    } ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true,
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "02d7bc70-a5fb-11ec-9d0f-15cb8165aab6"
+    },
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "770bfb50-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "name" : "C-Tek 3. Cephe",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "02d7bc70-a5fb-11ec-9d0f-15cb8165aab6"
+    },
+    "parentCustomerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "02d7bc70-a5fb-11ec-9d0f-15cb8165aab6"
+    },
+    "phone" : null,
+    "state" : null,
+    "title" : "C-Tek 3. Cephe",
+    "zip" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "02d7bc70-a5fb-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "770bfb50-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "770bfb50-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "ca3cb680-c6cb-11ec-b0c8-e79e4a5f43fe"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "770bfb50-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f1cf64a0-29df-11ed-b63a-c5334e62b249"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "770bfb50-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0d6b3390-bb06-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "770bfb50-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "456fc170-b5b6-11ec-aafb-6971966668b3"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "770bfb50-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "6966dba0-29c8-11ed-b63a-c5334e62b249"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "blok",
+      "lastUpdateTs" : 1650617142146,
+      "longValue" : null,
+      "strValue" : "C"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "bobrek",
+      "lastUpdateTs" : 1650617417826,
+      "longValue" : null,
+      "strValue" : "T"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe",
+      "lastUpdateTs" : 1650552414719,
+      "longValue" : 3,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe_totalAcikPencere",
+      "lastUpdateTs" : 1673268212594,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe_totalKapaliPencere",
+      "lastUpdateTs" : 1673268212579,
+      "longValue" : 4,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe_totalPencereSayisi",
+      "lastUpdateTs" : 1673268212696,
+      "longValue" : 5,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.5437748265954656,0.09096820473748089],[0.7860869281219838,0.1810506356442751]]",
+      "key" : "coordinates",
+      "lastUpdateTs" : 1650552841439,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kilit",
+      "lastUpdateTs" : 1655468949551,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kilitC",
+      "lastUpdateTs" : 1673186423140,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "positionC",
+      "lastUpdateTs" : 1664349550640,
+      "longValue" : 6,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "tip",
+      "lastUpdateTs" : 1648559380514,
+      "longValue" : null,
+      "strValue" : "cephe"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "whiteLabelParams",
+      "lastUpdateTs" : 1673252176630,
+      "longValue" : null,
+      "strValue" : "{\"logoImageUrl\":\"\",\"logoImageChecksum\":null,\"logoImageHeight\":null,\"appTitle\":null,\"favicon\":null,\"faviconChecksum\":null,\"paletteSettings\":null,\"helpLinkBaseUrl\":null,\"uiHelpBaseUrl\":null,\"enableHelpLinks\":null,\"whiteLabelingEnabled\":true,\"showNameVersion\":null,\"platformName\":null,\"platformVersion\":null,\"customCss\":null}"
+    } ]
+  }
+}

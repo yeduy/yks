@@ -1,0 +1,76 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "db743920-8ff5-11ed-8d62-e7132a382ac6"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6cba37c0-4040-11eb-9f07-81d1409b4781"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "faa5f940-960b-11eb-8d04-535144bafa38"
+    },
+    "label" : "Chiller 1",
+    "name" : "14-Chiller 1",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6cba37c0-4040-11eb-9f07-81d1409b4781"
+    },
+    "type" : "analizor_group"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "faa5f940-960b-11eb-8d04-535144bafa38"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e07d60b0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "AnalizorGroup",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "faa5f940-960b-11eb-8d04-535144bafa38"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c55121-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "AnalizorGroup",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "faa5f940-960b-11eb-8d04-535144bafa38"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4952f280-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "AnalizorGroup",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "isim",
+      "lastUpdateTs" : 1617629842999,
+      "longValue" : null,
+      "strValue" : "Chiller 1"
+    } ]
+  }
+}

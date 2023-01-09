@@ -1,0 +1,191 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "f73db070-c555-11ec-9326-67c26095a051"
+    },
+    "description" : null,
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "3e5ebb80-f156-11ec-99a7-e5336b968b50"
+    },
+    "image" : null,
+    "name" : "deprem",
+    "profileData" : {
+      "alarms" : [ {
+        "alarmType" : "Deprem Alarmı!",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "deprem",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "BOOLEAN",
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : false,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "BOOLEAN"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "quakeAlarmFlag",
+                  "type" : "CONSTANT"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : false,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "quakeAlarmFlag",
+                      "sourceType" : "CURRENT_DEVICE"
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : true,
+                "valueType" : "BOOLEAN"
+              }, {
+                "key" : {
+                  "key" : "deprem",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : true,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "BOOLEAN"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "61d092d5-c083-ded6-fc0c-e63cf8ff2c2c",
+        "propagate" : true,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Haberleşme Yok!",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "active",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "BOOLEAN",
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : true,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "BOOLEAN"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "WARNING" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "active",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : false,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "BOOLEAN"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "ad2602c7-d3a7-235a-539b-5a26584feb56",
+        "propagate" : true,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      } ],
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

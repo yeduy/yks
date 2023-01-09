@@ -1,0 +1,186 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true,
+      "homeDashboardId" : null,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "17f9bd60-a5fb-11ec-9d0f-15cb8165aab6"
+    },
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "823de330-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "name" : "C-Cift 1. Cephe",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "17f9bd60-a5fb-11ec-9d0f-15cb8165aab6"
+    },
+    "parentCustomerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "17f9bd60-a5fb-11ec-9d0f-15cb8165aab6"
+    },
+    "phone" : null,
+    "state" : null,
+    "title" : "C-Cift 1. Cephe",
+    "zip" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "823de330-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9b248290-bfc0-11ec-9132-ad2c0810b0e7"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "823de330-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "b7935080-c6e8-11ec-b0c8-e79e4a5f43fe"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "823de330-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5e06b5b0-bb18-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "17f9bd60-a5fb-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "823de330-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "blok",
+      "lastUpdateTs" : 1650617012476,
+      "longValue" : null,
+      "strValue" : "C"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "bobrek",
+      "lastUpdateTs" : 1650617025040,
+      "longValue" : null,
+      "strValue" : "C"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe",
+      "lastUpdateTs" : 1650552358452,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe_totalAcikPencere",
+      "lastUpdateTs" : 1673268220523,
+      "longValue" : 1,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe_totalKapaliPencere",
+      "lastUpdateTs" : 1673268212680,
+      "longValue" : 2,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cephe_totalPencereSayisi",
+      "lastUpdateTs" : 1673268212780,
+      "longValue" : 3,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[[0.04794206627938853,0.31197981610393727],[0.10055268307063324,0.6272449720739502]]",
+      "key" : "coordinates",
+      "lastUpdateTs" : 1650551415485,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kilit",
+      "lastUpdateTs" : 1655470434955,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kilitC",
+      "lastUpdateTs" : 1673186423140,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "positionC",
+      "lastUpdateTs" : 1657181162203,
+      "longValue" : 6,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "tip",
+      "lastUpdateTs" : 1648559358400,
+      "longValue" : null,
+      "strValue" : "cephe"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "whiteLabelParams",
+      "lastUpdateTs" : 1673252176681,
+      "longValue" : null,
+      "strValue" : "{\"logoImageUrl\":\"\",\"logoImageChecksum\":null,\"logoImageHeight\":null,\"appTitle\":null,\"favicon\":null,\"faviconChecksum\":null,\"paletteSettings\":null,\"helpLinkBaseUrl\":null,\"uiHelpBaseUrl\":null,\"enableHelpLinks\":null,\"whiteLabelingEnabled\":true,\"showNameVersion\":null,\"platformName\":null,\"platformVersion\":null,\"customCss\":null}"
+    } ]
+  }
+}

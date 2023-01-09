@@ -1,0 +1,142 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "0dde8020-a44f-11ec-9d0f-15cb8165aab6"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "c53e36a0-649b-11ec-86ca-29471b244c2b"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "0d6b3390-bb06-11ec-a0b4-83dc55bc158f"
+    },
+    "label" : null,
+    "name" : "C17T08",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "0dde8020-a44f-11ec-9d0f-15cb8165aab6"
+    },
+    "softwareId" : null,
+    "type" : "pencere"
+  },
+  "credentials" : {
+    "credentialsId" : "EfEfakFITlAAhgfb4ikM",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "0d6b3390-bb06-11ec-a0b4-83dc55bc158f"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "29f5c2e0-f0bd-11ec-99a7-e5336b968b50"
+    },
+    "type" : "3",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "0dde8020-a44f-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0d6b3390-bb06-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0d6b3390-bb06-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "770bfb50-a5cf-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0d6b3390-bb06-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "Cephe",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1673253734757,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1673253518035,
+      "longValue" : 1673253518035,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kilit",
+      "lastUpdateTs" : 1655468949568,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1673268135005,
+      "longValue" : 1673268135003,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "score",
+      "lastUpdateTs" : 1673252260554,
+      "longValue" : 1043,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "state",
+      "lastUpdateTs" : 1655734642778,
+      "longValue" : 0,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

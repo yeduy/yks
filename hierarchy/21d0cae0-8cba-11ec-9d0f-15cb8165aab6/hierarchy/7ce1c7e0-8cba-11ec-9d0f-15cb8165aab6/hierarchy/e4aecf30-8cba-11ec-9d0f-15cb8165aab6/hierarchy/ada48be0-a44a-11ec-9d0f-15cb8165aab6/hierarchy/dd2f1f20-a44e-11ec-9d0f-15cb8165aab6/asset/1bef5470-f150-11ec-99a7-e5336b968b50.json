@@ -1,0 +1,66 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "db748740-8ff5-11ed-8d62-e7132a382ac6"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "dd2f1f20-a44e-11ec-9d0f-15cb8165aab6"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "1bef5470-f150-11ec-99a7-e5336b968b50"
+    },
+    "label" : null,
+    "name" : "C14C",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "dd2f1f20-a44e-11ec-9d0f-15cb8165aab6"
+    },
+    "type" : "panel"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "1bef5470-f150-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "5e06b5b0-bb18-11ec-a0b4-83dc55bc158f"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "1bef5470-f150-11ec-99a7-e5336b968b50"
+    },
+    "type" : "1",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "5e129c90-bb18-11ec-a0b4-83dc55bc158f"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "1bef5470-f150-11ec-99a7-e5336b968b50"
+    },
+    "type" : "4",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

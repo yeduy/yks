@@ -1,0 +1,163 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : "",
+      "lastConnectedGateway" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "85f76640-4040-11eb-9f07-81d1409b4781"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "ebe16d50-3eee-11eb-9f07-81d1409b4781"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "4950f6b1-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "label" : "Soğuk Su Pompası 1-2",
+    "name" : "BEA10",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "85f76640-4040-11eb-9f07-81d1409b4781"
+    },
+    "softwareId" : null,
+    "type" : "enerji-analizoru"
+  },
+  "credentials" : {
+    "credentialsId" : "qr96YxXmO5W7YVHFS5L5",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "85f76640-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4950f6b1-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "85f76640-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4950f6b1-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "d6e76e30-960b-11eb-8d04-535144bafa38"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4950f6b1-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "AnalizorGroup",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "4950f6b1-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1673253579339,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1673253518006,
+      "longValue" : 1673253518006,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "isim",
+      "lastUpdateTs" : 1615904077497,
+      "longValue" : null,
+      "strValue" : "Soğuk Su Pompası 1-2"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1673268226550,
+      "longValue" : 1673268225606,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1673253579338,
+      "longValue" : 1673253579338,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1673252588495,
+      "longValue" : 1673252588495,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "model",
+      "lastUpdateTs" : 1615904086135,
+      "longValue" : null,
+      "strValue" : " ENTES MPR53S-96"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "yer",
+      "lastUpdateTs" : 1615904095129,
+      "longValue" : null,
+      "strValue" : "Kazan Dairesi"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

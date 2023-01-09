@@ -1,0 +1,410 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "clientConfiguration" : {
+        "host" : "localhost",
+        "port" : 1883,
+        "cleanSession" : true,
+        "ssl" : false,
+        "connectTimeoutSec" : 10,
+        "clientId" : "",
+        "maxBytesInMessage" : 32368,
+        "credentials" : {
+          "type" : "anonymous"
+        }
+      },
+      "downlinkTopicPattern" : "${topic}",
+      "topicFilters" : [ {
+        "filter" : "/pencere/+/uplink",
+        "qos" : 0
+      } ],
+      "metadata" : { }
+    },
+    "debugMode" : true,
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "c741b9b0-6499-11ec-86ca-29471b244c2b"
+    },
+    "downlinkConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "d0323d10-6499-11ec-86ca-29471b244c2b"
+    },
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "name" : "Kinco MQTT Integration",
+    "remote" : false,
+    "routingKey" : "3d550202-8243-84e8-46a8-4e51729a913f",
+    "secret" : "rjp2m6fr49zx63lj8gzz",
+    "type" : "MQTT"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9b248290-bfc0-11ec-9132-ad2c0810b0e7"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9b479af0-bfc0-11ec-9132-ad2c0810b0e7"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9b530ca0-bfc0-11ec-9132-ad2c0810b0e7"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9b5bbf30-bfc0-11ec-9132-ad2c0810b0e7"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "a87b7c90-29e8-11ed-b63a-c5334e62b249"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "a87e62c0-29e8-11ed-b63a-c5334e62b249"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "b7935080-c6e8-11ec-b0c8-e79e4a5f43fe"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "b797e460-c6e8-11ec-b0c8-e79e4a5f43fe"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "b79aa381-c6e8-11ec-b0c8-e79e4a5f43fe"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "b79d62a6-c6e8-11ec-b0c8-e79e4a5f43fe"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "c1a71650-29d1-11ed-b63a-c5334e62b249"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "c7111060-29e4-11ed-b63a-c5334e62b249"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "ca3cb680-c6cb-11ec-b0c8-e79e4a5f43fe"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "d1b7e000-29c8-11ed-b63a-c5334e62b249"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "ee0a1280-29cf-11ed-b63a-c5334e62b249"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f1cf64a0-29df-11ed-b63a-c5334e62b249"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fbeaa0f0-b5a2-11ec-aafb-6971966668b3"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0d3e3020-bb06-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0d6b3390-bb06-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0d6f7950-bb06-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "0d796460-bb06-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "1013e7f0-9e13-11ec-9d0f-15cb8165aab6"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "135ccf30-9e04-11ec-9d0f-15cb8165aab6"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "1e82d120-29e6-11ed-b63a-c5334e62b249"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "27cb3550-29e2-11ed-b63a-c5334e62b249"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "456fc170-b5b6-11ec-aafb-6971966668b3"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5e06b5b0-bb18-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5e129c90-bb18-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "6966dba0-29c8-11ed-b63a-c5334e62b249"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_iosphere",
+      "lastUpdateTs" : 1673253517941,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "5e7a8f80-f0b5-11ec-99a7-e5336b968b50"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "eab084f0-f0b0-11ec-99a7-e5336b968b50"
+    },
+    "name" : "Kilit Status",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 14,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 15,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 16,
+      "type" : "True"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 17,
+      "type" : "False"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 0,
+      "type" : "cephe1"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 1,
+      "type" : "cephe1"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 2,
+      "type" : "cephe1"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 3,
+      "type" : "cephe2"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 4,
+      "type" : "cephe2"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 5,
+      "type" : "cephe2"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 6,
+      "type" : "cephe2"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 7,
+      "type" : "cephe3"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 8,
+      "type" : "cephe3"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 9,
+      "type" : "cephe3"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 10,
+      "type" : "cephe3"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 11,
+      "type" : "cephe4"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 12,
+      "type" : "cephe4"
+    } ],
+    "firstNodeIndex" : 18,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 647,
+        "layoutY" : 93
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}01",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afac7880-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "01",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 648,
+        "layoutY" : 182
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}02",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afacc6a0-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "02",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 651,
+        "layoutY" : 281
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}03",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afacedb0-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "03",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 668,
+        "layoutY" : 396
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}04",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afad14c0-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "04",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 668,
+        "layoutY" : 484
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}05",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afad3bd0-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "05",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 672,
+        "layoutY" : 570
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}06",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afad89f0-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "06",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 673,
+        "layoutY" : 652
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}07",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afadd810-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "07",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 665,
+        "layoutY" : 779
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}08",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afadff20-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "08",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 667,
+        "layoutY" : 869
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}09",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afae2630-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "09",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 669,
+        "layoutY" : 947
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}10",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afae7450-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "10",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 667,
+        "layoutY" : 1020
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}11",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afae9b60-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "11",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 661,
+        "layoutY" : 1176
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}12",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afaec270-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "12",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 662,
+        "layoutY" : 1262
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "DEVICE",
+        "entityNamePattern" : "${assetName}13",
+        "entityTypePattern" : "pencere",
+        "relationType" : "$[cephe]",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : true,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afaee980-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "13",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1074,
+        "layoutY" : 550
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\n\nnewMsg.kilit = msg.kilit\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afaf1090-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "only kilit",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1379,
+        "layoutY" : 549
+      },
+      "configuration" : {
+        "defaultTTL" : 0,
+        "skipLatestPersistence" : false,
+        "useServerTs" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "afaf5eb0-f0b7-11ec-99a7-e5336b968b50"
+      },
+      "name" : "save",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1154,
+        "layoutY" : 718
+      },
+      "configuration" : {
+        "jsScript" : "return msg.kilit == true;"
+      },
+      "createdTime" : 0,
+      "debugMode" : true,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "2e8bfec0-f0bb-11ec-99a7-e5336b968b50"
+      },
+      "name" : "Check kilit",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1427,
+        "layoutY" : 712
+      },
+      "configuration" : {
+        "alarmDetailsBuildJs" : "var details = {};\nif (metadata.prevAlarmDetails) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    delete metadata.prevAlarmDetails;\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "useMessageAlarmData" : false,
+        "overwriteAlarmDetails" : false,
+        "alarmType" : "Pencere Kilitlendi",
+        "severity" : "WARNING",
+        "propagate" : true,
+        "relationTypes" : [ ],
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false,
+        "dynamicSeverity" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "2e8c4ce0-f0bb-11ec-99a7-e5336b968b50"
+      },
+      "name" : "Create Kilit Alarmı",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateAlarmNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1431,
+        "layoutY" : 787
+      },
+      "configuration" : {
+        "alarmDetailsBuildJs" : "var details = {};\nif (metadata.prevAlarmDetails) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    delete metadata.prevAlarmDetails;\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "alarmType" : "Pencere Kilitlendi"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "2e8c73f0-f0bb-11ec-99a7-e5336b968b50"
+      },
+      "name" : "Clear Kilit Alarmı",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbClearAlarmNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 113,
+        "layoutY" : 557
+      },
+      "configuration" : {
+        "jsScript" : "var relations = [];\nif(msg.cephe == 1){\n    relations.push(\"cephe1\");\n}\n\nelse if(msg.cephe == 2){\n    relations.push(\"cephe2\");\n}\n\nelse if(msg.cephe == 3){\n    relations.push(\"cephe3\");\n}\n\nelse if(msg.cephe == 4){\n    relations.push(\"cephe4\");\n}\n\n\nreturn relations;"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5e7a8f80-f0b5-11ec-99a7-e5336b968b50"
+      },
+      "name" : "Check Cephe",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

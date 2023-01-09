@@ -1,0 +1,536 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "A Blok",
+      "allowWhiteLabeling" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6cba37c0-4040-11eb-9f07-81d1409b4781"
+    },
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "name" : "A Blok",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6cba37c0-4040-11eb-9f07-81d1409b4781"
+    },
+    "parentCustomerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6cba37c0-4040-11eb-9f07-81d1409b4781"
+    },
+    "phone" : null,
+    "state" : null,
+    "title" : "A Blok",
+    "zip" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9005e660-8655-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9005e660-8655-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9005e661-8655-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9005e661-8655-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671990-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671990-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671991-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671991-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671992-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671992-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671993-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671993-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671994-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0671994-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e06dd050-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e06dd050-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e06df760-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e06df760-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e06ebab0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e06ebab0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e074ae20-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e074ae20-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e076a9f0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e076a9f0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e077e270-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e077e270-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e07d60b0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e07d60b0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e08269c0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e08269c0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e082b7e0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e082b7e0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e083c950-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e083c950-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0896ea0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e0896ea0-800f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6cba37c0-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6cba37c0-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "type" : "ToSubCustomerRelation",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "nodeDisabled",
+      "lastUpdateTs" : 1615212851793,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "type",
+      "lastUpdateTs" : 1608293006540,
+      "longValue" : null,
+      "strValue" : "building"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "whiteLabelParams",
+      "lastUpdateTs" : 1673252176670,
+      "longValue" : null,
+      "strValue" : "{\"logoImageUrl\":\"\",\"logoImageChecksum\":null,\"logoImageHeight\":null,\"appTitle\":null,\"favicon\":null,\"faviconChecksum\":null,\"paletteSettings\":null,\"helpLinkBaseUrl\":null,\"uiHelpBaseUrl\":null,\"enableHelpLinks\":null,\"whiteLabelingEnabled\":true,\"showNameVersion\":null,\"platformName\":null,\"platformVersion\":null,\"customCss\":null}"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.8540471749178986,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1608647474471,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.51010101010101,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1608647474471,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "Default device profile",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e6a2d930-4f67-11eb-8a56-8d1c80a6cc0c"
+    },
+    "image" : null,
+    "name" : "enerji-analizoru-komp",
+    "profileData" : {
+      "alarms" : [ {
+        "alarmType" : "COS φ Alarm!",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "K_COSFI",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "COMPLEX",
+                "operation" : "OR",
+                "predicates" : [ {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER_OR_EQUAL",
+                  "value" : {
+                    "defaultValue" : 0.97,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                }, {
+                  "type" : "NUMERIC",
+                  "operation" : "LESS_OR_EQUAL",
+                  "value" : {
+                    "defaultValue" : -0.97,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                } ]
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : "${K_COSFI}",
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "K_COSFI",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "LESS",
+                  "value" : {
+                    "defaultValue" : 0.9,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "K_COSFI",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : -0.9,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "18edaedf-6b5c-0b40-5d58-b385000fbbe6",
+        "propagate" : true,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Haberleşme Yok!",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "active",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "BOOLEAN",
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : true,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "BOOLEAN"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "WARNING" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "active",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : false,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "BOOLEAN"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "e84ea980-291d-f9cc-7522-c8c2c34973a9",
+        "propagate" : true,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      } ],
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "7ce1c7e0-8cba-11ec-9d0f-15cb8165aab6"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e2ef90e0-ba4a-11ec-a0b4-83dc55bc158f"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "e2f472e0-ba4a-11ec-a0b4-83dc55bc158f"
+    },
+    "label" : null,
+    "name" : "Ruzgar-B",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "7ce1c7e0-8cba-11ec-9d0f-15cb8165aab6"
+    },
+    "softwareId" : null,
+    "type" : "ruzgar"
+  },
+  "credentials" : {
+    "credentialsId" : "uLi1wCekWJZmJCqkZAhF",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "7ce1c7e0-8cba-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "e2f472e0-ba4a-11ec-a0b4-83dc55bc158f"
+    },
+    "type" : "Senaryo",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1673253518841,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "humidity",
+      "lastUpdateTs" : 1673264314819,
+      "longValue" : 77,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1673253518033,
+      "longValue" : 1673253518033,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1673268190548,
+      "longValue" : 1673268188222,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1673253518840,
+      "longValue" : 1673253518840,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1673252588496,
+      "longValue" : 1673252588496,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "temp",
+      "lastUpdateTs" : 1673264314819,
+      "longValue" : 42,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

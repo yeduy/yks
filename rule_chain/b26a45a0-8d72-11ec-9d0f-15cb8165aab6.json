@@ -1,0 +1,1020 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "66cc5ff0-2d10-11ed-bdcc-138810176ad7"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "b26a45a0-8d72-11ec-9d0f-15cb8165aab6"
+    },
+    "name" : "Pencere Counter",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 6,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 12,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 12,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 5,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 12,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 11,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 24,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 7,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 12,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 8,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 10,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 14,
+      "toIndex" : 16,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 16,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 16,
+      "toIndex" : 17,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 16,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 19,
+      "toIndex" : 20,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 19,
+      "toIndex" : 25,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 20,
+      "toIndex" : 25,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 21,
+      "toIndex" : 19,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 21,
+      "toIndex" : 25,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 22,
+      "toIndex" : 26,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 24,
+      "toIndex" : 21,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 24,
+      "toIndex" : 25,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 25,
+      "toIndex" : 22,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 25,
+      "toIndex" : 26,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 26,
+      "toIndex" : 23,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 27,
+      "toIndex" : 9,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 27,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 398,
+        "layoutY" : 860
+      },
+      "configuration" : {
+        "periodValue" : 1,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "relationsQuery",
+          "rootEntityId" : {
+            "entityType" : "CUSTOMER",
+            "id" : "21d0cae0-8cba-11ec-9d0f-15cb8165aab6"
+          },
+          "relationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Contains",
+              "entityTypes" : [ "CUSTOMER" ]
+            } ]
+          },
+          "childRelationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Contains",
+              "entityTypes" : [ "DEVICE" ]
+            } ]
+          }
+        },
+        "aggMappings" : [ {
+          "sourceScope" : "LATEST_TELEMETRY",
+          "source" : "",
+          "defaultValue" : 0,
+          "aggFunction" : "COUNT",
+          "target" : "totalAcikPencere",
+          "filter" : {
+            "clientAttributeNames" : [ ],
+            "sharedAttributeNames" : [ ],
+            "serverAttributeNames" : [ ],
+            "latestTsKeyNames" : [ "pencereStatus" ],
+            "filterFunction" : "return attributes[\"pencereStatus\"] != 0;"
+          }
+        } ],
+        "queueName" : "Main",
+        "outMsgType" : "POST_TELEMETRY_REQUEST"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "8c61a7b0-a5d5-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "totalAcikPencere",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.analytics.latest.telemetry.TbAggLatestTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 400,
+        "layoutY" : 789
+      },
+      "configuration" : {
+        "periodValue" : 1,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "relationsQuery",
+          "rootEntityId" : {
+            "entityType" : "CUSTOMER",
+            "id" : "21d0cae0-8cba-11ec-9d0f-15cb8165aab6"
+          },
+          "relationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Contains",
+              "entityTypes" : [ "CUSTOMER" ]
+            } ]
+          },
+          "childRelationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Contains",
+              "entityTypes" : [ "DEVICE" ]
+            } ]
+          }
+        },
+        "aggMappings" : [ {
+          "sourceScope" : "CLIENT_SCOPE",
+          "source" : "number",
+          "defaultValue" : 0,
+          "aggFunction" : "SUM",
+          "target" : "totalPencereSayisi"
+        } ],
+        "queueName" : "Main",
+        "outMsgType" : "POST_TELEMETRY_REQUEST"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9d53ac20-9f96-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "totalPencereSayisi",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.analytics.latest.telemetry.TbAggLatestTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 707,
+        "layoutY" : 790
+      },
+      "configuration" : {
+        "jsScript" : "var msgType = \"POST_ATTRIBUTES_REQUEST\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "dee77450-9faa-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "POST_ATTRIBUTES_REQUEST",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 969,
+        "layoutY" : 788
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "dee7c270-9faa-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "Server attributes",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 399,
+        "layoutY" : 929
+      },
+      "configuration" : {
+        "periodValue" : 1,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "relationsQuery",
+          "rootEntityId" : {
+            "entityType" : "CUSTOMER",
+            "id" : "21d0cae0-8cba-11ec-9d0f-15cb8165aab6"
+          },
+          "relationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Contains",
+              "entityTypes" : [ "CUSTOMER" ]
+            } ]
+          },
+          "childRelationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Contains",
+              "entityTypes" : [ "DEVICE" ]
+            } ]
+          }
+        },
+        "aggMappings" : [ {
+          "sourceScope" : "LATEST_TELEMETRY",
+          "source" : "",
+          "defaultValue" : 0,
+          "aggFunction" : "COUNT",
+          "target" : "totalKapaliPencere",
+          "filter" : {
+            "clientAttributeNames" : [ ],
+            "sharedAttributeNames" : [ ],
+            "serverAttributeNames" : [ ],
+            "latestTsKeyNames" : [ "pencereStatus" ],
+            "filterFunction" : "return attributes[\"pencereStatus\"] == 0;"
+          }
+        } ],
+        "queueName" : "Main",
+        "outMsgType" : "POST_TELEMETRY_REQUEST"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "e830d7b0-a5ed-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "totalKapaliPencere",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.analytics.latest.telemetry.TbAggLatestTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 590,
+        "layoutY" : 156
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ebc4cc40-9096-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "toBlok",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 761,
+        "layoutY" : 53
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ebc51a60-9096-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "toTumBloklar",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 501,
+        "layoutY" : 247
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "14b8d1f0-8ffc-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "toKat",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1090,
+        "layoutY" : 471
+      },
+      "configuration" : {
+        "jsScript" : "\n\nmetadata.ss_totalAcikPencere = 0;\n\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30b64a00-8fdd-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "totalAcikPencere",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 154,
+        "layoutY" : 356
+      },
+      "configuration" : {
+        "jsScript" : "if(msg.pencereStatus == 3 && metadata.pencereStatus == 0) {\n    msg.count = 1;\n} else if(msg.pencereStatus == 1 && metadata.pencereStatus == 0) {\n    msg.count = 1;\n} else if(msg.pencereStatus == 2 && metadata.pencereStatus == 0) {\n    msg.count = 1;\n} else if(msg.pencereStatus == 0 && metadata.pencereStatus == 3) {\n    msg.count = -1;\n} else if(msg.pencereStatus == 0 && metadata.pencereStatus == 1) {\n    msg.count = -1;\n} else if(msg.pencereStatus == 0 && metadata.pencereStatus == 2) {\n    msg.count = -1;\n} else {\n    msg.count = 0;\n}\n\nvar msgType = \"POST_ATTRIBUTES_REQUEST\"\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30b69820-8fdd-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "add count",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1476,
+        "layoutY" : 361
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30b6bf30-8fdd-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "save attributes",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 475,
+        "layoutY" : 360
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30b75b70-8fdd-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "toBobrek",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 734,
+        "layoutY" : 358
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : true,
+        "clientAttributeNames" : [ ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ "totalAcikPencere", "totalPencereSayisi" ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30b78280-8fdd-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "Bir önceki total Verisini Al",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1158,
+        "layoutY" : 362
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\n\n\nnewMsg.totalAcikPencere = Number(metadata.ss_totalAcikPencere) + msg.count;\n\nif ( newMsg.totalAcikPencere < 0) {\n    newMsg.totalAcikPencere = 0;\n}\n\nnewMsg.totalKapaliPencere = Number(metadata.ss_totalPencereSayisi) - newMsg.totalAcikPencere;\n\nif ( newMsg.totalKapaliPencere < 0) {\n    newMsg.totalKapaliPencere = 0;\n}\n\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};\n\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "30b7d0a0-8fdd-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "totalAcikPencere",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 106,
+        "layoutY" : 1975
+      },
+      "configuration" : {
+        "periodValue" : 1,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "relationsQuery",
+          "rootEntityId" : {
+            "entityType" : "CUSTOMER",
+            "id" : "21d0cae0-8cba-11ec-9d0f-15cb8165aab6"
+          },
+          "relationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Cephe",
+              "entityTypes" : [ "CUSTOMER" ]
+            } ]
+          },
+          "childRelationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Cephe",
+              "entityTypes" : [ "DEVICE" ]
+            } ]
+          }
+        },
+        "aggMappings" : [ {
+          "sourceScope" : "LATEST_TELEMETRY",
+          "source" : "",
+          "defaultValue" : 0,
+          "aggFunction" : "COUNT",
+          "target" : "cephe_totalKapaliPencere",
+          "filter" : {
+            "clientAttributeNames" : [ ],
+            "sharedAttributeNames" : [ ],
+            "serverAttributeNames" : [ ],
+            "latestTsKeyNames" : [ "pencereStatus" ],
+            "filterFunction" : "return attributes[\"pencereStatus\"] == 0;"
+          }
+        } ],
+        "queueName" : "Main",
+        "outMsgType" : "POST_TELEMETRY_REQUEST"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671621f0-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "cephe_totalKapaliPencere",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.analytics.latest.telemetry.TbAggLatestTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 105,
+        "layoutY" : 1906
+      },
+      "configuration" : {
+        "periodValue" : 1,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "relationsQuery",
+          "rootEntityId" : {
+            "entityType" : "CUSTOMER",
+            "id" : "21d0cae0-8cba-11ec-9d0f-15cb8165aab6"
+          },
+          "relationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Cephe",
+              "entityTypes" : [ "CUSTOMER" ]
+            } ]
+          },
+          "childRelationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Cephe",
+              "entityTypes" : [ "DEVICE" ]
+            } ]
+          }
+        },
+        "aggMappings" : [ {
+          "sourceScope" : "LATEST_TELEMETRY",
+          "source" : "",
+          "defaultValue" : 0,
+          "aggFunction" : "COUNT",
+          "target" : "cephe_totalAcikPencere",
+          "filter" : {
+            "clientAttributeNames" : [ ],
+            "sharedAttributeNames" : [ ],
+            "serverAttributeNames" : [ ],
+            "latestTsKeyNames" : [ "pencereStatus" ],
+            "filterFunction" : "return attributes[\"pencereStatus\"] != 0;"
+          }
+        } ],
+        "queueName" : "Main",
+        "outMsgType" : "POST_TELEMETRY_REQUEST"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "67192f30-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "cephe_totalAcikPencere",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.analytics.latest.telemetry.TbAggLatestTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 414,
+        "layoutY" : 1836
+      },
+      "configuration" : {
+        "jsScript" : "var msgType = \"POST_ATTRIBUTES_REQUEST\";\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6719a460-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "POST_ATTRIBUTES_REQUEST",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 676,
+        "layoutY" : 1834
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671a1990-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "Server attributes",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 107,
+        "layoutY" : 1835
+      },
+      "configuration" : {
+        "periodValue" : 1,
+        "periodTimeUnit" : "MINUTES",
+        "parentEntitiesQuery" : {
+          "type" : "relationsQuery",
+          "rootEntityId" : {
+            "entityType" : "CUSTOMER",
+            "id" : "21d0cae0-8cba-11ec-9d0f-15cb8165aab6"
+          },
+          "relationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Cephe",
+              "entityTypes" : [ "CUSTOMER" ]
+            } ]
+          },
+          "childRelationsQuery" : {
+            "fetchLastLevelOnly" : false,
+            "direction" : "FROM",
+            "maxLevel" : 10,
+            "filters" : [ {
+              "relationType" : "Cephe",
+              "entityTypes" : [ "DEVICE" ]
+            } ]
+          }
+        },
+        "aggMappings" : [ {
+          "sourceScope" : "CLIENT_SCOPE",
+          "source" : "number",
+          "defaultValue" : 0,
+          "aggFunction" : "SUM",
+          "target" : "cephe_totalPencereSayisi"
+        } ],
+        "queueName" : "Main",
+        "outMsgType" : "POST_TELEMETRY_REQUEST"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671a67b0-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "cephe_totalPencereSayisi",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.analytics.latest.telemetry.TbAggLatestTelemetryNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 350,
+        "layoutY" : 1198
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Cephe",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671ab5d0-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "toBlok",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 521,
+        "layoutY" : 1095
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Cephe",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671b03f0-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "toTumBloklar",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 261,
+        "layoutY" : 1289
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Cephe",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671b5210-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "toBobrek",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 825,
+        "layoutY" : 1512
+      },
+      "configuration" : {
+        "jsScript" : "\n\nmetadata.ss_cephe_totalAcikPencere = 0;\n\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};\n\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671ba030-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "totalAcikPencere",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1211,
+        "layoutY" : 1402
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671bee50-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "save attributes",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 235,
+        "layoutY" : 1402
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Cephe",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671c6380-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "toCephe",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 525,
+        "layoutY" : 1401
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : true,
+        "clientAttributeNames" : [ ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ "cephe_totalAcikPencere", "cephe_totalPencereSayisi" ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671c8a90-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "Bir önceki total Verisini Al",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 893,
+        "layoutY" : 1403
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\n\n\nnewMsg.cephe_totalAcikPencere = Number(metadata.ss_cephe_totalAcikPencere) + msg.count;\n\nif ( newMsg.cephe_totalAcikPencere < 0) {\n    newMsg.cephe_totalAcikPencere = 0;\n}\n\nnewMsg.cephe_totalKapaliPencere = Number(metadata.ss_cephe_totalPencereSayisi) - newMsg.cephe_totalAcikPencere;\n\nif ( newMsg.cephe_totalKapaliPencere < 0) {\n    newMsg.cephe_totalKapaliPencere = 0;\n}\n\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};\n\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "671cb1a0-a870-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "totalAcikPencere",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 106,
+        "layoutY" : 259
+      },
+      "configuration" : {
+        "queueName" : "SequentialByOriginator"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "66cc5ff0-2d10-11ed-bdcc-138810176ad7"
+      },
+      "name" : "checkpoint",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbCheckpointNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

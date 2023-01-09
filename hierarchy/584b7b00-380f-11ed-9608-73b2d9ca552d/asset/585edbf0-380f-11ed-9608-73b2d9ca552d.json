@@ -1,0 +1,42 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "db748740-8ff5-11ed-8d62-e7132a382ac6"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "584b7b00-380f-11ed-9608-73b2d9ca552d"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "585edbf0-380f-11ed-9608-73b2d9ca552d"
+    },
+    "label" : null,
+    "name" : "CC",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "584b7b00-380f-11ed-9608-73b2d9ca552d"
+    },
+    "type" : "panel"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "585edbf0-380f-11ed-9608-73b2d9ca552d"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

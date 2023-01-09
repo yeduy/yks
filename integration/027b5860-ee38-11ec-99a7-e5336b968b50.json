@@ -1,0 +1,242 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "clientConfiguration" : {
+        "host" : "192.168.10.1",
+        "port" : 1883,
+        "cleanSession" : true,
+        "ssl" : false,
+        "connectTimeoutSec" : 10,
+        "clientId" : "",
+        "maxBytesInMessage" : 32368,
+        "credentials" : {
+          "type" : "anonymous"
+        }
+      },
+      "downlinkTopicPattern" : "${topic}",
+      "topicFilters" : [ {
+        "filter" : "/+/kilit",
+        "qos" : 1
+      } ],
+      "metadata" : { }
+    },
+    "debugMode" : true,
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "bd8f2650-ee37-11ec-99a7-e5336b968b50"
+    },
+    "downlinkConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "d0323d10-6499-11ec-86ca-29471b244c2b"
+    },
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "name" : "Kinco MQTT Kilit Integration",
+    "remote" : false,
+    "routingKey" : "98fa7b7c-1b86-cbcc-c05c-91c1ef7269da",
+    "secret" : "sokt0bl6dqfi72ow2v6s",
+    "type" : "MQTT"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "9eca6e60-f0bb-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "9ee0dc90-f0bb-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "9efacd30-f0bb-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "aafca4b0-f0ba-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "15d65180-3811-11ed-9608-73b2d9ca552d"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "15e2d4a0-3811-11ed-9608-73b2d9ca552d"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "15f80a50-3811-11ed-9608-73b2d9ca552d"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "1bef5470-f150-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "29f5c2e0-f0bd-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "29fb4120-f0bd-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "2a04b700-f0bd-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "42b83990-f0b1-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "47a79d40-3811-11ed-9608-73b2d9ca552d"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "47a99910-3811-11ed-9608-73b2d9ca552d"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "585edbf0-380f-11ed-9608-73b2d9ca552d"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"success\":true}",
+      "key" : "integration_status_iosphere",
+      "lastUpdateTs" : 1673253517941,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "f73db070-c555-11ec-9326-67c26095a051"
+    },
+    "description" : "",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e2ef90e0-ba4a-11ec-a0b4-83dc55bc158f"
+    },
+    "image" : null,
+    "name" : "ruzgar",
+    "profileData" : {
+      "alarms" : [ {
+        "alarmType" : "Rüzgar Alarmı!",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "speed",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "speedAlarmThreshold",
+                    "sourceType" : "CURRENT_CUSTOMER"
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "DURATION",
+              "predicate" : {
+                "defaultValue" : 1,
+                "dynamicValue" : {
+                  "inherit" : false,
+                  "sourceAttribute" : "speedAlarmClearTime",
+                  "sourceType" : "CURRENT_CUSTOMER"
+                },
+                "userValue" : null
+              },
+              "unit" : "MINUTES"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : "${speed} m/s",
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "speed",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "speedAlarmThreshold",
+                      "sourceType" : "CURRENT_CUSTOMER"
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "speedAlarmFlag",
+                  "type" : "CONSTANT"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : false,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "speedAlarmFlag",
+                      "sourceType" : "CURRENT_CUSTOMER"
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : true,
+                "valueType" : "BOOLEAN"
+              } ],
+              "spec" : {
+                "type" : "DURATION",
+                "predicate" : {
+                  "defaultValue" : 1,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "speedAlarmCreateTime",
+                    "sourceType" : "CURRENT_CUSTOMER"
+                  },
+                  "userValue" : null
+                },
+                "unit" : "MINUTES"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "10562fd7-1662-1bf5-e693-6acfd49f081e",
+        "propagate" : true,
+        "propagateRelationTypes" : [ ],
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Haberleşme Yok!",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "active",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "BOOLEAN",
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : true,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "BOOLEAN"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "WARNING" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "active",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : false,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "BOOLEAN"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "022262ff-6c80-4bec-bf9a-27134a647481",
+        "propagate" : true,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      } ],
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

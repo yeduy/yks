@@ -1,0 +1,139 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "4988f1a0-a6ac-11ec-9d0f-15cb8165aab6"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "65d8fae0-a6ab-11ec-9d0f-15cb8165aab6"
+    },
+    "name" : "Pencere Relations",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "Post attributes"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 2,
+      "type" : "Post attributes"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 3,
+      "type" : "Post attributes"
+    } ],
+    "firstNodeIndex" : 0,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 314,
+        "layoutY" : 150
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4988f1a0-a6ac-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "Spreader",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 654,
+        "layoutY" : 238
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "CUSTOMER",
+        "entityNamePattern" : "$[bobrek]",
+        "entityTypePattern" : null,
+        "relationType" : "Contains",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : false,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "49893fc0-a6ac-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "to Bobrek Customer",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 654,
+        "layoutY" : 316
+      },
+      "configuration" : {
+        "direction" : "FROM",
+        "entityType" : "CUSTOMER",
+        "entityNamePattern" : "$[cephe]",
+        "entityTypePattern" : null,
+        "relationType" : "Cephe",
+        "createEntityIfNotExists" : false,
+        "removeCurrentRelations" : false,
+        "changeOriginatorToRelatedEntity" : false,
+        "entityCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "49898de0-a6ac-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "to Cephe Customer",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateRelationNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 653,
+        "layoutY" : 155
+      },
+      "configuration" : {
+        "ownerType" : "CUSTOMER",
+        "ownerNamePattern" : "$[bobrek]",
+        "createOwnerIfNotExists" : false,
+        "ownerCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4989b4f0-a6ac-11ec-9d0f-15cb8165aab6"
+      },
+      "name" : "to Bobrek Owner",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbChangeOwnerNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

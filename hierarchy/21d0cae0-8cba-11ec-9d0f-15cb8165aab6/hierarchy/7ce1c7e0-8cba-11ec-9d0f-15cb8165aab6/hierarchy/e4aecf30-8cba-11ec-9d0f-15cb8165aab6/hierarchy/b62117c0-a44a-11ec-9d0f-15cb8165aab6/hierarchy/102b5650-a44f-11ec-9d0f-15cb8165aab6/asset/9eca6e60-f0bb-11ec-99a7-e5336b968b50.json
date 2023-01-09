@@ -1,0 +1,90 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "db748740-8ff5-11ed-8d62-e7132a382ac6"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "102b5650-a44f-11ec-9d0f-15cb8165aab6"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "9eca6e60-f0bb-11ec-99a7-e5336b968b50"
+    },
+    "label" : null,
+    "name" : "C17C",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "102b5650-a44f-11ec-9d0f-15cb8165aab6"
+    },
+    "type" : "panel"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9b248290-bfc0-11ec-9132-ad2c0810b0e7"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "9eca6e60-f0bb-11ec-99a7-e5336b968b50"
+    },
+    "type" : "1",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9b479af0-bfc0-11ec-9132-ad2c0810b0e7"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "9eca6e60-f0bb-11ec-99a7-e5336b968b50"
+    },
+    "type" : "2",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9b530ca0-bfc0-11ec-9132-ad2c0810b0e7"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "9eca6e60-f0bb-11ec-99a7-e5336b968b50"
+    },
+    "type" : "3",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9b5bbf30-bfc0-11ec-9132-ad2c0810b0e7"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "9eca6e60-f0bb-11ec-99a7-e5336b968b50"
+    },
+    "type" : "4",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "9eca6e60-f0bb-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

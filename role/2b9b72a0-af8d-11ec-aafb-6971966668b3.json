@@ -1,0 +1,39 @@
+{
+  "entityType" : "ROLE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "name" : "YKS Generic",
+    "permissions" : {
+      "PROFILE" : [ "ALL" ],
+      "DASHBOARD" : [ "READ", "READ_ATTRIBUTES", "READ_TELEMETRY" ],
+      "AUDIT_LOG" : [ "ALL" ],
+      "ALARM" : [ "ALL" ],
+      "DASHBOARD_GROUP" : [ "READ", "READ_ATTRIBUTES", "READ_TELEMETRY" ],
+      "BLOB_ENTITY" : [ "ALL" ],
+      "DEVICE" : [ "ALL" ],
+      "WIDGET_TYPE" : [ "ALL" ],
+      "WIDGETS_BUNDLE" : [ "READ" ],
+      "CUSTOMER" : [ "ALL" ],
+      "USER" : [ "ALL" ],
+      "API_USAGE_STATE" : [ "ALL" ],
+      "TENANT" : [ "ALL" ]
+    },
+    "type" : "GENERIC",
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "id" : {
+      "entityType" : "ROLE",
+      "id" : "2b9b72a0-af8d-11ec-aafb-6971966668b3"
+    },
+    "ownerId" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

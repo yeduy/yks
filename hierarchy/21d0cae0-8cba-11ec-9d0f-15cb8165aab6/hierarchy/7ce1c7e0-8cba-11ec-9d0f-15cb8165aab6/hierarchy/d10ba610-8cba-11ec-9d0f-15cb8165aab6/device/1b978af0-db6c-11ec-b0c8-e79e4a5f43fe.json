@@ -1,0 +1,111 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : "",
+      "lastConnectedGateway" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "d10ba610-8cba-11ec-9d0f-15cb8165aab6"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "20917270-d129-11ec-b0c8-e79e4a5f43fe"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "1b978af0-db6c-11ec-b0c8-e79e4a5f43fe"
+    },
+    "label" : "",
+    "name" : "Yangın-A",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "d10ba610-8cba-11ec-9d0f-15cb8165aab6"
+    },
+    "softwareId" : null,
+    "type" : "yangin"
+  },
+  "credentials" : {
+    "credentialsId" : "G6nLEECHvewlfyz3rDps",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "d10ba610-8cba-11ec-9d0f-15cb8165aab6"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "1b978af0-db6c-11ec-b0c8-e79e4a5f43fe"
+    },
+    "type" : "Senaryo",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1673253518839,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "fireAlarmFlag",
+      "lastUpdateTs" : 1664882696481,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1673253518023,
+      "longValue" : 1673253518023,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1673268220549,
+      "longValue" : 1673268219850,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1673253518838,
+      "longValue" : 1673253518838,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1673252588495,
+      "longValue" : 1673252588495,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

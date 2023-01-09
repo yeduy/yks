@@ -1,0 +1,1359 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : "",
+      "widgets" : {
+        "c836acfb-ff76-15c3-6810-c93a719fba22" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "html_value_card",
+          "type" : "latest",
+          "title" : "New widget",
+          "sizeX" : 7,
+          "sizeY" : 11,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "bd611bab-9313-181c-3f78-7d0c4aba0efe",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "VL12",
+                "type" : "timeseries",
+                "label" : "VL12",
+                "color" : "#8bc34a",
+                "settings" : { },
+                "_hash" : 0.5131280775417069
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#ffffff",
+            "color" : "#329999",
+            "padding" : "0px",
+            "settings" : {
+              "cardCss" : ".card {\n   width: 100%;\n   height: 100%;\n   box-sizing: border-box;\n   \n}\n\n.card .content {\n   padding: 20px;\n   display: flex;\n   flex-direction: row;\n   align-items: center;\n   height: 100%;\n   box-sizing: border-box;\n  \n}\n\n.card .content .column {\n   display: flex;\n   flex-direction: column;    \n   height: 100%;\n}\n\n.card h1 {\n    text-transform: uppercase;\n    color: #777;\n    font-size: 18px;\n    font-weight: bold;\n    margin: 0;\n    padding-bottom: 6px;\n    line-height: 20px;\n}\n\n.card h2 {\n    color: #000000;\n    font-size: 16px;\n    font-weight: bold;\n    margin: 0;\n    padding-bottom: 10px;\n    line-height: 20px;\n}\n\n.card h3 {\n    color: #000000;\n    font-size: 16px;\n    font-weight: bold;\n    margin: 0;\n    padding-bottom: 6px;\n    padding-top: 14px;\n    line-height: 18px;\n}\n\n.card .value {\n    font-size: 14px;\n    font-weight: 300;\n}\n\n.card .description {\n    font-size: 20px;\n    color: #999;\n}\n\n.card i.fa {\n    font-size: 20px;\n    padding-right: 10px;\n}\n",
+              "cardHtml" : "<div class='card' id=\"deviceContactInfoCard\">\r\n    <div class='content'>\r\n        <div class='column'>\r\n            <table style=\"width:100%\">\r\n                <tr>\r\n\t\t\t\t\t<td><h3><i></i>VL12</h3></td>\r\n\t\t\t\t\t<td><h3><i></i>${VL12}</h3> \r\n\t\t\t\t\t<div class='value' id=\"V12\">\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t</td>\r\n                 </tr>\r\n\t\t\t</table>\r\n            <h3><i></i>Pgas range: ${p_gas_range}</h3>\r\n            <div class='value' id=\"p_gas_range\">\r\n            </div>    \r\n            \r\n            <h3><i></i>Tgas range: ${t_gas_range} </h3>\r\n            <div class='value' id=\"ctOran\">\r\n            </div> \r\n            \r\n            <h3><i></i>Tb: ${tb} </h3>\r\n            <div class='value' id=\"tb\">  \r\n            </div>\r\n            \r\n            <h3><i></i>Çalışma Sıcaklığı: ${ambient_temperature} </h3>\r\n            <div class='value' id=\"ambient_temperature\">  \r\n            </div> \r\n            \r\n            <br> \r\n            \r\n            \r\n           \r\n            \r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n<script>\r\n\r\n  var deviceContactInfoCard = $('.card#deviceContactInfoCard');\r\n  var ctx = deviceContactInfoCard[0].parentElement.parentElement.__ngContext__[8].components[0].ctx;\r\n  var entityInfo = ctx.defaultSubscription.getFirstEntityInfo();\r\n  var customerService = ctx.customerService;\r\n\r\n  if (entityInfo && entityInfo.entityId && entityInfo.entityId.entityType === 'CUSTOMER') {\r\n      customerService.getCustomer(entityInfo.entityId.id, {ignoreLoading: true, ignoreErrors: true}).subscribe(\r\n          function (customer) {\r\n              var address = toContactShort(customer);\r\n              $('#contactAddress', deviceContactInfoCard).text(address);\r\n              $('#contactPhone', deviceContactInfoCard).text(customer.phone ? customer.phone : 'Not available');\r\n              $('#contactEmail', deviceContactInfoCard).text(customer.email ? customer.email : 'Not available');\r\n          }\r\n      );\r\n  }\r\n  \r\n  function toContactShort(contact) {\r\n        var contactShort = '';\r\n        if (contact) {\r\n            if (contact.address) {\r\n                contactShort += contact.address;\r\n                contactShort += ' ';\r\n            }\r\n            if (contact.address2) {\r\n                contactShort += contact.address2;\r\n                contactShort += ' ';\r\n            }\r\n            if (contact.city) {\r\n                contactShort += contact.city;\r\n                contactShort += ' ';\r\n            }\r\n            if (contact.state) {\r\n                contactShort += contact.state;\r\n                contactShort += ' ';\r\n            }\r\n            if (contact.zip) {\r\n                contactShort += contact.zip;\r\n                contactShort += ' ';\r\n            }\r\n            if (contact.country) {\r\n                contactShort += contact.country;\r\n            }\r\n        }\r\n        if (contactShort === '') {\r\n            contactShort = ctx.translate('contact.no-address');\r\n        }\r\n        return contactShort;\r\n    };\r\n  \r\n</script>"
+            },
+            "title" : "Sayaç Bilgisi",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : {
+              "borderBottom" : "solid 1px #aaa",
+              "borderRight" : "solid 1px #aaa",
+              "backgroundImage" : "url(https://i.ibb.co/J3KJKcW/imageedit-2-8582476762.png)",
+              "backgroundSize" : "cover",
+              "backgroundColor" : "rgb(50,153,153, .0.3)",
+              "fontWeight" : "bold",
+              "fontSize" : "20px"
+            },
+            "titleStyle" : {
+              "fontSize" : "20px",
+              "fontWeight" : "bold",
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "enableDataExport" : false,
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : ""
+          },
+          "id" : "c836acfb-ff76-15c3-6810-c93a719fba22"
+        },
+        "b812dc8d-3662-0b27-7ad1-097cd6341017" : {
+          "isSystemType" : false,
+          "bundleAlias" : "mywidgets",
+          "typeAlias" : "data_table",
+          "type" : "latest",
+          "title" : "New widget",
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "bff0b0cf-21da-ff4d-4a89-d31d32848195",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "VL12",
+                "type" : "timeseries",
+                "label" : "VL12",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.852582990779083,
+                "units" : "V",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "VL23",
+                "type" : "timeseries",
+                "label" : "VL23",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.0908216472612764,
+                "units" : "V",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "VL13",
+                "type" : "timeseries",
+                "label" : "VL13",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.2717095057238412,
+                "units" : "V",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "IL1",
+                "type" : "timeseries",
+                "label" : "IL1",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.44712747666935293,
+                "units" : "A",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "IL2",
+                "type" : "timeseries",
+                "label" : "IL2",
+                "color" : "#607d8b",
+                "settings" : { },
+                "_hash" : 0.9416012498348836,
+                "units" : "A",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "IL3",
+                "type" : "timeseries",
+                "label" : "IL3",
+                "color" : "#9c27b0",
+                "settings" : { },
+                "_hash" : 0.8693864782879426,
+                "units" : "A",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "L1COSFI",
+                "type" : "timeseries",
+                "label" : "L1COSFI",
+                "color" : "#8bc34a",
+                "settings" : { },
+                "_hash" : 0.6003071918120755
+              }, {
+                "name" : "L2COSFI",
+                "type" : "timeseries",
+                "label" : "L2COSFI",
+                "color" : "#3f51b5",
+                "settings" : { },
+                "_hash" : 0.5597567299586499
+              }, {
+                "name" : "L3COSFI",
+                "type" : "timeseries",
+                "label" : "L3COSFI",
+                "color" : "#e91e63",
+                "settings" : { },
+                "_hash" : 0.39156621082686116
+              }, {
+                "name" : "Frekans",
+                "type" : "timeseries",
+                "label" : "Frekans",
+                "color" : "#ffeb3b",
+                "settings" : { },
+                "_hash" : 0.6321939577585045,
+                "units" : "Hz",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "P_Import",
+                "type" : "timeseries",
+                "label" : "P Import",
+                "color" : "#03a9f4",
+                "settings" : { },
+                "_hash" : 0.765839339184301,
+                "units" : "kW",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "P_Export",
+                "type" : "timeseries",
+                "label" : "P Export",
+                "color" : "#ff9800",
+                "settings" : { },
+                "_hash" : 0.5779757453992689,
+                "units" : "kW",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "Q_Induktif",
+                "type" : "timeseries",
+                "label" : "Q Indüktif",
+                "color" : "#673ab7",
+                "settings" : { },
+                "_hash" : 0.3534022632529894,
+                "units" : "kVAr",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "Q_Kapasitif",
+                "type" : "timeseries",
+                "label" : "Q Kapasitif",
+                "color" : "#cddc39",
+                "settings" : { },
+                "_hash" : 0.4171280429111901,
+                "units" : "kVAr",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "S",
+                "type" : "timeseries",
+                "label" : "S",
+                "color" : "#009688",
+                "settings" : { },
+                "_hash" : 0.04792132831971241,
+                "units" : "kVA",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "AE_Import",
+                "type" : "timeseries",
+                "label" : "AE Import",
+                "color" : "#795548",
+                "settings" : { },
+                "_hash" : 0.7096378594407458,
+                "units" : "kWh",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "AE_Export",
+                "type" : "timeseries",
+                "label" : "AE Export",
+                "color" : "#00bcd4",
+                "settings" : { },
+                "_hash" : 0.8908031424028999,
+                "units" : "kWh",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "Induktif_Reaktif",
+                "type" : "timeseries",
+                "label" : "Indüktif Reak",
+                "color" : "#ff5722",
+                "settings" : { },
+                "_hash" : 0.7632787549220967,
+                "units" : "kVArh",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "Kapasitif_Reaktif",
+                "type" : "timeseries",
+                "label" : "Kapasitif Reak",
+                "color" : "#9e9e9e",
+                "settings" : { },
+                "_hash" : 0.4542268161515701,
+                "units" : "kVArh",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "gunlukEnerjiTuketimi",
+                "type" : "timeseries",
+                "label" : "Günlük Tük",
+                "color" : "#2962ff",
+                "settings" : { },
+                "_hash" : 0.6207729772516488,
+                "units" : "kWh",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              }, {
+                "name" : "aylikEnerjiTuketimi",
+                "type" : "timeseries",
+                "label" : "Aylık Tük",
+                "color" : "#00c853",
+                "settings" : { },
+                "_hash" : 0.47254891058092174,
+                "units" : "kWh",
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "New Data Table",
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "dropShadow" : false,
+            "enableFullscreen" : true,
+            "enableDataExport" : true,
+            "widgetStyle" : {
+              "borderBottom" : "solid 1px #aaa",
+              "borderRight" : "solid 1px #aaa"
+            },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "showLegend" : false
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "b812dc8d-3662-0b27-7ad1-097cd6341017"
+        },
+        "5c21d4a4-f489-b5e4-1405-3185c1de8511" : {
+          "isSystemType" : true,
+          "bundleAlias" : "date",
+          "typeAlias" : "date_range_navigator",
+          "type" : "static",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 5,
+          "sizeY" : 5.5,
+          "config" : {
+            "datasources" : [ ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "stepSize" : "day",
+              "firstDayOfWeek" : 1,
+              "initialInterval" : "week",
+              "useSessionStorage" : true
+            },
+            "title" : "New Date-range-navigator",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "5c21d4a4-f489-b5e4-1405-3185c1de8511"
+        },
+        "e4c9a990-4124-3bd1-e2b0-45fad2cea3c8" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "timeseries_table",
+          "type" : "timeseries",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 8,
+          "sizeY" : 6.5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "4db4c486-9bd6-24ef-5626-b4e78068f74b",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "pencereStatus",
+                "type" : "timeseries",
+                "label" : "pencereStatus",
+                "color" : "#2196f3",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.16692906150892628
+              } ]
+            } ],
+            "timewindow" : {
+              "hideInterval" : false,
+              "hideAggregation" : false,
+              "hideAggInterval" : false,
+              "hideTimezone" : false,
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 0,
+                "timewindowMs" : 600000,
+                "quickInterval" : "CURRENT_DAY",
+                "interval" : 1000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "showTimestamp" : true,
+              "displayPagination" : true,
+              "defaultPageSize" : 10,
+              "enableSearch" : true,
+              "enableStickyHeader" : true,
+              "enableStickyAction" : true,
+              "reserveSpaceForHiddenAction" : "true",
+              "showMilliseconds" : false,
+              "useEntityLabel" : false,
+              "hideEmptyLines" : false,
+              "useRowStyleFunction" : false
+            },
+            "title" : "New Timeseries table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "displayTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "e4c9a990-4124-3bd1-e2b0-45fad2cea3c8"
+        },
+        "7b67a83a-04d4-d44c-8b7d-3968a0d99153" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "simple_card",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "3bdce990-f797-5fe2-265c-563b94d0fcda",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "totalAcikPencere",
+                "type" : "attribute",
+                "label" : "a09 totalAcikPencere",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.8241028138120718,
+                "units" : null,
+                "decimals" : null,
+                "funcBody" : null,
+                "usePostProcessing" : null,
+                "postFuncBody" : null
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "#ff5722",
+            "color" : "rgba(255, 255, 255, 0.87)",
+            "padding" : "16px",
+            "settings" : {
+              "labelPosition" : "top"
+            },
+            "title" : "New Simple card",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "units" : "°C",
+            "decimals" : 0,
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "widgetStyle" : { },
+            "actions" : { }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "7b67a83a-04d4-d44c-8b7d-3968a0d99153"
+        },
+        "7a2e6522-d729-2b3a-0f86-5d76c76e8d3a" : {
+          "isSystemType" : false,
+          "bundleAlias" : "mywidgets",
+          "typeAlias" : "test",
+          "type" : "rpc",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 4,
+          "sizeY" : 2,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "#e6e7e8",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "styleButton" : {
+                "isRaised" : true,
+                "isPrimary" : false
+              },
+              "entityParameters" : "{\"asd\": 10}",
+              "entityAttributeType" : "SERVER_SCOPE",
+              "buttonText" : "Update device attribute"
+            },
+            "title" : "New test",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "targetDeviceAliases" : [ ],
+            "datasources" : [ ],
+            "targetDeviceAliasIds" : [ "bd611bab-9313-181c-3f78-7d0c4aba0efe" ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "7a2e6522-d729-2b3a-0f86-5d76c76e8d3a"
+        },
+        "fc8577db-7189-fde4-0ac3-3aebd983feae" : {
+          "isSystemType" : false,
+          "bundleAlias" : "mywidgets",
+          "typeAlias" : "test_update",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "b69712e6-f14e-29ac-799a-1e511668291d",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "asd",
+                "type" : "attribute",
+                "label" : "asd",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.3342462083747204
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "buttonText" : "Update device attribute",
+              "entityAttributeType" : "SERVER_SCOPE",
+              "entityParameters" : "{}",
+              "styleButton" : {
+                "isRaised" : true,
+                "isPrimary" : false
+              }
+            },
+            "title" : "New TEST UPDATE",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "fc8577db-7189-fde4-0ac3-3aebd983feae"
+        },
+        "a0fe293f-a603-b1c6-dfa8-d253d07f5ead" : {
+          "isSystemType" : false,
+          "bundleAlias" : "mywidgets",
+          "typeAlias" : "emin_misiniz_",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 4,
+          "sizeY" : 2,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "#e6e7e8",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "styleButton" : {
+                "isRaised" : true,
+                "isPrimary" : false
+              },
+              "entityParameters" : "{}",
+              "entityAttributeType" : "SERVER_SCOPE",
+              "buttonText" : "Update device attribute"
+            },
+            "title" : "New Emin misiniz?",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "b69712e6-f14e-29ac-799a-1e511668291d",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "asd",
+                "type" : "attribute",
+                "label" : "asd",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.58050751132087
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "a0fe293f-a603-b1c6-dfa8-d253d07f5ead"
+        },
+        "e70ed933-4bcf-ee16-ac96-52661e55ada5" : {
+          "isSystemType" : false,
+          "bundleAlias" : "mywidgets",
+          "typeAlias" : "emin_misiniz_",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 4,
+          "sizeY" : 2,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "#e6e7e8",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "styleButton" : {
+                "isRaised" : true,
+                "isPrimary" : false
+              },
+              "entityAttributeType" : "SERVER_SCOPE",
+              "buttonText" : "Update device attribute",
+              "entityParameters" : "{\"test\":\"test\"}"
+            },
+            "title" : "New Emin misiniz?",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "b69712e6-f14e-29ac-799a-1e511668291d",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "asd",
+                "type" : "attribute",
+                "label" : "asd",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.5064863269435296
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "e70ed933-4bcf-ee16-ac96-52661e55ada5"
+        },
+        "d8dda2f4-63a0-2800-d8c5-2cc9d29ace8c" : {
+          "isSystemType" : false,
+          "bundleAlias" : "mywidgets",
+          "typeAlias" : "eminmi_si_ni_zz",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 4,
+          "sizeY" : 2,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "#e6e7e8",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "styleButton" : {
+                "isRaised" : true,
+                "isPrimary" : false
+              },
+              "entityParameters" : "{\"position\":125}",
+              "entityAttributeType" : "SERVER_SCOPE",
+              "buttonText" : "Update device attribute"
+            },
+            "title" : "New eminMİSİNİZZ",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "b69712e6-f14e-29ac-799a-1e511668291d",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "asd",
+                "type" : "attribute",
+                "label" : "asd",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.3273682411580139
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "d8dda2f4-63a0-2800-d8c5-2cc9d29ace8c"
+        },
+        "a5c5c3f2-ac44-c826-fa45-45cd4ee65f28" : {
+          "isSystemType" : false,
+          "bundleAlias" : "mywidgets",
+          "typeAlias" : "emin_misiniz_",
+          "type" : "rpc",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 4,
+          "sizeY" : 2,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "#e6e7e8",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "styleButton" : {
+                "isRaised" : true,
+                "isPrimary" : false
+              },
+              "entityAttributeType" : "SERVER_SCOPE",
+              "buttonText" : "Update device attribute",
+              "entityParameters" : "{\"position\":125}"
+            },
+            "title" : "New Emin misiniz?",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "targetDeviceAliases" : [ ],
+            "datasources" : [ ],
+            "targetDeviceAliasIds" : [ "4db4c486-9bd6-24ef-5626-b4e78068f74b" ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "a5c5c3f2-ac44-c826-fa45-45cd4ee65f28"
+        },
+        "c3ef28ae-0953-48df-536c-89e9be06c582" : {
+          "isSystemType" : false,
+          "bundleAlias" : "mywidgets",
+          "typeAlias" : "eminmi_si_ni_zz",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 4,
+          "sizeY" : 2,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "#ffffff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "styleButton" : {
+                "isRaised" : true,
+                "isPrimary" : false,
+                "bgColor" : "#b74f0e",
+                "textColor" : "#ffffff"
+              },
+              "entityAttributeType" : "SERVER_SCOPE",
+              "buttonText" : "KAPAT",
+              "entityParameters" : "{\"positionCommand\": 6}"
+            },
+            "title" : "New All Entities Update Attribute",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "0657cc2a-eeb8-28f5-c1b8-3c81edac1e8a",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "position",
+                "type" : "attribute",
+                "label" : "position",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.3669415505971074
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "enableDataExport" : false,
+            "widgetCss" : "",
+            "noDataDisplayMessage" : ""
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "c3ef28ae-0953-48df-536c-89e9be06c582"
+        },
+        "56cb43a9-320a-2c51-dd63-5b6994797f63" : {
+          "isSystemType" : false,
+          "bundleAlias" : "mywidgets",
+          "typeAlias" : "eminmi_si_ni_zz",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 4,
+          "sizeY" : 2,
+          "config" : {
+            "showTitle" : false,
+            "backgroundColor" : "#ffffff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "styleButton" : {
+                "isRaised" : true,
+                "isPrimary" : false,
+                "bgColor" : "rgba(102, 160, 14, 0.8)",
+                "textColor" : "#ffffff"
+              },
+              "entityAttributeType" : "SERVER_SCOPE",
+              "buttonText" : "AÇ",
+              "entityParameters" : "{\"positionCommand\": 25606}"
+            },
+            "title" : "New All Entities Update Attribute",
+            "dropShadow" : false,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "0657cc2a-eeb8-28f5-c1b8-3c81edac1e8a",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "position",
+                "type" : "attribute",
+                "label" : "position",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.3669415505971074
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "enableDataExport" : false,
+            "widgetCss" : "",
+            "noDataDisplayMessage" : ""
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "56cb43a9-320a-2c51-dd63-5b6994797f63"
+        },
+        "5adf5aff-556e-d58c-f022-e06b4349894a" : {
+          "isSystemType" : true,
+          "bundleAlias" : "input_widgets",
+          "typeAlias" : "update_boolean_timeseries",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "6ba02efe-0298-f47e-5e88-0b80a04769d0",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "yangin",
+                "type" : "timeseries",
+                "label" : "yangin",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.8333547792669862
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "showResultMessage" : true
+            },
+            "title" : "New Update boolean timeseries",
+            "dropShadow" : true,
+            "enableFullscreen" : false,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "5adf5aff-556e-d58c-f022-e06b4349894a"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "Test",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "c836acfb-ff76-15c3-6810-c93a719fba22" : {
+                  "sizeX" : 4,
+                  "sizeY" : 5,
+                  "row" : 0,
+                  "col" : 0
+                },
+                "b812dc8d-3662-0b27-7ad1-097cd6341017" : {
+                  "sizeX" : 4,
+                  "sizeY" : 9,
+                  "row" : 0,
+                  "col" : 4
+                },
+                "5c21d4a4-f489-b5e4-1405-3185c1de8511" : {
+                  "sizeX" : 5,
+                  "sizeY" : 5,
+                  "row" : 0,
+                  "col" : 8
+                },
+                "e4c9a990-4124-3bd1-e2b0-45fad2cea3c8" : {
+                  "sizeX" : 8,
+                  "sizeY" : 6,
+                  "row" : 18,
+                  "col" : 15
+                },
+                "7b67a83a-04d4-d44c-8b7d-3968a0d99153" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 0,
+                  "col" : 13
+                },
+                "7a2e6522-d729-2b3a-0f86-5d76c76e8d3a" : {
+                  "sizeX" : 4,
+                  "sizeY" : 2,
+                  "row" : 24,
+                  "col" : 0
+                },
+                "fc8577db-7189-fde4-0ac3-3aebd983feae" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 18,
+                  "col" : 0
+                },
+                "a0fe293f-a603-b1c6-dfa8-d253d07f5ead" : {
+                  "sizeX" : 4,
+                  "sizeY" : 2,
+                  "row" : 26,
+                  "col" : 0
+                },
+                "e70ed933-4bcf-ee16-ac96-52661e55ada5" : {
+                  "sizeX" : 4,
+                  "sizeY" : 2,
+                  "row" : 28,
+                  "col" : 0
+                },
+                "d8dda2f4-63a0-2800-d8c5-2cc9d29ace8c" : {
+                  "sizeX" : 4,
+                  "sizeY" : 2,
+                  "row" : 30,
+                  "col" : 0
+                },
+                "a5c5c3f2-ac44-c826-fa45-45cd4ee65f28" : {
+                  "sizeX" : 4,
+                  "sizeY" : 2,
+                  "row" : 32,
+                  "col" : 0
+                },
+                "c3ef28ae-0953-48df-536c-89e9be06c582" : {
+                  "sizeX" : 5,
+                  "sizeY" : 1,
+                  "row" : 4,
+                  "col" : 18
+                },
+                "56cb43a9-320a-2c51-dd63-5b6994797f63" : {
+                  "sizeX" : 5,
+                  "sizeY" : 1,
+                  "row" : 4,
+                  "col" : 13
+                },
+                "5adf5aff-556e-d58c-f022-e06b4349894a" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 6,
+                  "col" : 9
+                }
+              },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "color" : "rgba(0,0,0,0.870588)",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : {
+        "bd611bab-9313-181c-3f78-7d0c4aba0efe" : {
+          "id" : "bd611bab-9313-181c-3f78-7d0c4aba0efe",
+          "alias" : "Sayaç",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : true,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "ed7b1980-3f85-11eb-9f07-81d1409b4781"
+            }
+          }
+        },
+        "bff0b0cf-21da-ff4d-4a89-d31d32848195" : {
+          "id" : "bff0b0cf-21da-ff4d-4a89-d31d32848195",
+          "alias" : "Current Entity",
+          "filter" : {
+            "type" : "stateEntity",
+            "resolveMultiple" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : {
+              "entityType" : "CUSTOMER",
+              "id" : "da3bcaf0-4038-11eb-9f07-81d1409b4781"
+            }
+          }
+        },
+        "6a4e7ce0-01b6-b09a-6a0a-df96c455a596" : {
+          "id" : "6a4e7ce0-01b6-b09a-6a0a-df96c455a596",
+          "alias" : "gateway",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+            }
+          }
+        },
+        "4db4c486-9bd6-24ef-5626-b4e78068f74b" : {
+          "id" : "4db4c486-9bd6-24ef-5626-b4e78068f74b",
+          "alias" : "a09t01",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "003131f0-8ceb-11ec-9d0f-15cb8165aab6"
+            }
+          }
+        },
+        "2fa7ad3a-f277-3d1b-d200-0f0572005023" : {
+          "id" : "2fa7ad3a-f277-3d1b-d200-0f0572005023",
+          "alias" : "a09c01",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "215e3cb0-8ceb-11ec-9d0f-15cb8165aab6"
+            }
+          }
+        },
+        "623051f5-3a89-6a91-7f74-fee1827c50e5" : {
+          "id" : "623051f5-3a89-6a91-7f74-fee1827c50e5",
+          "alias" : "a09c",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "8b0ddc50-8d0f-11ec-9d0f-15cb8165aab6"
+            }
+          }
+        },
+        "3bdce990-f797-5fe2-265c-563b94d0fcda" : {
+          "id" : "3bdce990-f797-5fe2-265c-563b94d0fcda",
+          "alias" : "a09",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "24d41470-8ce9-11ec-9d0f-15cb8165aab6"
+            }
+          }
+        },
+        "d1daea9a-4fce-d684-dd30-2411fde43675" : {
+          "id" : "d1daea9a-4fce-d684-dd30-2411fde43675",
+          "alias" : "a09T",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "e3ad5990-8d0e-11ec-9d0f-15cb8165aab6"
+            }
+          }
+        },
+        "7f450fec-37d6-5888-dc1e-97d7530f8e8e" : {
+          "id" : "7f450fec-37d6-5888-dc1e-97d7530f8e8e",
+          "alias" : "a",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "022317b0-8cbb-11ec-9d0f-15cb8165aab6"
+            }
+          }
+        },
+        "6eb82d3d-c0a1-6a36-f64e-6ec9caf61351" : {
+          "id" : "6eb82d3d-c0a1-6a36-f64e-6ec9caf61351",
+          "alias" : "TUM",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "b478e3f0-8cba-11ec-9d0f-15cb8165aab6"
+            }
+          }
+        },
+        "b69712e6-f14e-29ac-799a-1e511668291d" : {
+          "id" : "b69712e6-f14e-29ac-799a-1e511668291d",
+          "alias" : "YKP - Tüm Bloklar",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "CUSTOMER",
+              "id" : "7ce1c7e0-8cba-11ec-9d0f-15cb8165aab6"
+            }
+          }
+        },
+        "0657cc2a-eeb8-28f5-c1b8-3c81edac1e8a" : {
+          "id" : "0657cc2a-eeb8-28f5-c1b8-3c81edac1e8a",
+          "alias" : "Current Entity1",
+          "filter" : {
+            "type" : "stateEntity",
+            "resolveMultiple" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : {
+              "entityType" : "CUSTOMER",
+              "id" : "7ce1c7e0-8cba-11ec-9d0f-15cb8165aab6"
+            }
+          }
+        },
+        "6ba02efe-0298-f47e-5e88-0b80a04769d0" : {
+          "id" : "6ba02efe-0298-f47e-5e88-0b80a04769d0",
+          "alias" : "yangın-a",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "1b978af0-db6c-11ec-b0c8-e79e4a5f43fe"
+            }
+          }
+        }
+      },
+      "filters" : { },
+      "timewindow" : {
+        "hideInterval" : false,
+        "hideAggregation" : false,
+        "hideAggInterval" : false,
+        "hideTimezone" : false,
+        "selectedTab" : 1,
+        "history" : {
+          "historyType" : 1,
+          "fixedTimewindow" : {
+            "startTimeMs" : 1653512400000,
+            "endTimeMs" : 1654117199999
+          },
+          "interval" : 1210000
+        },
+        "aggregation" : {
+          "type" : "AVG",
+          "limit" : 25000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true
+      }
+    },
+    "customerId" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "04dd7b10-46b9-11eb-8a56-8d1c80a6cc0c"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "Test",
+    "ownerId" : null,
+    "title" : "Test"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

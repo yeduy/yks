@@ -1,0 +1,29 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : null,
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "1a33ee50-90a4-11ec-9d0f-15cb8165aab6"
+    },
+    "name" : "empty",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : null,
+    "firstNodeIndex" : null,
+    "nodes" : [ ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : "",
+      "lastConnectedGateway" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "8c3d3c00-4040-11eb-9f07-81d1409b4781"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "ebe16d50-3eee-11eb-9f07-81d1409b4781"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c37c60-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "label" : "Sıcak Su Sirkülasyon",
+    "name" : "CEA05",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "8c3d3c00-4040-11eb-9f07-81d1409b4781"
+    },
+    "softwareId" : null,
+    "type" : "enerji-analizoru"
+  },
+  "credentials" : {
+    "credentialsId" : "Umpxi7GoyXvUuh5qsCNp",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "8c3d3c00-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c37c60-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "8c3d3c00-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c37c60-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "bc0a2440-960b-11eb-8d04-535144bafa38"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c37c60-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "AnalizorGroup",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c37c60-3f8d-11eb-9f07-81d1409b4781"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1673253579819,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1673253517801,
+      "longValue" : 1673253517792,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "isim",
+      "lastUpdateTs" : 1608286707528,
+      "longValue" : null,
+      "strValue" : "Sıcak Su Sirkülasyon"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1673268157550,
+      "longValue" : 1673268156918,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1673253579818,
+      "longValue" : 1673253579818,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1673252588494,
+      "longValue" : 1673252588494,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "model",
+      "lastUpdateTs" : 1608286722265,
+      "longValue" : null,
+      "strValue" : " ENTES MPR53S-96"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "yer",
+      "lastUpdateTs" : 1608286736306,
+      "longValue" : null,
+      "strValue" : "Kazan Dairesi"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "a75fc530-649c-11ec-86ca-29471b244c2b"
+    },
+    "description" : "Default device profile",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "c53e36a0-649b-11ec-86ca-29471b244c2b"
+    },
+    "image" : null,
+    "name" : "pencere",
+    "profileData" : {
+      "alarms" : [ {
+        "alarmType" : "Pencere Aktif Değil!",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "active",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "BOOLEAN",
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : true,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "BOOLEAN"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "active",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : false,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "BOOLEAN"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "c3d0de07-2d45-4869-1b0b-f69b12d50d83",
+        "propagate" : true,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      } ],
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : null,
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "3f0cafa0-27d7-11eb-9587-73a58adaa31c"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "3f0adae0-27d7-11eb-9587-73a58adaa31c"
+    },
+    "name" : "Generate Report",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "True"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 4,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 0,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "layoutX" : 242,
+        "layoutY" : 314
+      },
+      "configuration" : {
+        "useSystemReportsServer" : true,
+        "reportsServerEndpointUrl" : null,
+        "useReportConfigFromMessage" : true,
+        "reportConfig" : {
+          "baseUrl" : "http://localhost:3000",
+          "useDashboardTimewindow" : true,
+          "timewindow" : {
+            "history" : {
+              "interval" : 1000,
+              "timewindowMs" : 86400000
+            }
+          },
+          "namePattern" : "report-%d{yyyy-MM-dd_HH:mm:ss}",
+          "type" : "pdf",
+          "timezone" : "Europe/Kiev",
+          "useCurrentUserCredentials" : true,
+          "userId" : "7c82bf30-4d61-11e8-ad73-455e6191039d",
+          "dashboardId" : "62097e80-6fa0-11e8-9b36-a959bde06125"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3f0cafa0-27d7-11eb-9587-73a58adaa31c"
+      },
+      "name" : "Generate Report",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.report.TbGenerateReportNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 454,
+        "layoutY" : 174
+      },
+      "configuration" : {
+        "jsScript" : "return msg.sendEmail === true;"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3f100b00-27d7-11eb-9587-73a58adaa31c"
+      },
+      "name" : "If send email",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 691,
+        "layoutY" : 311
+      },
+      "configuration" : {
+        "jsScript" : "metadata['emailFrom'] = msg.emailConfig.from;\nmetadata['emailTo'] = msg.emailConfig.to;\nmetadata['emailCc'] = msg.emailConfig.cc || \"\";\nmetadata['emailBcc'] = msg.emailConfig.bcc || \"\";\nmetadata['emailSubject'] = msg.emailConfig.subject;\nmetadata['emailBody'] = msg.emailConfig.body;\nmetadata['emailTimezone'] = msg.reportConfig.timezone;\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3f11b8b0-27d7-11eb-9587-73a58adaa31c"
+      },
+      "name" : "Prepare email metadata",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 924,
+        "layoutY" : 166
+      },
+      "configuration" : {
+        "fromTemplate" : "${emailFrom}",
+        "toTemplate" : "${emailTo}",
+        "ccTemplate" : "${emailCc}",
+        "bccTemplate" : "${emailBcc}",
+        "subjectTemplate" : "${emailSubject}",
+        "bodyTemplate" : "${emailBody}"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3f138d70-27d7-11eb-9587-73a58adaa31c"
+      },
+      "name" : "To report email",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.mail.TbMsgToEmailNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1135,
+        "layoutY" : 313
+      },
+      "configuration" : {
+        "useSystemSmtpSettings" : true,
+        "smtpHost" : "localhost",
+        "smtpPort" : 25,
+        "username" : null,
+        "password" : null,
+        "smtpProtocol" : "smtp",
+        "timeout" : 10000,
+        "enableTls" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3f156230-27d7-11eb-9587-73a58adaa31c"
+      },
+      "name" : "Send report",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.mail.TbSendEmailNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

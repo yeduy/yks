@@ -1,0 +1,159 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : "",
+      "lastConnectedGateway" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "85f76640-4040-11eb-9f07-81d1409b4781"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e6a2d930-4f67-11eb-8a56-8d1c80a6cc0c"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "495870c0-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "label" : "TR2-ADP Analizör",
+    "name" : "BEA17",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "85f76640-4040-11eb-9f07-81d1409b4781"
+    },
+    "softwareId" : null,
+    "type" : "enerji-analizoru-komp"
+  },
+  "credentials" : {
+    "credentialsId" : "UYfqt2G0AJTf6wZ6wSYs",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "85f76640-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "495870c0-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "85f76640-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "495870c0-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "495870c0-865f-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1673253579361,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1673253518013,
+      "longValue" : 1673253518012,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "isim",
+      "lastUpdateTs" : 1615904364092,
+      "longValue" : null,
+      "strValue" : "TR2-ADP Analizör"
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kompanzasyon",
+      "lastUpdateTs" : 1616152079021,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1673268226550,
+      "longValue" : 1673268225648,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1673253579361,
+      "longValue" : 1673253579361,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1673252588496,
+      "longValue" : 1673252588496,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "model",
+      "lastUpdateTs" : 1615904371627,
+      "longValue" : null,
+      "strValue" : "ENTES MPR63"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "yer",
+      "lastUpdateTs" : 1615904379120,
+      "longValue" : null,
+      "strValue" : " Ana Pano Odası(2B)"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

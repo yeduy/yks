@@ -1,0 +1,2636 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "ce4b5870-6712-11ed-868b-31dbf9be047b"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "f73db070-c555-11ec-9326-67c26095a051"
+    },
+    "name" : "Senaryo",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 5,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 4,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 1,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 0,
+      "type" : "True"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 3,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 2,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 7,
+      "toIndex" : 8,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 10,
+      "type" : "False"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 51,
+      "type" : "True"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 68,
+      "type" : "True"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 11,
+      "type" : "False"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 97,
+      "type" : "True"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 98,
+      "type" : "True"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 6,
+      "type" : "True"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 7,
+      "type" : "True"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 12,
+      "type" : "False"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 42,
+      "type" : "True"
+    }, {
+      "fromIndex" : 13,
+      "toIndex" : 14,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 14,
+      "toIndex" : 47,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 15,
+      "toIndex" : 20,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 16,
+      "toIndex" : 19,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 17,
+      "toIndex" : 16,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 18,
+      "toIndex" : 15,
+      "type" : "True"
+    }, {
+      "fromIndex" : 19,
+      "toIndex" : 18,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 21,
+      "toIndex" : 17,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 22,
+      "toIndex" : 23,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 24,
+      "toIndex" : 29,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 25,
+      "toIndex" : 28,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 26,
+      "toIndex" : 25,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 27,
+      "toIndex" : 24,
+      "type" : "True"
+    }, {
+      "fromIndex" : 28,
+      "toIndex" : 27,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 30,
+      "toIndex" : 26,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 31,
+      "toIndex" : 32,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 33,
+      "toIndex" : 38,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 34,
+      "toIndex" : 37,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 35,
+      "toIndex" : 34,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 36,
+      "toIndex" : 33,
+      "type" : "True"
+    }, {
+      "fromIndex" : 37,
+      "toIndex" : 36,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 39,
+      "toIndex" : 35,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 40,
+      "toIndex" : 41,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 42,
+      "toIndex" : 21,
+      "type" : "True"
+    }, {
+      "fromIndex" : 42,
+      "toIndex" : 22,
+      "type" : "True"
+    }, {
+      "fromIndex" : 42,
+      "toIndex" : 43,
+      "type" : "False"
+    }, {
+      "fromIndex" : 43,
+      "toIndex" : 30,
+      "type" : "True"
+    }, {
+      "fromIndex" : 43,
+      "toIndex" : 31,
+      "type" : "True"
+    }, {
+      "fromIndex" : 43,
+      "toIndex" : 44,
+      "type" : "False"
+    }, {
+      "fromIndex" : 44,
+      "toIndex" : 39,
+      "type" : "True"
+    }, {
+      "fromIndex" : 44,
+      "toIndex" : 40,
+      "type" : "True"
+    }, {
+      "fromIndex" : 45,
+      "toIndex" : 50,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 46,
+      "toIndex" : 49,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 47,
+      "toIndex" : 46,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 48,
+      "toIndex" : 45,
+      "type" : "True"
+    }, {
+      "fromIndex" : 49,
+      "toIndex" : 48,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 51,
+      "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 52,
+      "toIndex" : 56,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 53,
+      "toIndex" : 56,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 54,
+      "toIndex" : 56,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 55,
+      "toIndex" : 56,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 57,
+      "toIndex" : 58,
+      "type" : "True"
+    }, {
+      "fromIndex" : 57,
+      "toIndex" : 62,
+      "type" : "False"
+    }, {
+      "fromIndex" : 58,
+      "toIndex" : 59,
+      "type" : "True"
+    }, {
+      "fromIndex" : 58,
+      "toIndex" : 62,
+      "type" : "False"
+    }, {
+      "fromIndex" : 59,
+      "toIndex" : 62,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 57,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 103,
+      "type" : "Alarm Created"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 103,
+      "type" : "Alarm Updated"
+    }, {
+      "fromIndex" : 60,
+      "toIndex" : 104,
+      "type" : "Alarm Cleared"
+    }, {
+      "fromIndex" : 62,
+      "toIndex" : 61,
+      "type" : "Post attributes"
+    }, {
+      "fromIndex" : 62,
+      "toIndex" : 63,
+      "type" : "RPC Request from Device"
+    }, {
+      "fromIndex" : 62,
+      "toIndex" : 64,
+      "type" : "Other"
+    }, {
+      "fromIndex" : 62,
+      "toIndex" : 65,
+      "type" : "RPC Request to Device"
+    }, {
+      "fromIndex" : 62,
+      "toIndex" : 66,
+      "type" : "Generate Report"
+    }, {
+      "fromIndex" : 62,
+      "toIndex" : 67,
+      "type" : "Post telemetry"
+    }, {
+      "fromIndex" : 68,
+      "toIndex" : 69,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 70,
+      "toIndex" : 71,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 72,
+      "toIndex" : 73,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 74,
+      "toIndex" : 75,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 76,
+      "toIndex" : 70,
+      "type" : "True"
+    }, {
+      "fromIndex" : 76,
+      "toIndex" : 77,
+      "type" : "False"
+    }, {
+      "fromIndex" : 77,
+      "toIndex" : 72,
+      "type" : "True"
+    }, {
+      "fromIndex" : 77,
+      "toIndex" : 78,
+      "type" : "False"
+    }, {
+      "fromIndex" : 78,
+      "toIndex" : 74,
+      "type" : "True"
+    }, {
+      "fromIndex" : 79,
+      "toIndex" : 80,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 81,
+      "toIndex" : 82,
+      "type" : "False"
+    }, {
+      "fromIndex" : 81,
+      "toIndex" : 87,
+      "type" : "True"
+    }, {
+      "fromIndex" : 82,
+      "toIndex" : 83,
+      "type" : "False"
+    }, {
+      "fromIndex" : 82,
+      "toIndex" : 100,
+      "type" : "True"
+    }, {
+      "fromIndex" : 83,
+      "toIndex" : 79,
+      "type" : "True"
+    }, {
+      "fromIndex" : 83,
+      "toIndex" : 84,
+      "type" : "False"
+    }, {
+      "fromIndex" : 84,
+      "toIndex" : 76,
+      "type" : "True"
+    }, {
+      "fromIndex" : 85,
+      "toIndex" : 86,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 87,
+      "toIndex" : 88,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 88,
+      "toIndex" : 89,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 89,
+      "toIndex" : 90,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 90,
+      "toIndex" : 85,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 91,
+      "toIndex" : 96,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 92,
+      "toIndex" : 95,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 93,
+      "toIndex" : 92,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 94,
+      "toIndex" : 91,
+      "type" : "True"
+    }, {
+      "fromIndex" : 95,
+      "toIndex" : 94,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 97,
+      "toIndex" : 93,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 98,
+      "toIndex" : 99,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 100,
+      "toIndex" : 101,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 102,
+      "toIndex" : 60,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 103,
+      "toIndex" : 105,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 104,
+      "toIndex" : 106,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 105,
+      "toIndex" : 9,
+      "type" : "True"
+    }, {
+      "fromIndex" : 106,
+      "toIndex" : 81,
+      "type" : "True"
+    } ],
+    "firstNodeIndex" : 102,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2110,
+        "layoutY" : 1406
+      },
+      "configuration" : {
+        "jsScript" : "metadata.topic = '/pencere/'+ metadata.deviceName + '/downlink'\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a848e860-f154-11ec-99a7-e5336b968b50"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1302,
+        "layoutY" : 1399
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\nnewMsg.positionC = 6;\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a8495d90-f154-11ec-99a7-e5336b968b50"
+      },
+      "name" : "add positionC = 6",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1018,
+        "layoutY" : 1402
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 10,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a849abb0-f154-11ec-99a7-e5336b968b50"
+      },
+      "name" : "Sub Related",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbDuplicateMsgToRelatedNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1840,
+        "layoutY" : 1404
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"pencere\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a849f9d0-f154-11ec-99a7-e5336b968b50"
+      },
+      "name" : "Check deviceType",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1562,
+        "layoutY" : 1402
+      },
+      "configuration" : {
+        "fieldsMapping" : {
+          "name" : "deviceName",
+          "type" : "deviceType"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a84a6f00-f154-11ec-99a7-e5336b968b50"
+      },
+      "name" : "add deviceName",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2370,
+        "layoutY" : 1404
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a84ae430-f154-11ec-99a7-e5336b968b50"
+      },
+      "name" : "Downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 717,
+        "layoutY" : 1405
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Senaryo",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a84b3250-f154-11ec-99a7-e5336b968b50"
+      },
+      "name" : "to Up",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 718,
+        "layoutY" : 1338
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\nnewMsg.state = 1;\nmetadata.topic = '/blok/ABC/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a84b8070-f154-11ec-99a7-e5336b968b50"
+      },
+      "name" : "state = 1, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1018,
+        "layoutY" : 1336
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a84bce90-f154-11ec-99a7-e5336b968b50"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 432,
+        "layoutY" : 1085
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"ruzgar\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a91fa3a0-c602-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "ruzgar filter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 428,
+        "layoutY" : 1197
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"yagmur\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a920b510-c602-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "yagmur filter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 432,
+        "layoutY" : 1358
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"deprem\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a9215150-c602-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "deprem filter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 418,
+        "layoutY" : 1558
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"yangin\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a921c680-c602-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "yangin filter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1030,
+        "layoutY" : 1097
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\nif (metadata.deviceName == \"A-Ruzgar\") {\n    newMsg.arAlarm = 1;\n} else if (metadata.deviceName == \"B-Ruzgar\") {\n    newMsg.brAlarm = 1;\n}\n\nvar msgType = \"POST_ATTRIBUTES_REQUEST\"\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ad05bf00-c624-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "send Alarm info to Customer",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1330,
+        "layoutY" : 1096
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ad063430-c624-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "Save Customer",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2289,
+        "layoutY" : 1569
+      },
+      "configuration" : {
+        "jsScript" : "metadata.topic = '/pencere/'+ metadata.deviceName + '/downlink'\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79a5ae0-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1481,
+        "layoutY" : 1562
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\nnewMsg.positionC = 6;\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79aa900-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add positionC = 6",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1197,
+        "layoutY" : 1565
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 10,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79af720-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Sub Related",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbDuplicateMsgToRelatedNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2019,
+        "layoutY" : 1567
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"pencere\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79b6c50-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Check deviceType",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1741,
+        "layoutY" : 1565
+      },
+      "configuration" : {
+        "fieldsMapping" : {
+          "name" : "deviceName",
+          "type" : "deviceType"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79bba70-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add deviceName",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2549,
+        "layoutY" : 1567
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79be180-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 896,
+        "layoutY" : 1568
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Senaryo",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79c2fa0-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "to Up",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 897,
+        "layoutY" : 1501
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\nnewMsg.state = 1;\nmetadata.topic = '/blok/A/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79c7dc0-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "state = 1, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1197,
+        "layoutY" : 1499
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79ccbe0-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2283,
+        "layoutY" : 1737
+      },
+      "configuration" : {
+        "jsScript" : "metadata.topic = '/pencere/'+ metadata.deviceName + '/downlink'\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79d1a00-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1475,
+        "layoutY" : 1730
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\nnewMsg.positionC = 6;\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79d4110-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add positionC = 6",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1191,
+        "layoutY" : 1733
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 10,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79d8f30-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Sub Related",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbDuplicateMsgToRelatedNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2013,
+        "layoutY" : 1735
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"pencere\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79db640-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Check deviceType",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1735,
+        "layoutY" : 1733
+      },
+      "configuration" : {
+        "fieldsMapping" : {
+          "name" : "deviceName",
+          "type" : "deviceType"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79e0460-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add deviceName",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2550,
+        "layoutY" : 1740
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79e5280-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 890,
+        "layoutY" : 1736
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Senaryo",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79e7990-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "to Up",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 891,
+        "layoutY" : 1669
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\nnewMsg.state = 1;\nmetadata.topic = '/blok/B/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79ec7b0-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "state = 1, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1191,
+        "layoutY" : 1667
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79f15d0-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2281,
+        "layoutY" : 1915
+      },
+      "configuration" : {
+        "jsScript" : "metadata.topic = '/pencere/'+ metadata.deviceName + '/downlink'\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79f63f0-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1473,
+        "layoutY" : 1908
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\nnewMsg.positionC = 6;\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79f8b00-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add positionC = 6",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1189,
+        "layoutY" : 1911
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 10,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b79fd920-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Sub Related",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbDuplicateMsgToRelatedNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2011,
+        "layoutY" : 1913
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"pencere\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7a02740-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Check deviceType",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1733,
+        "layoutY" : 1911
+      },
+      "configuration" : {
+        "fieldsMapping" : {
+          "name" : "deviceName",
+          "type" : "deviceType"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7a07560-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add deviceName",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2550,
+        "layoutY" : 1914
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7a09c70-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 888,
+        "layoutY" : 1914
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Senaryo",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7a0ea90-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "to Up",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 889,
+        "layoutY" : 1847
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\nnewMsg.state = 1;\nmetadata.topic = '/blok/C/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7a138b0-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "state = 1, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1189,
+        "layoutY" : 1845
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7a186d0-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 656,
+        "layoutY" : 1560
+      },
+      "configuration" : {
+        "jsScript" : "    return metadata.deviceName == \"Yangın-A\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7a1d4f0-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Yangın-A",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 655,
+        "layoutY" : 1701
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceName == \"Yangın-B\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7a22310-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Yangın-B",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 654,
+        "layoutY" : 1883
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceName == \"Yangın-C\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "b7a27130-db6c-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Yangın-C",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2689,
+        "layoutY" : 1096
+      },
+      "configuration" : {
+        "jsScript" : "metadata.topic = '/pencere/'+ metadata.deviceName + '/downlink'\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f75e09b0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1881,
+        "layoutY" : 1089
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\nnewMsg.positionC = 6;\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f766bc40-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "add positionC = 6",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1597,
+        "layoutY" : 1092
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 10,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f7675880-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Sub Related",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbDuplicateMsgToRelatedNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2419,
+        "layoutY" : 1094
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"pencere\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f767f4c0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Check deviceType",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2141,
+        "layoutY" : 1092
+      },
+      "configuration" : {
+        "fieldsMapping" : {
+          "name" : "deviceName",
+          "type" : "deviceType"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f76869f0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "add deviceName",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2951,
+        "layoutY" : 1097
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f76a17a0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 729,
+        "layoutY" : 1096
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Senaryo",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f76a65c0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "to Up",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2348,
+        "layoutY" : 359
+      },
+      "configuration" : {
+        "jsScript" : "metadata.topic = '/blok/ABC/downlink';\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f76ab3e0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2351,
+        "layoutY" : 421
+      },
+      "configuration" : {
+        "jsScript" : "metadata.topic = '/blok/ABC/downlink';\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f76b0200-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2351,
+        "layoutY" : 476
+      },
+      "configuration" : {
+        "jsScript" : "metadata.topic = '/blok/ABC/downlink';\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f76b2910-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2350,
+        "layoutY" : 535
+      },
+      "configuration" : {
+        "jsScript" : "metadata.topic = '/blok/ABC/downlink';\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f76b7730-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2656,
+        "layoutY" : 442
+      },
+      "configuration" : {
+        "integrationId" : "db7ec3c0-7a90-11ec-86cd-a78e5a813991"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f76b9e40-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 347,
+        "layoutY" : 295
+      },
+      "configuration" : {
+        "originatorTypes" : [ "ENTITY_GROUP" ]
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f76cfdd0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Is Entity Group",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbOriginatorTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 411,
+        "layoutY" : 103
+      },
+      "configuration" : {
+        "messageTypes" : [ "POST_ATTRIBUTES_REQUEST", "RPC_CALL_FROM_SERVER_TO_DEVICE" ]
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f76d24e0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Post attributes or RPC request",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 697,
+        "layoutY" : 105
+      },
+      "configuration" : {
+        "entityGroupId" : null,
+        "entityGroupIsMessageOriginator" : true
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f7705930-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Duplicate To Group Entities",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbDuplicateMsgToGroupNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "Process incoming messages from devices with the alarm rules defined in the device profile. Dispatch all incoming messages with \"Success\" relation type.",
+        "layoutX" : 108,
+        "layoutY" : 880
+      },
+      "configuration" : {
+        "persistAlarmRulesState" : false,
+        "fetchAlarmRulesStateOnStart" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f770ce60-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Device Profile Node",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.profile.TbDeviceProfileNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1107,
+        "layoutY" : 236
+      },
+      "configuration" : {
+        "scope" : "CLIENT_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f7711c80-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Save Attributes",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 658,
+        "layoutY" : 296
+      },
+      "configuration" : {
+        "version" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f77191b0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Message Type Switch",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1098,
+        "layoutY" : 426
+      },
+      "configuration" : {
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f771dfd0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Log RPC from Device",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1098,
+        "layoutY" : 539
+      },
+      "configuration" : {
+        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f7722df0-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Log Other",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1098,
+        "layoutY" : 628
+      },
+      "configuration" : {
+        "timeoutInSeconds" : 60
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f7727c10-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "RPC Call Request",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.rpc.TbSendRPCRequestNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1102,
+        "layoutY" : 735,
+        "ruleChainNodeId" : "rule-chain-node-16"
+      },
+      "configuration" : {
+        "ruleChainId" : "3f0adae0-27d7-11eb-9587-73a58adaa31c"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f772ca30-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "Generate Report",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1096,
+        "layoutY" : 332
+      },
+      "configuration" : {
+        "defaultTTL" : 0,
+        "skipLatestPersistence" : false,
+        "useServerTs" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "f7731850-c555-11ec-9326-67c26095a051"
+      },
+      "name" : "save timeseries",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 726,
+        "layoutY" : 1000
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\nnewMsg.state = 1;\nmetadata.topic = '/blok/ABC/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "2798ec00-c61c-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "state = 1,add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1020,
+        "layoutY" : 996
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "279d0ab0-c61c-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 836,
+        "layoutY" : 2446
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\n\nnewMsg.state = 0;\nmetadata.topic = '/blok/A/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4e292400-db6d-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "state = 0, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1120,
+        "layoutY" : 2445
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4e299930-db6d-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 835,
+        "layoutY" : 2537
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\n\nnewMsg.state = 0;\nmetadata.topic = '/blok/B/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4e29e750-db6d-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "state = 0, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1121,
+        "layoutY" : 2538
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4e2a3570-db6d-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 840,
+        "layoutY" : 2641
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\n\nnewMsg.state = 0;\nmetadata.topic = '/blok/C/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4e2a8390-db6d-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "state = 0, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1120,
+        "layoutY" : 2640
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4e2ad1b0-db6d-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 530,
+        "layoutY" : 2445
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceName == \"Yangın-A\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4e2b1fd0-db6d-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Yangın-A",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 528,
+        "layoutY" : 2540
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceName == \"Yangın-B\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4e2b6df0-db6d-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Yangın-B",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 533,
+        "layoutY" : 2640
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceName == \"Yangın-C\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4e2bbc10-db6d-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Yangın-C",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 567,
+        "layoutY" : 2355
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\n\nnewMsg.state = 0;\nmetadata.topic = '/blok/ABC/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5d4a9360-f157-11ec-99a7-e5336b968b50"
+      },
+      "name" : "state = 0, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 851,
+        "layoutY" : 2354
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "5d4b0890-f157-11ec-99a7-e5336b968b50"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 267,
+        "layoutY" : 2161
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"ruzgar\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a023a60-c635-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "ruzgar filter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 263,
+        "layoutY" : 2273
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"yagmur\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a02af90-c635-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "yagmur filter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 265,
+        "layoutY" : 2352
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"deprem\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a02fdb0-c635-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "deprem filter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 258,
+        "layoutY" : 2439
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"yangin\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a034bd0-c635-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "yangin filter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1720,
+        "layoutY" : 2160
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\nif(metadata.ss_arAlarm == 0 && metadata.ss_brAlarm == 0) {\n    newMsg.state = 0;\n    metadata.topic = '/blok/ABC/downlink';\n    return {msg: newMsg, metadata: metadata, msgType: msgType};\n} else {\n    return {msg: newMsg, metadata: metadata, msgType: msgType};\n}"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a0399f0-c635-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "state = 0, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2001,
+        "layoutY" : 2159
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a03e810-c635-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 567,
+        "layoutY" : 2160
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Senaryo",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a043630-c635-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "to Up",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 874,
+        "layoutY" : 2162
+      },
+      "configuration" : {
+        "jsScript" : "if (metadata.deviceName == \"A-Ruzgar\") {\n    msg.arAlarm = 0;\n} else if (metadata.deviceName == \"B-Ruzgar\") {\n    msg.brAlarm = 0;\n}\n\nvar msgType = \"POST_ATTRIBUTES_REQUEST\"\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a048450-c635-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "send Alarm info to Customer",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1155,
+        "layoutY" : 2162
+      },
+      "configuration" : {
+        "scope" : "SERVER_SCOPE",
+        "notifyDevice" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a04ab60-c635-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "Save Customer",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1421,
+        "layoutY" : 2161
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : true,
+        "clientAttributeNames" : [ ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ "arAlarm", "brAlarm" ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6a04f980-c635-11ec-acb5-2b05b2d25c52"
+      },
+      "name" : "get arAlarm and brAlarm",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2120,
+        "layoutY" : 1239
+      },
+      "configuration" : {
+        "jsScript" : "metadata.topic = '/pencere/'+ metadata.deviceName + '/downlink'\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f448240-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1312,
+        "layoutY" : 1232
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\nnewMsg.positionC = 6;\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f51efc0-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add positionC = 6",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1028,
+        "layoutY" : 1235
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 10,
+          "filters" : [ {
+            "relationType" : "Contains",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f528c00-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Sub Related",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbDuplicateMsgToRelatedNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1850,
+        "layoutY" : 1237
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"pencere\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f532840-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Check deviceType",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1572,
+        "layoutY" : 1235
+      },
+      "configuration" : {
+        "fieldsMapping" : {
+          "name" : "deviceName",
+          "type" : "deviceType"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f54d5f0-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "add deviceName",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2375,
+        "layoutY" : 1241
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f554b20-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "Downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 727,
+        "layoutY" : 1238
+      },
+      "configuration" : {
+        "originatorSource" : "RELATED",
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "TO",
+          "maxLevel" : 1,
+          "filters" : [ {
+            "relationType" : "Senaryo",
+            "entityTypes" : [ "CUSTOMER" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f55e760-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "to Up",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbChangeOriginatorNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 728,
+        "layoutY" : 1171
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\nnewMsg.state = 1;\nmetadata.topic = '/blok/ABC/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f5683a0-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "state = 1, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1028,
+        "layoutY" : 1169
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f56f8d0-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 567,
+        "layoutY" : 2272
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg= {};\n\nnewMsg.state = 0;\nmetadata.topic = '/blok/ABC/downlink';\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};\n"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f5746f0-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "state = 0, add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 852,
+        "layoutY" : 2273
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6f579510-cf8a-11ec-b0c8-e79e4a5f43fe"
+      },
+      "name" : "downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 60,
+        "layoutY" : 341
+      },
+      "configuration" : {
+        "queueName" : "SequentialByOriginator"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "ce4b5870-6712-11ed-868b-31dbf9be047b"
+      },
+      "name" : "checkpoint",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbCheckpointNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 519,
+        "layoutY" : 885
+      },
+      "configuration" : {
+        "queueName" : "SequentialByOriginator"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "55ee01c0-671c-11ed-868b-31dbf9be047b"
+      },
+      "name" : "checkpoint",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbCheckpointNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 94,
+        "layoutY" : 1992
+      },
+      "configuration" : {
+        "queueName" : "SequentialByOriginator"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "55ee01c1-671c-11ed-868b-31dbf9be047b"
+      },
+      "name" : "checkpoint",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbCheckpointNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 429,
+        "layoutY" : 976
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return msg.type != \"Haberleşme Yok!\";",
+        "tbelScript" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "1bd5d3d0-9013-11ed-934c-1bbde10429b7"
+      },
+      "name" : "alarm type check",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 172,
+        "layoutY" : 2069
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "return msg.type != \"Haberleşme Yok!\";",
+        "tbelScript" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "1bd5fae0-9013-11ed-934c-1bbde10429b7"
+      },
+      "name" : "alarm type check",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

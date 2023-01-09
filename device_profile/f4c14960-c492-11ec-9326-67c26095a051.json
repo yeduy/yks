@@ -1,0 +1,219 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "f73db070-c555-11ec-9326-67c26095a051"
+    },
+    "description" : null,
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "f4c14960-c492-11ec-9326-67c26095a051"
+    },
+    "image" : null,
+    "name" : "yagmur",
+    "profileData" : {
+      "alarms" : [ {
+        "alarmType" : "Yağmur Alarmı!",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "height",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "LESS",
+                "value" : {
+                  "defaultValue" : 0.0,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "heightAlarmThreshold",
+                    "sourceType" : "CURRENT_CUSTOMER"
+                  },
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            } ],
+            "spec" : {
+              "type" : "DURATION",
+              "predicate" : {
+                "defaultValue" : 1,
+                "dynamicValue" : {
+                  "inherit" : false,
+                  "sourceAttribute" : "heightAlarmClearTime",
+                  "sourceType" : "CURRENT_CUSTOMER"
+                },
+                "userValue" : null
+              },
+              "unit" : "MINUTES"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : "${height} cm",
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "heightAlarmFlag",
+                  "type" : "CONSTANT"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : false,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "heightAlarmFlag",
+                      "sourceType" : "CURRENT_DEVICE"
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : true,
+                "valueType" : "BOOLEAN"
+              }, {
+                "key" : {
+                  "key" : "height",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "GREATER",
+                  "value" : {
+                    "defaultValue" : 0.0,
+                    "dynamicValue" : {
+                      "inherit" : false,
+                      "sourceAttribute" : "heightAlarmThreshold",
+                      "sourceType" : "CURRENT_CUSTOMER"
+                    },
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              } ],
+              "spec" : {
+                "type" : "DURATION",
+                "predicate" : {
+                  "defaultValue" : 1,
+                  "dynamicValue" : {
+                    "inherit" : false,
+                    "sourceAttribute" : "heightAlarmCreateTime",
+                    "sourceType" : "CURRENT_CUSTOMER"
+                  },
+                  "userValue" : null
+                },
+                "unit" : "MINUTES"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "c8169808-0439-9ea9-483b-78e17457a7f8",
+        "propagate" : true,
+        "propagateRelationTypes" : [ ],
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Haberleşme Yok!",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "active",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "BOOLEAN",
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : true,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "BOOLEAN"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "WARNING" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "active",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "BOOLEAN",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : false,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "BOOLEAN"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "5618d949-e09c-746f-533d-58f8b54abaf9",
+        "propagate" : true,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToOwnerHierarchy" : false,
+        "propagateToTenant" : false
+      } ],
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "DEFAULT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

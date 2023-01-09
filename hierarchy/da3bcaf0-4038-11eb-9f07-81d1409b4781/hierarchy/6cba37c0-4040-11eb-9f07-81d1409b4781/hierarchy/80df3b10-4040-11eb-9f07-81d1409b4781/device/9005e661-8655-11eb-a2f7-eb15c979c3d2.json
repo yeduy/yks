@@ -1,0 +1,159 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : "",
+      "lastConnectedGateway" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "e6a2d930-4f67-11eb-8a56-8d1c80a6cc0c"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "9005e661-8655-11eb-a2f7-eb15c979c3d2"
+    },
+    "label" : "AT2 Enerji Analizörü",
+    "name" : "AEA17",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "softwareId" : null,
+    "type" : "enerji-analizoru-komp"
+  },
+  "credentials" : {
+    "credentialsId" : "OiNSK4ntPk5g9kCTVmyf",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9005e661-8655-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "CUSTOMER",
+      "id" : "80df3b10-4040-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9005e661-8655-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "ForPower",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "78370770-3ee4-11eb-9f07-81d1409b4781"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9005e661-8655-11eb-a2f7-eb15c979c3d2"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1673253580235,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1673253518011,
+      "longValue" : 1673253518011,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "isim",
+      "lastUpdateTs" : 1615901893491,
+      "longValue" : null,
+      "strValue" : "AT2 Enerji Analizörü"
+    }, {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "kompanzasyon",
+      "lastUpdateTs" : 1616151255297,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1673268157550,
+      "longValue" : 1673268156072,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1673253580235,
+      "longValue" : 1673253580235,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1673252588495,
+      "longValue" : 1673252588495,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "model",
+      "lastUpdateTs" : 1615901910791,
+      "longValue" : null,
+      "strValue" : "ENTES MPR63"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "yer",
+      "lastUpdateTs" : 1615901902316,
+      "longValue" : null,
+      "strValue" : "Ana Pano Odası (2B)"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
