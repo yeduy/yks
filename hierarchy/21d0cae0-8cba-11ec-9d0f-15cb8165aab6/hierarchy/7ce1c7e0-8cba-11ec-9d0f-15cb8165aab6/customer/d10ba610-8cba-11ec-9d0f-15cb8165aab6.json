@@ -330,7 +330,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalAcikPencere",
-      "lastUpdateTs" : 1673268212695,
+      "lastUpdateTs" : 1677763743609,
       "longValue" : 0,
       "strValue" : null
     }, {
@@ -338,7 +338,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalKapaliPencere",
-      "lastUpdateTs" : 1673268212695,
+      "lastUpdateTs" : 1677763743609,
       "longValue" : 1,
       "strValue" : null
     }, {
@@ -346,7 +346,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalPencereSayisi",
-      "lastUpdateTs" : 1673268212795,
+      "lastUpdateTs" : 1677763743609,
       "longValue" : 1,
       "strValue" : null
     }, {
@@ -362,7 +362,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "kilitC",
-      "lastUpdateTs" : 1673186423140,
+      "lastUpdateTs" : 1677679200025,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -386,7 +386,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalAcikPencere",
-      "lastUpdateTs" : 1673268213061,
+      "lastUpdateTs" : 1677763741307,
       "longValue" : 0,
       "strValue" : null
     }, {
@@ -394,7 +394,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalKapaliPencere",
-      "lastUpdateTs" : 1673268212997,
+      "lastUpdateTs" : 1677763741605,
       "longValue" : 1,
       "strValue" : null
     }, {
@@ -402,7 +402,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalPencereSayisi",
-      "lastUpdateTs" : 1673268213061,
+      "lastUpdateTs" : 1677763741405,
       "longValue" : 1,
       "strValue" : null
     }, {

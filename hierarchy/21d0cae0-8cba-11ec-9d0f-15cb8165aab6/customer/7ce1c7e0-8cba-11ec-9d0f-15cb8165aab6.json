@@ -222,7 +222,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "ackTs",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : 0,
       "strValue" : null
     }, {
@@ -246,23 +246,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalAcikPencere",
-      "lastUpdateTs" : 1673268212594,
-      "longValue" : 6,
+      "lastUpdateTs" : 1677763741792,
+      "longValue" : 3,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalKapaliPencere",
-      "lastUpdateTs" : 1673268212594,
-      "longValue" : 23,
+      "lastUpdateTs" : 1677763741792,
+      "longValue" : 26,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalPencereSayisi",
-      "lastUpdateTs" : 1673268212695,
+      "lastUpdateTs" : 1677763741907,
       "longValue" : 29,
       "strValue" : null
     }, {
@@ -270,31 +270,31 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "clearTs",
-      "lastUpdateTs" : 1671463969786,
-      "longValue" : 1671463969754,
+      "lastUpdateTs" : 1674061177214,
+      "longValue" : 1674061177202,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "createdTime",
-      "lastUpdateTs" : 1671463969786,
-      "longValue" : 1671463755607,
+      "lastUpdateTs" : 1674061177214,
+      "longValue" : 1674060849709,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : "{\"entityType\":\"CUSTOMER\",\"id\":\"7ce1c7e0-8cba-11ec-9d0f-15cb8165aab6\"}",
       "key" : "customerId",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"data\":\"11.25 m/s\"}",
+      "jsonValue" : "{\"data\":\"12.54 m/s\"}",
       "key" : "details",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -302,8 +302,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "endTs",
-      "lastUpdateTs" : 1671463969786,
-      "longValue" : 1671463789753,
+      "lastUpdateTs" : 1674061177214,
+      "longValue" : 1674060877201,
       "strValue" : null
     }, {
       "booleanValue" : false,
@@ -356,9 +356,9 @@
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"entityType\":\"ALARM\",\"id\":\"e5957670-7fb1-11ed-868b-31dbf9be047b\"}",
+      "jsonValue" : "{\"entityType\":\"ALARM\",\"id\":\"ba4c3dd0-9750-11ed-934c-1bbde10429b7\"}",
       "key" : "id",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -366,7 +366,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "kilitC",
-      "lastUpdateTs" : 1673186400012,
+      "lastUpdateTs" : 1677679200011,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -374,15 +374,15 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "name",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : "Rüzgar Alarmı!"
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
-      "jsonValue" : "{\"entityType\":\"DEVICE\",\"id\":\"84656080-c23e-11ec-a8fa-3d62790f31f7\"}",
+      "jsonValue" : "{\"entityType\":\"DEVICE\",\"id\":\"e2f472e0-ba4a-11ec-a0b4-83dc55bc158f\"}",
       "key" : "originator",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -390,7 +390,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "positionC",
-      "lastUpdateTs" : 1673193600012,
+      "lastUpdateTs" : 1677686400011,
       "longValue" : 6,
       "strValue" : null
     }, {
@@ -398,7 +398,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "propagate",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -406,7 +406,7 @@
       "doubleValue" : null,
       "jsonValue" : "[]",
       "key" : "propagateRelationTypes",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -414,7 +414,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "propagateToOwner",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -422,7 +422,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "propagateToOwnerHierarchy",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -430,7 +430,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "propagateToTenant",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -446,7 +446,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "severity",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : "CRITICAL"
     }, {
@@ -486,15 +486,15 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "startTs",
-      "lastUpdateTs" : 1671463969786,
-      "longValue" : 1671463755599,
+      "lastUpdateTs" : 1674061177214,
+      "longValue" : 1674060849702,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "status",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : "CLEARED_UNACK"
     }, {
@@ -510,7 +510,7 @@
       "doubleValue" : null,
       "jsonValue" : "{\"entityType\":\"TENANT\",\"id\":\"3ee09690-27d7-11eb-9587-73a58adaa31c\"}",
       "key" : "tenantId",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -526,23 +526,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalAcikPencere",
-      "lastUpdateTs" : 1673268220910,
-      "longValue" : 6,
+      "lastUpdateTs" : 1677763741405,
+      "longValue" : 3,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalKapaliPencere",
-      "lastUpdateTs" : 1673268213100,
-      "longValue" : 23,
+      "lastUpdateTs" : 1677763749418,
+      "longValue" : 26,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalPencereSayisi",
-      "lastUpdateTs" : 1673268213097,
+      "lastUpdateTs" : 1677763741405,
       "longValue" : 29,
       "strValue" : null
     }, {
@@ -550,7 +550,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "type",
-      "lastUpdateTs" : 1671463969786,
+      "lastUpdateTs" : 1674061177214,
       "longValue" : null,
       "strValue" : "Rüzgar Alarmı!"
     }, {

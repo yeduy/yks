@@ -94,23 +94,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalAcikPencere",
-      "lastUpdateTs" : 1673268214499,
-      "longValue" : 2,
+      "lastUpdateTs" : 1677763743261,
+      "longValue" : 1,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalKapaliPencere",
-      "lastUpdateTs" : 1673268214500,
-      "longValue" : 0,
+      "lastUpdateTs" : 1677763743308,
+      "longValue" : 1,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalPencereSayisi",
-      "lastUpdateTs" : 1673268214499,
+      "lastUpdateTs" : 1677763743261,
       "longValue" : 2,
       "strValue" : null
     }, {

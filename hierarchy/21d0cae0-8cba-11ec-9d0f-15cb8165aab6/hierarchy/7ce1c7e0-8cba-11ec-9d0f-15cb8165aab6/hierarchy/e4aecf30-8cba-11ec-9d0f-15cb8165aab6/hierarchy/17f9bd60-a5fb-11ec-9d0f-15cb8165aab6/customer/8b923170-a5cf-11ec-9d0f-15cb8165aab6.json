@@ -114,23 +114,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalAcikPencere",
-      "lastUpdateTs" : 1673268212680,
-      "longValue" : 1,
+      "lastUpdateTs" : 1677763741792,
+      "longValue" : 0,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalKapaliPencere",
-      "lastUpdateTs" : 1673268212593,
-      "longValue" : 2,
+      "lastUpdateTs" : 1677763741708,
+      "longValue" : 3,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalPencereSayisi",
-      "lastUpdateTs" : 1673268212780,
+      "lastUpdateTs" : 1677763741892,
       "longValue" : 3,
       "strValue" : null
     }, {
@@ -154,7 +154,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "kilitC",
-      "lastUpdateTs" : 1673186423140,
+      "lastUpdateTs" : 1677763152745,
       "longValue" : null,
       "strValue" : null
     }, {

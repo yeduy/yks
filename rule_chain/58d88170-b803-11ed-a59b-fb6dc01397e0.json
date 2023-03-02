@@ -1,0 +1,398 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "3cf33600-b806-11ed-a59b-fb6dc01397e0"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "58d88170-b803-11ed-a59b-fb6dc01397e0"
+    },
+    "name" : "Pencere Kilitle",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 1,
+      "toIndex" : 4,
+      "type" : "True"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 1,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 7,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 6,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 3,
+      "type" : "True"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 5,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 8,
+      "toIndex" : 10,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 2,
+      "type" : "True"
+    }, {
+      "fromIndex" : 9,
+      "toIndex" : 11,
+      "type" : "True"
+    }, {
+      "fromIndex" : 10,
+      "toIndex" : 0,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 11,
+      "toIndex" : 12,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 8,
+      "type" : "cephe"
+    }, {
+      "fromIndex" : 12,
+      "toIndex" : 13,
+      "type" : "tum_bloklar"
+    }, {
+      "fromIndex" : 14,
+      "toIndex" : 9,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 14,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1887,
+        "layoutY" : 162
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "629889d0-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 943,
+        "layoutY" : 231
+      },
+      "configuration" : {
+        "jsScript" : "return msg.kilitC == true;"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6298ff00-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Check kilitC == true",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 656,
+        "layoutY" : 230
+      },
+      "configuration" : {
+        "relationsQuery" : {
+          "fetchLastLevelOnly" : false,
+          "direction" : "FROM",
+          "maxLevel" : 10,
+          "filters" : [ {
+            "relationType" : "Cephe",
+            "entityTypes" : [ "DEVICE" ]
+          } ]
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "62992610-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "to Sub Related",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbDuplicateMsgToRelatedNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2085,
+        "layoutY" : 236
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.topic = 'pencere/'+ metadata.deviceName + '/downlink'\nreturn {msg: msg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "62994d20-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1277,
+        "layoutY" : 229
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\nnewMsg.positionC = 6;\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "62997430-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "add positionC = 6",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1815,
+        "layoutY" : 234
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"pencere\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "62999b40-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Check deviceType",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1537,
+        "layoutY" : 232
+      },
+      "configuration" : {
+        "fieldsMapping" : {
+          "name" : "deviceName",
+          "type" : "deviceType"
+        }
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "62999b41-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "add deviceName",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetOriginatorFieldsNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2340,
+        "layoutY" : 238
+      },
+      "configuration" : {
+        "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6299c250-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Downlink",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.integration.TbIntegrationDownlinkNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1239,
+        "layoutY" : 160
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : true,
+        "clientAttributeNames" : [ ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ "cephe", "bobrek", "blok" ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6299c251-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Cephe Filter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 360,
+        "layoutY" : 149
+      },
+      "configuration" : {
+        "jsScript" : "return msg.kilitC != undefined;"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6299e960-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Check kilitC",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1591,
+        "layoutY" : 163
+      },
+      "configuration" : {
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.topic = 'cephe/'+ metadata.ss_blok + metadata.ss_bobrek + '/kilit';\nvar newMsg = {};\nif(msg.kilitC == true) {\n    newMsg[\"cephe\" + metadata.ss_cephe] = 1;\n} else if(msg.kilitC == false) {\n    newMsg[\"cephe\" + metadata.ss_cephe] = 0;\n} \nreturn {msg: newMsg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : null
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6299e961-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "add Topic",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 669,
+        "layoutY" : 126
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : true,
+        "clientAttributeNames" : [ ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ "tip" ],
+        "latestTsKeyNames" : [ ],
+        "getLatestValueWithTs" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6299e962-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Cephe Filter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 954,
+        "layoutY" : 126
+      },
+      "configuration" : {
+        "jsScript" : "var relations = [];\nif(metadata.ss_tip == \"cephe\"){\n    relations.push(\"cephe\");\n}\n\nelse if(metadata.ss_tip == \"tum_bloklar\"){\n    relations.push(\"tum_bloklar\");\n}\n\n\n\nreturn relations;"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "629a1070-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Check Cephe and Tum-bloklar",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1270,
+        "layoutY" : 71
+      },
+      "configuration" : {
+        "ruleChainId" : "371b26b0-f7aa-11ec-92f2-3df64790a190"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "629a1071-b803-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Kilitleri Kaldır",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 214,
+        "layoutY" : 257
+      },
+      "configuration" : {
+        "queueName" : "HighPriority"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3cf33600-b806-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "HighPriority",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbCheckpointNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

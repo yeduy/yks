@@ -6,16 +6,19 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "371b26b0-f7aa-11ec-92f2-3df64790a190"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "fbf4c200-f7ac-11ec-92f2-3df64790a190"
+      "id" : "7a34cc20-b69b-11ed-a59b-fb6dc01397e0"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
       "id" : "371b26b0-f7aa-11ec-92f2-3df64790a190"
     },
-    "name" : "Kilitleri Kaldır",
+    "name" : "Pencere Kilitleri Kaldır",
     "root" : false,
     "type" : "CORE"
   },
@@ -120,7 +123,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "fbf4c200-f7ac-11ec-92f2-3df64790a190"
+        "id" : "7a34cc20-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "Check kilitC == false",
       "ruleChainId" : null,
@@ -139,7 +142,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "34d51c60-f7ac-11ec-92f2-3df64790a190"
+        "id" : "7a34cc21-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "switch",
       "ruleChainId" : null,
@@ -151,14 +154,16 @@
         "layoutY" : 230
       },
       "configuration" : {
-        "jsScript" : "metadata.topic = '/cephe/AC/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.topic = 'cephe/AC/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : null
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "34d56a80-f7ac-11ec-92f2-3df64790a190"
+        "id" : "7a34f330-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "AC",
       "ruleChainId" : null,
@@ -170,14 +175,16 @@
         "layoutY" : 304
       },
       "configuration" : {
-        "jsScript" : "metadata.topic = '/cephe/BT/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.topic = 'cephe/BT/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : null
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "34d59190-f7ac-11ec-92f2-3df64790a190"
+        "id" : "7a34f331-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "BT",
       "ruleChainId" : null,
@@ -189,14 +196,16 @@
         "layoutY" : 376
       },
       "configuration" : {
-        "jsScript" : "metadata.topic = '/cephe/BC/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.topic = 'cephe/BC/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : null
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "34d5b8a0-f7ac-11ec-92f2-3df64790a190"
+        "id" : "7a34f332-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "BC",
       "ruleChainId" : null,
@@ -208,14 +217,16 @@
         "layoutY" : 452
       },
       "configuration" : {
-        "jsScript" : "metadata.topic = '/cephe/CT/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.topic = 'cephe/CT/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : null
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "34d606c0-f7ac-11ec-92f2-3df64790a190"
+        "id" : "7a34f333-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "CT",
       "ruleChainId" : null,
@@ -227,16 +238,18 @@
         "layoutY" : 531
       },
       "configuration" : {
-        "jsScript" : "metadata.topic = '/cephe/CC/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.topic = 'cephe/CC/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : null
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "34d62dd0-f7ac-11ec-92f2-3df64790a190"
+        "id" : "7a34f334-b69b-11ed-a59b-fb6dc01397e0"
       },
-      "name" : "AT",
+      "name" : "CC",
       "ruleChainId" : null,
       "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
     }, {
@@ -249,11 +262,11 @@
         "integrationId" : "50198140-649b-11ec-86ca-29471b244c2b"
       },
       "createdTime" : 0,
-      "debugMode" : true,
+      "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "74d69150-f7ab-11ec-92f2-3df64790a190"
+        "id" : "7a351a40-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "Downlink",
       "ruleChainId" : null,
@@ -265,14 +278,16 @@
         "layoutY" : 154
       },
       "configuration" : {
-        "jsScript" : "metadata.topic = '/cephe/AT/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+        "scriptLang" : "JS",
+        "jsScript" : "metadata.topic = 'cephe/AT/kilit';\nvar newMsg = {};\nnewMsg[\"cephe1\"] = 0;\nnewMsg[\"cephe2\"] = 0;\nnewMsg[\"cephe3\"] = 0;\nnewMsg[\"cephe4\"] = 0;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};",
+        "tbelScript" : null
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "74d6df70-f7ab-11ec-92f2-3df64790a190"
+        "id" : "7a351a41-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "AT",
       "ruleChainId" : null,
@@ -299,7 +314,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "83311e80-f7ad-11ec-92f2-3df64790a190"
+        "id" : "7a351a42-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "to Sub Related",
       "ruleChainId" : null,
@@ -319,7 +334,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "83314590-f7ad-11ec-92f2-3df64790a190"
+        "id" : "7a351a43-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "save",
       "ruleChainId" : null,

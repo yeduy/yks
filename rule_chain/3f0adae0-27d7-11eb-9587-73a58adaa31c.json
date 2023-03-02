@@ -4,7 +4,10 @@
     "additionalInfo" : null,
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "3f0adae0-27d7-11eb-9587-73a58adaa31c"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "3f0cafa0-27d7-11eb-9587-73a58adaa31c"
@@ -58,8 +61,8 @@
           "type" : "pdf",
           "timezone" : "Europe/Kiev",
           "useCurrentUserCredentials" : true,
-          "userId" : "7c82bf30-4d61-11e8-ad73-455e6191039d",
-          "dashboardId" : "62097e80-6fa0-11e8-9b36-a959bde06125"
+          "userId" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
+          "dashboardId" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
         }
       },
       "createdTime" : 0,

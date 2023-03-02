@@ -1,0 +1,240 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "77a38ae0-b804-11ed-a59b-fb6dc01397e0"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "b605cec0-b803-11ed-a59b-fb6dc01397e0"
+    },
+    "name" : "Pencere Uplink",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 2,
+      "type" : "True"
+    }, {
+      "fromIndex" : 0,
+      "toIndex" : 7,
+      "type" : "True"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 8,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 4,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 1,
+      "type" : "Failure"
+    }, {
+      "fromIndex" : 4,
+      "toIndex" : 5,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 5,
+      "toIndex" : 1,
+      "type" : "True"
+    }, {
+      "fromIndex" : 6,
+      "toIndex" : 0,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 6,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 672,
+        "layoutY" : 142
+      },
+      "configuration" : {
+        "jsScript" : "return metadata.deviceType == \"pencere\";"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "779fba50-b804-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Check deviceType",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 1886,
+        "layoutY" : 242
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "77a22b50-b804-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1198,
+        "layoutY" : 141
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\nif(msg.position <= 5) {\n    newMsg.pencereStatus = 0;\n} else if(msg.position >= 115 && msg.position <= 130) {\n    newMsg.pencereStatus = 1;\n} else if(msg.position >= 240 && msg.position <= 255) {\n    newMsg.pencereStatus = 2;\n} else {\n    newMsg.pencereStatus = 3;\n}\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "77a2eea0-b804-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "add pencereStatus",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2195,
+        "layoutY" : 239
+      },
+      "configuration" : {
+        "ruleChainId" : "b26a45a0-8d72-11ec-9d0f-15cb8165aab6"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "77a315b0-b804-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Pencere Counter",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1484,
+        "layoutY" : 141
+      },
+      "configuration" : {
+        "tellFailureIfAbsent" : true,
+        "clientAttributeNames" : [ ],
+        "sharedAttributeNames" : [ ],
+        "serverAttributeNames" : [ ],
+        "latestTsKeyNames" : [ "pencereStatus" ],
+        "getLatestValueWithTs" : false
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "77a33cc0-b804-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Bir önceki pencereStatus Verisini Al",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.metadata.TbGetAttributesNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 1811,
+        "layoutY" : 139
+      },
+      "configuration" : {
+        "jsScript" : "return msg.pencereStatus != metadata.pencereStatus;"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "77a363d0-b804-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Check Change",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 381,
+        "layoutY" : 152
+      },
+      "configuration" : {
+        "queueName" : "SequentialByOriginator"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "77a38ae0-b804-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "SequentialByOriginator",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbCheckpointNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 982,
+        "layoutY" : 336
+      },
+      "configuration" : {
+        "ruleChainId" : "8e1b7ee0-b804-11ed-a59b-fb6dc01397e0"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "d72b42f0-b804-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Pencere Position Attribute",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 2208,
+        "layoutY" : 337
+      },
+      "configuration" : {
+        "ruleChainId" : "fb38b150-b804-11ed-a59b-fb6dc01397e0"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "4d071de0-b806-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Pencere Score",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

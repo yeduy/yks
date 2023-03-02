@@ -18,14 +18,17 @@
           "type" : "anonymous"
         }
       },
-      "downlinkTopicPattern" : "${topic}",
       "topicFilters" : [ {
         "filter" : "/pencere/+/uplink",
         "qos" : 0
+      }, {
+        "filter" : "pencere/+/uplink",
+        "qos" : 0
       } ],
+      "downlinkTopicPattern" : "${topic}",
       "metadata" : { }
     },
-    "debugMode" : true,
+    "debugMode" : false,
     "defaultConverterId" : {
       "entityType" : "CONVERTER",
       "id" : "c741b9b0-6499-11ec-86ca-29471b244c2b"
@@ -402,7 +405,7 @@
       "doubleValue" : null,
       "jsonValue" : "{\"success\":true}",
       "key" : "integration_status_iosphere",
-      "lastUpdateTs" : 1673253517941,
+      "lastUpdateTs" : 1677763326721,
       "longValue" : null,
       "strValue" : null
     } ]

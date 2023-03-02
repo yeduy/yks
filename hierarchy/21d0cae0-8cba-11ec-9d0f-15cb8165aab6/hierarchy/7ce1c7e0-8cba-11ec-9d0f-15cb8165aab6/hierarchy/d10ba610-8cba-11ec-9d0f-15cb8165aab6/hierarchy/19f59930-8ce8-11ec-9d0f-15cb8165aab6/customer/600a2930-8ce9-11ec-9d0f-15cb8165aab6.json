@@ -90,7 +90,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalAcikPencere",
-      "lastUpdateTs" : 1673268213099,
+      "lastUpdateTs" : 1677763741260,
       "longValue" : 0,
       "strValue" : null
     }, {
@@ -98,7 +98,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalKapaliPencere",
-      "lastUpdateTs" : 1673268212997,
+      "lastUpdateTs" : 1677763741608,
       "longValue" : 1,
       "strValue" : null
     }, {
@@ -106,7 +106,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalPencereSayisi",
-      "lastUpdateTs" : 1673268213097,
+      "lastUpdateTs" : 1677763741307,
       "longValue" : 1,
       "strValue" : null
     }, {

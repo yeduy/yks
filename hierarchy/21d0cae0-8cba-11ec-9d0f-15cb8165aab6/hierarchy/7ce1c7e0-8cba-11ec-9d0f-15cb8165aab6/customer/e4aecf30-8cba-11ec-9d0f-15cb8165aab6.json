@@ -366,23 +366,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalAcikPencere",
-      "lastUpdateTs" : 1673268220603,
-      "longValue" : 5,
+      "lastUpdateTs" : 1677763749652,
+      "longValue" : 3,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalKapaliPencere",
-      "lastUpdateTs" : 1673268220525,
-      "longValue" : 21,
+      "lastUpdateTs" : 1677763743710,
+      "longValue" : 23,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalPencereSayisi",
-      "lastUpdateTs" : 1673268212660,
+      "lastUpdateTs" : 1677763743809,
       "longValue" : 26,
       "strValue" : null
     }, {
@@ -390,7 +390,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "kilitC",
-      "lastUpdateTs" : 1673186423140,
+      "lastUpdateTs" : 1677679200025,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -398,7 +398,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "positionC",
-      "lastUpdateTs" : 1657181248133,
+      "lastUpdateTs" : 1677046949118,
       "longValue" : 6,
       "strValue" : null
     }, {
@@ -414,23 +414,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalAcikPencere",
-      "lastUpdateTs" : 1673268213098,
-      "longValue" : 5,
+      "lastUpdateTs" : 1677763749257,
+      "longValue" : 3,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalKapaliPencere",
-      "lastUpdateTs" : 1673268213097,
-      "longValue" : 21,
+      "lastUpdateTs" : 1677763749417,
+      "longValue" : 23,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalPencereSayisi",
-      "lastUpdateTs" : 1673268213098,
+      "lastUpdateTs" : 1677763741405,
       "longValue" : 26,
       "strValue" : null
     }, {

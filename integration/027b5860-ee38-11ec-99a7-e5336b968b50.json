@@ -18,11 +18,14 @@
           "type" : "anonymous"
         }
       },
-      "downlinkTopicPattern" : "${topic}",
       "topicFilters" : [ {
         "filter" : "/+/kilit",
         "qos" : 1
+      }, {
+        "filter" : "pencere/+/kilit",
+        "qos" : 1
       } ],
+      "downlinkTopicPattern" : "${topic}",
       "metadata" : { }
     },
     "debugMode" : true,
@@ -92,6 +95,18 @@
     "to" : {
       "entityType" : "ASSET",
       "id" : "aafca4b0-f0ba-11ec-99a7-e5336b968b50"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "073fc7d0-b676-11ed-934c-1bbde10429b7"
     },
     "type" : "ManagedByIntegration",
     "typeGroup" : "COMMON"
@@ -215,18 +230,6 @@
     },
     "type" : "ManagedByIntegration",
     "typeGroup" : "COMMON"
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "INTEGRATION",
-      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
-    },
-    "to" : {
-      "entityType" : "ASSET",
-      "id" : "585edbf0-380f-11ed-9608-73b2d9ca552d"
-    },
-    "type" : "ManagedByIntegration",
-    "typeGroup" : "COMMON"
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
@@ -234,7 +237,7 @@
       "doubleValue" : null,
       "jsonValue" : "{\"success\":true}",
       "key" : "integration_status_iosphere",
-      "lastUpdateTs" : 1673253517941,
+      "lastUpdateTs" : 1677763326721,
       "longValue" : null,
       "strValue" : null
     } ]

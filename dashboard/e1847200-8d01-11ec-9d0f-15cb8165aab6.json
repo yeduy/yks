@@ -166,9 +166,23 @@
           "sizeY" : 12,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272619,
+                  "endTimeMs" : 1676874672619
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -327,9 +341,23 @@
           "sizeY" : 12,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272619,
+                  "endTimeMs" : 1676874672619
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -488,9 +516,23 @@
           "sizeY" : 12,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272619,
+                  "endTimeMs" : 1676874672619
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -639,9 +681,23 @@
           "sizeY" : 12,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272619,
+                  "endTimeMs" : 1676874672619
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -814,8 +870,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272619,
+                  "endTimeMs" : 1676874672619
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -870,8 +945,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272619,
+                  "endTimeMs" : 1676874672619
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -914,9 +1008,23 @@
           "sizeY" : 3.5,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272619,
+                  "endTimeMs" : 1676874672619
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -1014,8 +1122,27 @@
               "dataKeys" : [ ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272619,
+                  "endTimeMs" : 1676874672619
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -1084,8 +1211,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272619,
+                  "endTimeMs" : 1676874672619
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -1170,8 +1316,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272619,
+                  "endTimeMs" : 1676874672619
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -3322,9 +3487,23 @@
           "sizeY" : 3.5,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -3441,8 +3620,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -3502,8 +3700,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -3927,9 +4144,23 @@
           "sizeY" : 12,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -4088,9 +4319,23 @@
           "sizeY" : 12,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -4249,9 +4494,23 @@
           "sizeY" : 12,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -4448,9 +4707,23 @@
           "sizeY" : 12,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -4614,8 +4887,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -4684,8 +4976,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -4754,8 +5065,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -4824,8 +5154,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -4894,8 +5243,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -4964,8 +5332,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -5164,8 +5551,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -5288,8 +5694,27 @@
               "dataKeys" : [ ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -5358,8 +5783,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -5810,8 +6254,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -5892,8 +6355,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -5962,8 +6444,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -6426,8 +6927,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -6603,8 +7123,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -6693,8 +7232,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -6783,8 +7341,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -6873,8 +7450,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -6963,8 +7559,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -7053,8 +7668,27 @@
               } ]
             } ],
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
-                "timewindowMs" : 60000
+                "realtimeType" : 1,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "aggregation" : {
+                "type" : "AVG",
+                "limit" : 25000
               }
             },
             "showTitle" : false,
@@ -7104,9 +7738,23 @@
           "sizeY" : 6.5,
           "config" : {
             "timewindow" : {
+              "displayValue" : "",
+              "selectedTab" : 0,
               "realtime" : {
+                "realtimeType" : 1,
                 "interval" : 1000,
-                "timewindowMs" : 86400000
+                "timewindowMs" : 86400000,
+                "quickInterval" : "CURRENT_DAY"
+              },
+              "history" : {
+                "historyType" : 0,
+                "interval" : 1000,
+                "timewindowMs" : 60000,
+                "fixedTimewindow" : {
+                  "startTimeMs" : 1676788272620,
+                  "endTimeMs" : 1676874672620
+                },
+                "quickInterval" : "CURRENT_DAY"
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -7118,21 +7766,21 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "4px",
             "settings" : {
+              "entitiesTitle" : "Pencereler",
               "enableSearch" : true,
-              "displayPagination" : true,
-              "defaultPageSize" : 10,
-              "defaultSortOrder" : "entityName",
-              "displayEntityName" : true,
-              "displayEntityType" : false,
               "enableSelectColumnDisplay" : true,
               "enableStickyHeader" : true,
               "enableStickyAction" : true,
               "reserveSpaceForHiddenAction" : "true",
-              "displayEntityLabel" : false,
-              "useRowStyleFunction" : true,
-              "entitiesTitle" : "Pencereler",
+              "displayEntityName" : true,
               "entityNameColumnTitle" : "Pencere",
-              "rowStyleFunction" : "result = {\n \"fontWeight\": 600,\n};\n\nreturn result;"
+              "displayEntityLabel" : false,
+              "displayEntityType" : false,
+              "displayPagination" : true,
+              "defaultPageSize" : 50,
+              "defaultSortOrder" : "entityName",
+              "useRowStyleFunction" : true,
+              "rowStyleFunction" : "entity = {\n \"fontWeight\": 600,\n};\n\nreturn entity;"
             },
             "title" : "New Entities table",
             "dropShadow" : false,
@@ -8152,7 +8800,7 @@
                 },
                 "cfb3b531-07b9-3018-3922-3fc6e9bb9439" : {
                   "sizeX" : 48,
-                  "sizeY" : 20,
+                  "sizeY" : 46,
                   "row" : 1,
                   "col" : 0
                 }

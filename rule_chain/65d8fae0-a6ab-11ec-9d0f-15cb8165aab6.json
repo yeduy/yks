@@ -6,10 +6,13 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "65d8fae0-a6ab-11ec-9d0f-15cb8165aab6"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "4988f1a0-a6ac-11ec-9d0f-15cb8165aab6"
+      "id" : "9ba65570-b805-11ed-a59b-fb6dc01397e0"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -33,12 +36,12 @@
       "toIndex" : 3,
       "type" : "Post attributes"
     } ],
-    "firstNodeIndex" : 0,
+    "firstNodeIndex" : 4,
     "nodes" : [ {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 314,
-        "layoutY" : 150
+        "layoutX" : 680,
+        "layoutY" : 152
       },
       "configuration" : {
         "version" : 0
@@ -48,7 +51,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "4988f1a0-a6ac-11ec-9d0f-15cb8165aab6"
+        "id" : "771d52f0-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "Spreader",
       "ruleChainId" : null,
@@ -56,8 +59,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 654,
-        "layoutY" : 238
+        "layoutX" : 1020,
+        "layoutY" : 240
       },
       "configuration" : {
         "direction" : "FROM",
@@ -75,7 +78,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "49893fc0-a6ac-11ec-9d0f-15cb8165aab6"
+        "id" : "771d7a00-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "to Bobrek Customer",
       "ruleChainId" : null,
@@ -83,8 +86,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 654,
-        "layoutY" : 316
+        "layoutX" : 1020,
+        "layoutY" : 318
       },
       "configuration" : {
         "direction" : "FROM",
@@ -102,7 +105,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "49898de0-a6ac-11ec-9d0f-15cb8165aab6"
+        "id" : "771d7a01-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "to Cephe Customer",
       "ruleChainId" : null,
@@ -110,8 +113,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 653,
-        "layoutY" : 155
+        "layoutX" : 1019,
+        "layoutY" : 157
       },
       "configuration" : {
         "ownerType" : "CUSTOMER",
@@ -124,11 +127,30 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "4989b4f0-a6ac-11ec-9d0f-15cb8165aab6"
+        "id" : "771da110-b69b-11ed-a59b-fb6dc01397e0"
       },
       "name" : "to Bobrek Owner",
       "ruleChainId" : null,
       "type" : "org.thingsboard.rule.engine.action.TbChangeOwnerNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 341,
+        "layoutY" : 151
+      },
+      "configuration" : {
+        "scope" : "CLIENT_SCOPE"
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9ba65570-b805-11ed-a59b-fb6dc01397e0"
+      },
+      "name" : "Save Attributes",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgAttributesNode"
     } ],
     "ruleChainConnections" : null
   },
