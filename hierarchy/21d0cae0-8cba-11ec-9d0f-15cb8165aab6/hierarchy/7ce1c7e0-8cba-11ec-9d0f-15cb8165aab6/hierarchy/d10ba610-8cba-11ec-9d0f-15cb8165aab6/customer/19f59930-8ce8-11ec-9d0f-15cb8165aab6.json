@@ -16,7 +16,10 @@
       "id" : "d10ba610-8cba-11ec-9d0f-15cb8165aab6"
     },
     "email" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "19f59930-8ce8-11ec-9d0f-15cb8165aab6"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "19f59930-8ce8-11ec-9d0f-15cb8165aab6"
@@ -77,6 +80,14 @@
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
+      "key" : "positionC",
+      "lastUpdateTs" : 1686644004586,
+      "longValue" : 6,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
       "key" : "tip",
       "lastUpdateTs" : 1647349020093,
       "longValue" : null,
@@ -86,7 +97,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalAcikPencere",
-      "lastUpdateTs" : 1677763741263,
+      "lastUpdateTs" : 1686648351870,
       "longValue" : 0,
       "strValue" : null
     }, {
@@ -94,7 +105,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalKapaliPencere",
-      "lastUpdateTs" : 1677763741608,
+      "lastUpdateTs" : 1686648351872,
       "longValue" : 1,
       "strValue" : null
     }, {
@@ -102,7 +113,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalPencereSayisi",
-      "lastUpdateTs" : 1677763741307,
+      "lastUpdateTs" : 1686648351869,
       "longValue" : 1,
       "strValue" : null
     }, {

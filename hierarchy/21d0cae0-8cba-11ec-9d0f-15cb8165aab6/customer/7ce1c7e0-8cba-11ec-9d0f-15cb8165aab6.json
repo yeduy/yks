@@ -16,7 +16,10 @@
       "id" : "21d0cae0-8cba-11ec-9d0f-15cb8165aab6"
     },
     "email" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "7ce1c7e0-8cba-11ec-9d0f-15cb8165aab6"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "7ce1c7e0-8cba-11ec-9d0f-15cb8165aab6"
@@ -246,23 +249,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalAcikPencere",
-      "lastUpdateTs" : 1677763741792,
-      "longValue" : 3,
+      "lastUpdateTs" : 1686648359903,
+      "longValue" : 9,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalKapaliPencere",
-      "lastUpdateTs" : 1677763741792,
-      "longValue" : 26,
+      "lastUpdateTs" : 1686648359822,
+      "longValue" : 20,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalPencereSayisi",
-      "lastUpdateTs" : 1677763741907,
+      "lastUpdateTs" : 1686648352067,
       "longValue" : 29,
       "strValue" : null
     }, {
@@ -366,7 +369,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "kilitC",
-      "lastUpdateTs" : 1677679200011,
+      "lastUpdateTs" : 1686578400083,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -390,7 +393,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "positionC",
-      "lastUpdateTs" : 1677686400011,
+      "lastUpdateTs" : 1686585600045,
       "longValue" : 6,
       "strValue" : null
     }, {
@@ -526,23 +529,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalAcikPencere",
-      "lastUpdateTs" : 1677763741405,
-      "longValue" : 3,
+      "lastUpdateTs" : 1686648351870,
+      "longValue" : 9,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalKapaliPencere",
-      "lastUpdateTs" : 1677763749418,
-      "longValue" : 26,
+      "lastUpdateTs" : 1686648359760,
+      "longValue" : 20,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalPencereSayisi",
-      "lastUpdateTs" : 1677763741405,
+      "lastUpdateTs" : 1686648351872,
       "longValue" : 29,
       "strValue" : null
     }, {

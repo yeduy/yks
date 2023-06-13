@@ -1151,7 +1151,7 @@
       },
       "entityAliases" : {
         "bd611bab-9313-181c-3f78-7d0c4aba0efe" : {
-          "id" : "bd611bab-9313-181c-3f78-7d0c4aba0efe",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Sayaç",
           "filter" : {
             "type" : "singleEntity",
@@ -1163,7 +1163,7 @@
           }
         },
         "bff0b0cf-21da-ff4d-4a89-d31d32848195" : {
-          "id" : "bff0b0cf-21da-ff4d-4a89-d31d32848195",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Current Entity",
           "filter" : {
             "type" : "stateEntity",
@@ -1176,7 +1176,7 @@
           }
         },
         "6a4e7ce0-01b6-b09a-6a0a-df96c455a596" : {
-          "id" : "6a4e7ce0-01b6-b09a-6a0a-df96c455a596",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "gateway",
           "filter" : {
             "type" : "singleEntity",
@@ -1188,91 +1188,91 @@
           }
         },
         "4db4c486-9bd6-24ef-5626-b4e78068f74b" : {
-          "id" : "4db4c486-9bd6-24ef-5626-b4e78068f74b",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "a09t01",
           "filter" : {
             "type" : "singleEntity",
             "resolveMultiple" : false,
             "singleEntity" : {
               "entityType" : "DEVICE",
-              "id" : "003131f0-8ceb-11ec-9d0f-15cb8165aab6"
+              "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
             }
           }
         },
         "2fa7ad3a-f277-3d1b-d200-0f0572005023" : {
-          "id" : "2fa7ad3a-f277-3d1b-d200-0f0572005023",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "a09c01",
           "filter" : {
             "type" : "singleEntity",
             "resolveMultiple" : false,
             "singleEntity" : {
               "entityType" : "DEVICE",
-              "id" : "215e3cb0-8ceb-11ec-9d0f-15cb8165aab6"
+              "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
             }
           }
         },
         "623051f5-3a89-6a91-7f74-fee1827c50e5" : {
-          "id" : "623051f5-3a89-6a91-7f74-fee1827c50e5",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "a09c",
           "filter" : {
             "type" : "singleEntity",
             "resolveMultiple" : false,
             "singleEntity" : {
               "entityType" : "DEVICE",
-              "id" : "8b0ddc50-8d0f-11ec-9d0f-15cb8165aab6"
+              "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
             }
           }
         },
         "3bdce990-f797-5fe2-265c-563b94d0fcda" : {
-          "id" : "3bdce990-f797-5fe2-265c-563b94d0fcda",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "a09",
           "filter" : {
             "type" : "singleEntity",
             "resolveMultiple" : false,
             "singleEntity" : {
               "entityType" : "DEVICE",
-              "id" : "24d41470-8ce9-11ec-9d0f-15cb8165aab6"
+              "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
             }
           }
         },
         "d1daea9a-4fce-d684-dd30-2411fde43675" : {
-          "id" : "d1daea9a-4fce-d684-dd30-2411fde43675",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "a09T",
           "filter" : {
             "type" : "singleEntity",
             "resolveMultiple" : false,
             "singleEntity" : {
               "entityType" : "DEVICE",
-              "id" : "e3ad5990-8d0e-11ec-9d0f-15cb8165aab6"
+              "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
             }
           }
         },
         "7f450fec-37d6-5888-dc1e-97d7530f8e8e" : {
-          "id" : "7f450fec-37d6-5888-dc1e-97d7530f8e8e",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "a",
           "filter" : {
             "type" : "singleEntity",
             "resolveMultiple" : false,
             "singleEntity" : {
               "entityType" : "DEVICE",
-              "id" : "022317b0-8cbb-11ec-9d0f-15cb8165aab6"
+              "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
             }
           }
         },
         "6eb82d3d-c0a1-6a36-f64e-6ec9caf61351" : {
-          "id" : "6eb82d3d-c0a1-6a36-f64e-6ec9caf61351",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "TUM",
           "filter" : {
             "type" : "singleEntity",
             "resolveMultiple" : false,
             "singleEntity" : {
               "entityType" : "DEVICE",
-              "id" : "b478e3f0-8cba-11ec-9d0f-15cb8165aab6"
+              "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
             }
           }
         },
         "b69712e6-f14e-29ac-799a-1e511668291d" : {
-          "id" : "b69712e6-f14e-29ac-799a-1e511668291d",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "YKP - Tüm Bloklar",
           "filter" : {
             "type" : "singleEntity",
@@ -1284,7 +1284,7 @@
           }
         },
         "0657cc2a-eeb8-28f5-c1b8-3c81edac1e8a" : {
-          "id" : "0657cc2a-eeb8-28f5-c1b8-3c81edac1e8a",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Current Entity1",
           "filter" : {
             "type" : "stateEntity",
@@ -1297,7 +1297,7 @@
           }
         },
         "6ba02efe-0298-f47e-5e88-0b80a04769d0" : {
-          "id" : "6ba02efe-0298-f47e-5e88-0b80a04769d0",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "yangın-a",
           "filter" : {
             "type" : "singleEntity",
@@ -1340,7 +1340,10 @@
       }
     },
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "04dd7b10-46b9-11eb-8a56-8d1c80a6cc0c"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "04dd7b10-46b9-11eb-8a56-8d1c80a6cc0c"

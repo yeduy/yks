@@ -9,7 +9,10 @@
       "id" : "f73db070-c555-11ec-9326-67c26095a051"
     },
     "description" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "3e5ebb80-f156-11ec-99a7-e5336b968b50"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",

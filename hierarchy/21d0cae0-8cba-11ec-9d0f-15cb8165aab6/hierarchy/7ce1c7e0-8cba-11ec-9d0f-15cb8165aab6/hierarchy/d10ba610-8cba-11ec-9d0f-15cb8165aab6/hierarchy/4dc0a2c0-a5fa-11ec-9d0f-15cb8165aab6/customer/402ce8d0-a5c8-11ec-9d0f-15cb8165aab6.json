@@ -16,7 +16,10 @@
       "id" : "4dc0a2c0-a5fa-11ec-9d0f-15cb8165aab6"
     },
     "email" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "402ce8d0-a5c8-11ec-9d0f-15cb8165aab6"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "402ce8d0-a5c8-11ec-9d0f-15cb8165aab6"
@@ -78,7 +81,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalAcikPencere",
-      "lastUpdateTs" : 1677763741807,
+      "lastUpdateTs" : 1686648351969,
       "longValue" : 0,
       "strValue" : null
     }, {
@@ -86,7 +89,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalKapaliPencere",
-      "lastUpdateTs" : 1677763741708,
+      "lastUpdateTs" : 1686648351969,
       "longValue" : 0,
       "strValue" : null
     }, {
@@ -118,7 +121,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "kilitC",
-      "lastUpdateTs" : 1677679207021,
+      "lastUpdateTs" : 1686578400150,
       "longValue" : null,
       "strValue" : null
     }, {

@@ -5,7 +5,10 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ROLE",
+      "id" : "2b9b72a0-af8d-11ec-aafb-6971966668b3"
+    },
     "name" : "YKS Generic",
     "permissions" : {
       "PROFILE" : [ "ALL" ],

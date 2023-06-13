@@ -39,7 +39,10 @@
     },
     "edgeTemplate" : false,
     "enabled" : true,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "INTEGRATION",
+      "id" : "50198140-649b-11ec-86ca-29471b244c2b"
+    },
     "id" : {
       "entityType" : "INTEGRATION",
       "id" : "50198140-649b-11ec-86ca-29471b244c2b"
@@ -405,7 +408,7 @@
       "doubleValue" : null,
       "jsonValue" : "{\"success\":true}",
       "key" : "integration_status_iosphere",
-      "lastUpdateTs" : 1677763326721,
+      "lastUpdateTs" : 1686570410328,
       "longValue" : null,
       "strValue" : null
     } ]

@@ -12,7 +12,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "781d5dd0-b69b-11ed-a59b-fb6dc01397e0"
+      "id" : "0de52bb0-0915-11ee-b0a4-334e6b7a2b43"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -122,7 +122,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781d0fb0-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de4dd90-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "totalAcikPencere",
       "ruleChainId" : null,
@@ -177,7 +177,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781d0fb1-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de504a0-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "totalPencereSayisi",
       "ruleChainId" : null,
@@ -196,7 +196,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781d0fb2-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de504a1-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "POST_ATTRIBUTES_REQUEST",
       "ruleChainId" : null,
@@ -216,7 +216,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781d0fb3-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de504a2-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Server attributes",
       "ruleChainId" : null,
@@ -278,7 +278,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781d36c0-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de504a3-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "totalKapaliPencere",
       "ruleChainId" : null,
@@ -286,8 +286,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 154,
-        "layoutY" : 356
+        "layoutX" : 237,
+        "layoutY" : 271
       },
       "configuration" : {
         "jsScript" : "if(msg.pencereStatus == 3 && metadata.pencereStatus == 0) {\n    msg.count = 1;\n} else if(msg.pencereStatus == 1 && metadata.pencereStatus == 0) {\n    msg.count = 1;\n} else if(msg.pencereStatus == 2 && metadata.pencereStatus == 0) {\n    msg.count = 1;\n} else if(msg.pencereStatus == 0 && metadata.pencereStatus == 3) {\n    msg.count = -1;\n} else if(msg.pencereStatus == 0 && metadata.pencereStatus == 1) {\n    msg.count = -1;\n} else if(msg.pencereStatus == 0 && metadata.pencereStatus == 2) {\n    msg.count = -1;\n} else {\n    msg.count = 0;\n}\n\nvar msgType = \"POST_ATTRIBUTES_REQUEST\"\n\nreturn {msg: msg, metadata: metadata, msgType: msgType};"
@@ -297,7 +297,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781d5dd0-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de52bb0-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "add count",
       "ruleChainId" : null,
@@ -359,7 +359,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781d84e0-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de52bb1-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "cephe_totalKapaliPencere",
       "ruleChainId" : null,
@@ -421,7 +421,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781d84e1-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de52bb2-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "cephe_totalAcikPencere",
       "ruleChainId" : null,
@@ -440,7 +440,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781d84e2-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de52bb3-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "POST_ATTRIBUTES_REQUEST",
       "ruleChainId" : null,
@@ -460,7 +460,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781d84e3-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de52bb4-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Server attributes",
       "ruleChainId" : null,
@@ -515,7 +515,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "781dabf0-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "0de52bb5-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "cephe_totalPencereSayisi",
       "ruleChainId" : null,
@@ -534,7 +534,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7c565d30-b807-11ed-a59b-fb6dc01397e0"
+        "id" : "0de552c0-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Pencere Normal Counter",
       "ruleChainId" : null,
@@ -553,7 +553,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7c568440-b807-11ed-a59b-fb6dc01397e0"
+        "id" : "0de552c1-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Pencere Cephe Counter",
       "ruleChainId" : null,

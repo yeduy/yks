@@ -12,7 +12,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "77cd9021-b69b-11ed-a59b-fb6dc01397e0"
+      "id" : "07b54ef0-0915-11ee-b0a4-334e6b7a2b43"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -87,7 +87,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77cd6910-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "07b527e0-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Pencere Relations",
       "ruleChainId" : null,
@@ -107,7 +107,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77cd9021-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "07b54ef0-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Device Profile Node",
       "ruleChainId" : null,
@@ -126,7 +126,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77cdb730-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "07b54ef1-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Message Type Switch",
       "ruleChainId" : null,
@@ -144,7 +144,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77cdb734-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "07b54ef2-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Is Entity Group",
       "ruleChainId" : null,
@@ -162,7 +162,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77cdde40-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "07b54ef3-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Post attributes or RPC request",
       "ruleChainId" : null,
@@ -182,7 +182,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77cdde41-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "07b57600-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Duplicate To Group Entities",
       "ruleChainId" : null,
@@ -201,7 +201,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "09a631a0-b804-11ed-a59b-fb6dc01397e0"
+        "id" : "07b57601-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Pencere Kilitle",
       "ruleChainId" : null,
@@ -220,7 +220,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "8d291320-b805-11ed-a59b-fb6dc01397e0"
+        "id" : "07b57602-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Pencere Uplink",
       "ruleChainId" : null,
@@ -239,7 +239,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "1b8a5ac0-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "07b57603-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Pencere Downlink",
       "ruleChainId" : null,

@@ -9481,7 +9481,7 @@
       },
       "entityAliases" : {
         "bbf890f5-f94d-b5c4-006c-b16ab1469300" : {
-          "id" : "bbf890f5-f94d-b5c4-006c-b16ab1469300",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "All Devices",
           "filter" : {
             "type" : "relationsQuery",
@@ -9490,7 +9490,7 @@
             "stateEntityParamName" : null,
             "defaultStateEntity" : {
               "entityType" : "DEVICE",
-              "id" : "b478e3f0-8cba-11ec-9d0f-15cb8165aab6"
+              "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c"
             },
             "rootEntity" : null,
             "direction" : "FROM",
@@ -9503,7 +9503,7 @@
           }
         },
         "b32b0780-e65a-3458-a9f9-fdf043cf805b" : {
-          "id" : "b32b0780-e65a-3458-a9f9-fdf043cf805b",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Current Entity",
           "filter" : {
             "type" : "stateEntity",
@@ -9516,7 +9516,7 @@
           }
         },
         "aba16cb8-6546-ed04-685c-5b208965b5ca" : {
-          "id" : "aba16cb8-6546-ed04-685c-5b208965b5ca",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Tüm Bloklar - Contains",
           "filter" : {
             "type" : "relationsQuery",
@@ -9538,7 +9538,7 @@
           }
         },
         "5eaa0c28-8c22-1240-a5d4-48f8aed7852e" : {
-          "id" : "5eaa0c28-8c22-1240-a5d4-48f8aed7852e",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "SubEntities",
           "filter" : {
             "type" : "relationsQuery",
@@ -9557,7 +9557,7 @@
           }
         },
         "28f88540-3666-77ec-c6e6-6cf704d64526" : {
-          "id" : "28f88540-3666-77ec-c6e6-6cf704d64526",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Bloklar",
           "filter" : {
             "type" : "singleEntity",
@@ -9569,7 +9569,7 @@
           }
         },
         "8ca5197a-a40e-92e7-ee12-e4359fbb1935" : {
-          "id" : "8ca5197a-a40e-92e7-ee12-e4359fbb1935",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Multiple Devices",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -9586,7 +9586,7 @@
           }
         },
         "5308565d-65bf-5c14-6d0f-0837574dcae5" : {
-          "id" : "5308565d-65bf-5c14-6d0f-0837574dcae5",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Tüm Bloklar - Cephe",
           "filter" : {
             "type" : "relationsQuery",
@@ -9608,7 +9608,7 @@
           }
         },
         "16c37a27-6194-1550-7d67-c71015d01c2c" : {
-          "id" : "16c37a27-6194-1550-7d67-c71015d01c2c",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Current Entity1",
           "filter" : {
             "type" : "stateEntity",
@@ -9621,7 +9621,7 @@
           }
         },
         "60b832fd-e08a-ee95-cd4a-2aae2a917c7e" : {
-          "id" : "60b832fd-e08a-ee95-cd4a-2aae2a917c7e",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "A-Ruzgar",
           "filter" : {
             "type" : "singleEntity",
@@ -9633,7 +9633,7 @@
           }
         },
         "093642af-fe33-0124-c5c3-3c0823195e72" : {
-          "id" : "093642af-fe33-0124-c5c3-3c0823195e72",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "B-Ruzgar",
           "filter" : {
             "type" : "singleEntity",
@@ -9645,7 +9645,7 @@
           }
         },
         "7f4cf55d-a503-dc54-24b1-09b8c2a39ed6" : {
-          "id" : "7f4cf55d-a503-dc54-24b1-09b8c2a39ed6",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Current Device",
           "filter" : {
             "type" : "stateEntity",
@@ -9655,7 +9655,7 @@
           }
         },
         "c4579d13-7bfd-7f62-1935-08f5ac5dfdc7" : {
-          "id" : "c4579d13-7bfd-7f62-1935-08f5ac5dfdc7",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "A-Yagmur",
           "filter" : {
             "type" : "singleEntity",
@@ -9667,7 +9667,7 @@
           }
         },
         "56491b2e-e52a-3744-8f97-9f99145b653e" : {
-          "id" : "56491b2e-e52a-3744-8f97-9f99145b653e",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Meteoroloji",
           "filter" : {
             "type" : "entityList",
@@ -9677,7 +9677,7 @@
           }
         },
         "8bdf4842-9067-22a8-e209-f9c0ee4754d7" : {
-          "id" : "8bdf4842-9067-22a8-e209-f9c0ee4754d7",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Tüm Bloklar",
           "filter" : {
             "type" : "singleEntity",
@@ -9689,7 +9689,7 @@
           }
         },
         "4fbbbe69-eae6-5d6c-5b2c-dd34dc08f634" : {
-          "id" : "4fbbbe69-eae6-5d6c-5b2c-dd34dc08f634",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Pencereler",
           "filter" : {
             "type" : "deviceType",
@@ -9699,7 +9699,7 @@
           }
         },
         "224e8831-3912-92b7-a844-d6be924145c5" : {
-          "id" : "224e8831-3912-92b7-a844-d6be924145c5",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "A-Blok",
           "filter" : {
             "type" : "singleEntity",
@@ -9711,7 +9711,7 @@
           }
         },
         "1cac4f61-991c-129d-e6f8-0b44f7343e93" : {
-          "id" : "1cac4f61-991c-129d-e6f8-0b44f7343e93",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "B-Blok",
           "filter" : {
             "type" : "singleEntity",
@@ -9723,7 +9723,7 @@
           }
         },
         "b74524b5-98a1-b7db-874a-bd3ef4f24351" : {
-          "id" : "b74524b5-98a1-b7db-874a-bd3ef4f24351",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "C-Blok",
           "filter" : {
             "type" : "singleEntity",
@@ -9735,7 +9735,7 @@
           }
         },
         "39789466-3428-5b34-6e11-0ca84e9d67b1" : {
-          "id" : "39789466-3428-5b34-6e11-0ca84e9d67b1",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Yangın-A",
           "filter" : {
             "type" : "singleEntity",
@@ -9747,7 +9747,7 @@
           }
         },
         "ab82ef7b-53b0-7107-4d96-a00a3dcf505b" : {
-          "id" : "ab82ef7b-53b0-7107-4d96-a00a3dcf505b",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Yangın-B",
           "filter" : {
             "type" : "singleEntity",
@@ -9759,7 +9759,7 @@
           }
         },
         "82c3a333-0cb7-eb72-ded5-6b0eaf08c4c8" : {
-          "id" : "82c3a333-0cb7-eb72-ded5-6b0eaf08c4c8",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Yangın-C",
           "filter" : {
             "type" : "singleEntity",
@@ -9771,7 +9771,7 @@
           }
         },
         "e682646e-7f1d-8b68-ad24-3847242ff1d1" : {
-          "id" : "e682646e-7f1d-8b68-ad24-3847242ff1d1",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Yagmur-A",
           "filter" : {
             "type" : "singleEntity",
@@ -9783,7 +9783,7 @@
           }
         },
         "29f69ad1-bb8e-811f-9b39-0f1cb4c5b566" : {
-          "id" : "29f69ad1-bb8e-811f-9b39-0f1cb4c5b566",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Deprem-A",
           "filter" : {
             "type" : "singleEntity",
@@ -9831,7 +9831,10 @@
       }
     },
     "customerId" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "e1847200-8d01-11ec-9d0f-15cb8165aab6"
+    },
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "e1847200-8d01-11ec-9d0f-15cb8165aab6"

@@ -6,10 +6,13 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "b08e6c90-b803-11ed-a59b-fb6dc01397e0"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "8594a7e0-b806-11ed-a59b-fb6dc01397e0"
+      "id" : "211ff612-0915-11ee-b0a4-334e6b7a2b43"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -88,7 +91,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "0a964c10-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "211fa7f0-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Check kilit",
       "ruleChainId" : null,
@@ -107,7 +110,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "0a967320-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "211fa7f1-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "add kilit",
       "ruleChainId" : null,
@@ -126,7 +129,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "0a969a30-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "211fcf00-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Check positionC",
       "ruleChainId" : null,
@@ -147,7 +150,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "0a96c140-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "211fcf01-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "add Topic",
       "ruleChainId" : null,
@@ -177,7 +180,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "0a96c141-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "211fcf02-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "to Sub Related",
       "ruleChainId" : null,
@@ -196,7 +199,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "0a96e850-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "211fcf03-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Check deviceType",
       "ruleChainId" : null,
@@ -218,7 +221,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "0a970f60-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "211fcf04-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "add deviceName",
       "ruleChainId" : null,
@@ -237,7 +240,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "0a973670-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "211ff610-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Downlink",
       "ruleChainId" : null,
@@ -261,7 +264,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "0a973671-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "211ff611-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "add kilit",
       "ruleChainId" : null,
@@ -280,7 +283,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "8594a7e0-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "211ff612-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Main",
       "ruleChainId" : null,

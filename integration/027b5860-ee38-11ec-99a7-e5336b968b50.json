@@ -39,7 +39,10 @@
     },
     "edgeTemplate" : false,
     "enabled" : true,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "INTEGRATION",
+      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
+    },
     "id" : {
       "entityType" : "INTEGRATION",
       "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
@@ -95,18 +98,6 @@
     "to" : {
       "entityType" : "ASSET",
       "id" : "aafca4b0-f0ba-11ec-99a7-e5336b968b50"
-    },
-    "type" : "ManagedByIntegration",
-    "typeGroup" : "COMMON"
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "INTEGRATION",
-      "id" : "027b5860-ee38-11ec-99a7-e5336b968b50"
-    },
-    "to" : {
-      "entityType" : "ASSET",
-      "id" : "073fc7d0-b676-11ed-934c-1bbde10429b7"
     },
     "type" : "ManagedByIntegration",
     "typeGroup" : "COMMON"
@@ -237,7 +228,7 @@
       "doubleValue" : null,
       "jsonValue" : "{\"success\":true}",
       "key" : "integration_status_iosphere",
-      "lastUpdateTs" : 1677763326721,
+      "lastUpdateTs" : 1686570410255,
       "longValue" : null,
       "strValue" : null
     } ]

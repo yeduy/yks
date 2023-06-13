@@ -14,7 +14,10 @@
       "id" : "6cba37c0-4040-11eb-9f07-81d1409b4781"
     },
     "email" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "85f76640-4040-11eb-9f07-81d1409b4781"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "85f76640-4040-11eb-9f07-81d1409b4781"

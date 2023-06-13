@@ -23,7 +23,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "ebe16d50-3eee-11eb-9f07-81d1409b4781"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "f5c55121-3f8d-11eb-9f07-81d1409b4781"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -122,24 +125,24 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1677763765516,
-      "longValue" : 1677763763664,
+      "lastUpdateTs" : 1686648333235,
+      "longValue" : 1686648333043,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1677763380187,
-      "longValue" : 1677763380187,
+      "lastUpdateTs" : 1686623803235,
+      "longValue" : 1686623803235,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1677763283162,
-      "longValue" : 1677763283162,
+      "lastUpdateTs" : 1686623694237,
+      "longValue" : 1686623694237,
       "strValue" : null
     }, {
       "booleanValue" : null,

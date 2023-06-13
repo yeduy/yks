@@ -9,9 +9,12 @@
       "decoder" : "// Decode an uplink message from a buffer\n// payload - array of bytes\n// metadata - key/value object\n\n/** Decoder **/\n\n// decode payload to string\nvar payloadStr = decodeToString(payload);\n\n// decode payload to JSON\nvar data = decodeToJson(payload);\n\nvar topicPattern = 'pencere/(.+)/kilit';\n\nvar deviceName =  metadata.topic.match(topicPattern)[1];\n\nvar key;\nvar value;\n\nfor (var i in data)\n{\n  key=i;\n  value= data[i];\n}\n\n\n//check value if its true\n\nif (value == \"true\") {\n    var result = {\n                  assetName: deviceName,\n                  assetType: \"panel\",\n                  customerName: deviceName,\n                   attributes: {\n                   },\n                   telemetry: {\n                       cephe: Number(key[5]),\n                       kilit: true\n                   }\n    }; \n} else if (value == \"false\") {\n    var result = {\n                  assetName: deviceName,\n                  assetType: \"panel\",\n                  customerName: deviceName,\n                   attributes: {\n                   },\n                   telemetry: {\n                       cephe: Number(key[5]),\n                       kilit: false\n                   }\n    }; \n}\nreturn result;  \n\n/** Helper functions **/\n\nfunction decodeToString(payload) {\n   return String.fromCharCode.apply(String, payload);\n}\n\nfunction decodeToJson(payload) {\n   // covert payload to string.\n   var str = decodeToString(payload);\n\n   // parse string to JSON\n   var data = JSON.parse(str);\n   return data;\n}",
       "encoder" : null
     },
-    "debugMode" : true,
+    "debugMode" : false,
     "edgeTemplate" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CONVERTER",
+      "id" : "bd8f2650-ee37-11ec-99a7-e5336b968b50"
+    },
     "id" : {
       "entityType" : "CONVERTER",
       "id" : "bd8f2650-ee37-11ec-99a7-e5336b968b50"

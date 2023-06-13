@@ -6,10 +6,13 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "b605cec0-b803-11ed-a59b-fb6dc01397e0"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "77a38ae0-b804-11ed-a59b-fb6dc01397e0"
+      "id" : "288ebb72-0915-11ee-b0a4-334e6b7a2b43"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -68,7 +71,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "779fba50-b804-11ed-a59b-fb6dc01397e0"
+        "id" : "288e6d50-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Check deviceType",
       "ruleChainId" : null,
@@ -87,7 +90,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77a22b50-b804-11ed-a59b-fb6dc01397e0"
+        "id" : "288e9460-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Save Timeseries",
       "ruleChainId" : null,
@@ -106,7 +109,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77a2eea0-b804-11ed-a59b-fb6dc01397e0"
+        "id" : "288e9461-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "add pencereStatus",
       "ruleChainId" : null,
@@ -114,8 +117,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 2195,
-        "layoutY" : 239
+        "layoutX" : 2151,
+        "layoutY" : 164
       },
       "configuration" : {
         "ruleChainId" : "b26a45a0-8d72-11ec-9d0f-15cb8165aab6"
@@ -125,7 +128,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77a315b0-b804-11ed-a59b-fb6dc01397e0"
+        "id" : "288e9462-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Pencere Counter",
       "ruleChainId" : null,
@@ -149,7 +152,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77a33cc0-b804-11ed-a59b-fb6dc01397e0"
+        "id" : "288ebb70-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Bir önceki pencereStatus Verisini Al",
       "ruleChainId" : null,
@@ -168,7 +171,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77a363d0-b804-11ed-a59b-fb6dc01397e0"
+        "id" : "288ebb71-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Check Change",
       "ruleChainId" : null,
@@ -187,7 +190,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "77a38ae0-b804-11ed-a59b-fb6dc01397e0"
+        "id" : "288ebb72-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "SequentialByOriginator",
       "ruleChainId" : null,
@@ -206,7 +209,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "d72b42f0-b804-11ed-a59b-fb6dc01397e0"
+        "id" : "288ebb73-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Pencere Position Attribute",
       "ruleChainId" : null,
@@ -225,7 +228,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "4d071de0-b806-11ed-a59b-fb6dc01397e0"
+        "id" : "288ebb74-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Pencere Score",
       "ruleChainId" : null,

@@ -3,7 +3,10 @@
   "entity" : {
     "alias" : "custom_button",
     "description" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "288191d0-96b1-11eb-8d04-535144bafa38"
+    },
     "id" : {
       "entityType" : "WIDGETS_BUNDLE",
       "id" : "288191d0-96b1-11eb-8d04-535144bafa38"

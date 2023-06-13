@@ -12,7 +12,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "5e7a8f80-f0b5-11ec-99a7-e5336b968b50"
+      "id" : "93242890-b8e7-11ed-809e-a941cadd78e2"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -167,7 +167,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afac7880-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "932030f0-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "01",
       "ruleChainId" : null,
@@ -194,7 +194,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afacc6a0-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "9322a1f0-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "02",
       "ruleChainId" : null,
@@ -221,7 +221,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afacedb0-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "9322c900-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "03",
       "ruleChainId" : null,
@@ -248,7 +248,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afad14c0-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "9322f010-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "04",
       "ruleChainId" : null,
@@ -275,7 +275,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afad3bd0-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "93231720-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "05",
       "ruleChainId" : null,
@@ -302,7 +302,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afad89f0-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "93231721-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "06",
       "ruleChainId" : null,
@@ -329,7 +329,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afadd810-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "93233e30-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "07",
       "ruleChainId" : null,
@@ -356,7 +356,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afadff20-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "93233e31-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "08",
       "ruleChainId" : null,
@@ -383,7 +383,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afae2630-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "93233e32-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "09",
       "ruleChainId" : null,
@@ -410,7 +410,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afae7450-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "93236540-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "10",
       "ruleChainId" : null,
@@ -437,7 +437,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afae9b60-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "93236541-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "11",
       "ruleChainId" : null,
@@ -464,7 +464,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afaec270-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "93236542-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "12",
       "ruleChainId" : null,
@@ -491,7 +491,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afaee980-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "93238c50-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "13",
       "ruleChainId" : null,
@@ -506,11 +506,11 @@
         "jsScript" : "var newMsg = {};\n\nnewMsg.kilit = msg.kilit\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
       },
       "createdTime" : 0,
-      "debugMode" : true,
+      "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afaf1090-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "93238c51-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "only kilit",
       "ruleChainId" : null,
@@ -531,7 +531,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "afaf5eb0-f0b7-11ec-99a7-e5336b968b50"
+        "id" : "9323b360-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "save",
       "ruleChainId" : null,
@@ -546,11 +546,11 @@
         "jsScript" : "return msg.kilit == true;"
       },
       "createdTime" : 0,
-      "debugMode" : true,
+      "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2e8bfec0-f0bb-11ec-99a7-e5336b968b50"
+        "id" : "9323da70-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "Check kilit",
       "ruleChainId" : null,
@@ -579,7 +579,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2e8c4ce0-f0bb-11ec-99a7-e5336b968b50"
+        "id" : "93240180-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "Create Kilit Alarmı",
       "ruleChainId" : null,
@@ -599,7 +599,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2e8c73f0-f0bb-11ec-99a7-e5336b968b50"
+        "id" : "93240181-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "Clear Kilit Alarmı",
       "ruleChainId" : null,
@@ -618,7 +618,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "5e7a8f80-f0b5-11ec-99a7-e5336b968b50"
+        "id" : "93242890-b8e7-11ed-809e-a941cadd78e2"
       },
       "name" : "Check Cephe",
       "ruleChainId" : null,

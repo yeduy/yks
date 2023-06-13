@@ -6,10 +6,13 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "e3bb2240-b806-11ed-a59b-fb6dc01397e0"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "541172c0-b81f-11ed-a59b-fb6dc01397e0"
+      "id" : "7ba59870-0914-11ee-b0a4-334e6b7a2b43"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -85,7 +88,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2fb9c8e0-b807-11ed-a59b-fb6dc01397e0"
+        "id" : "7ba52340-0914-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "toBlok",
       "ruleChainId" : null,
@@ -113,7 +116,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2fba1700-b807-11ed-a59b-fb6dc01397e0"
+        "id" : "7ba54a50-0914-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "toKat",
       "ruleChainId" : null,
@@ -132,7 +135,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2fba3e10-b807-11ed-a59b-fb6dc01397e0"
+        "id" : "7ba54a51-0914-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "totalAcikPencere",
       "ruleChainId" : null,
@@ -152,7 +155,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2fba6520-b807-11ed-a59b-fb6dc01397e0"
+        "id" : "7ba54a52-0914-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "save attributes",
       "ruleChainId" : null,
@@ -180,7 +183,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2fba8c30-b807-11ed-a59b-fb6dc01397e0"
+        "id" : "7ba57160-0914-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "toBobrek",
       "ruleChainId" : null,
@@ -188,8 +191,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 731,
-        "layoutY" : 400
+        "layoutX" : 764,
+        "layoutY" : 394
       },
       "configuration" : {
         "tellFailureIfAbsent" : true,
@@ -204,7 +207,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2fbab340-b807-11ed-a59b-fb6dc01397e0"
+        "id" : "7ba57161-0914-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Bir önceki total Verisini Al",
       "ruleChainId" : null,
@@ -223,7 +226,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2fbada50-b807-11ed-a59b-fb6dc01397e0"
+        "id" : "7ba57162-0914-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "totalAcikPencere",
       "ruleChainId" : null,
@@ -242,7 +245,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "541172c0-b81f-11ed-a59b-fb6dc01397e0"
+        "id" : "7ba59870-0914-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "SequentialByOriginator",
       "ruleChainId" : null,

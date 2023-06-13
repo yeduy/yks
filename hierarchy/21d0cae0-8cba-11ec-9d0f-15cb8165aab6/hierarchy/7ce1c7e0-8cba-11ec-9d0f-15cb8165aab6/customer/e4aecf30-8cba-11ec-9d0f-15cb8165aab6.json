@@ -16,7 +16,10 @@
       "id" : "7ce1c7e0-8cba-11ec-9d0f-15cb8165aab6"
     },
     "email" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e4aecf30-8cba-11ec-9d0f-15cb8165aab6"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "e4aecf30-8cba-11ec-9d0f-15cb8165aab6"
@@ -366,23 +369,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalAcikPencere",
-      "lastUpdateTs" : 1677763749652,
-      "longValue" : 3,
+      "lastUpdateTs" : 1686648353868,
+      "longValue" : 8,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalKapaliPencere",
-      "lastUpdateTs" : 1677763743710,
-      "longValue" : 23,
+      "lastUpdateTs" : 1686648359835,
+      "longValue" : 18,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "cephe_totalPencereSayisi",
-      "lastUpdateTs" : 1677763743809,
+      "lastUpdateTs" : 1686648353971,
       "longValue" : 26,
       "strValue" : null
     }, {
@@ -390,7 +393,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "kilitC",
-      "lastUpdateTs" : 1677679200025,
+      "lastUpdateTs" : 1686578400149,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -414,23 +417,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalAcikPencere",
-      "lastUpdateTs" : 1677763749257,
-      "longValue" : 3,
+      "lastUpdateTs" : 1686648351870,
+      "longValue" : 8,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalKapaliPencere",
-      "lastUpdateTs" : 1677763749417,
-      "longValue" : 23,
+      "lastUpdateTs" : 1686648359757,
+      "longValue" : 18,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "totalPencereSayisi",
-      "lastUpdateTs" : 1677763741405,
+      "lastUpdateTs" : 1686648351873,
       "longValue" : 26,
       "strValue" : null
     }, {

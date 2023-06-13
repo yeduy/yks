@@ -3,7 +3,10 @@
   "entity" : {
     "alias" : "mywidgets",
     "description" : null,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "d82709b0-46a4-11eb-8a56-8d1c80a6cc0c"
+    },
     "id" : {
       "entityType" : "WIDGETS_BUNDLE",
       "id" : "d82709b0-46a4-11eb-8a56-8d1c80a6cc0c"

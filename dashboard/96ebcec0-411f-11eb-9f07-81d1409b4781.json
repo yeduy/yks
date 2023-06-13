@@ -17938,7 +17938,7 @@
       },
       "entityAliases" : {
         "6a0d9585-df1d-7efd-b512-cf84bcc8edea" : {
-          "id" : "6a0d9585-df1d-7efd-b512-cf84bcc8edea",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "YKS Tesis Yönetimi",
           "filter" : {
             "type" : "singleEntity",
@@ -17950,7 +17950,7 @@
           }
         },
         "f1e873f7-dfb7-435c-dd4e-93d82148712a" : {
-          "id" : "f1e873f7-dfb7-435c-dd4e-93d82148712a",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "All Sub Customers",
           "filter" : {
             "type" : "relationsQuery",
@@ -17972,7 +17972,7 @@
           }
         },
         "0217b929-a6e9-1997-4102-4b9948f0c8e7" : {
-          "id" : "0217b929-a6e9-1997-4102-4b9948f0c8e7",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Current Entity",
           "filter" : {
             "type" : "stateEntity",
@@ -17985,7 +17985,7 @@
           }
         },
         "6adf3ea6-7a8f-cc8d-17e1-5320f0623786" : {
-          "id" : "6adf3ea6-7a8f-cc8d-17e1-5320f0623786",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "EnergyAnalyzers",
           "filter" : {
             "type" : "relationsQuery",
@@ -18004,7 +18004,7 @@
           }
         },
         "c19bde3d-5d58-6c34-c2ce-c81f3e1bbdf9" : {
-          "id" : "c19bde3d-5d58-6c34-c2ce-c81f3e1bbdf9",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Current Building",
           "filter" : {
             "type" : "stateEntity",
@@ -18014,7 +18014,7 @@
           }
         },
         "a0faf37a-3c5d-e721-f445-de7914947895" : {
-          "id" : "a0faf37a-3c5d-e721-f445-de7914947895",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Current Device",
           "filter" : {
             "type" : "stateEntity",
@@ -18024,7 +18024,7 @@
           }
         },
         "f3b15a54-502f-8a94-afb8-a1d261618fcc" : {
-          "id" : "f3b15a54-502f-8a94-afb8-a1d261618fcc",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Current Child Entities",
           "filter" : {
             "type" : "relationsQuery",
@@ -18040,7 +18040,7 @@
           }
         },
         "c20b4d84-cdc9-df62-8ebb-393d2d49288d" : {
-          "id" : "c20b4d84-cdc9-df62-8ebb-393d2d49288d",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Analizörler",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -18057,7 +18057,7 @@
           }
         },
         "0f215648-b866-d715-b26f-093c9bbcfc16" : {
-          "id" : "0f215648-b866-d715-b26f-093c9bbcfc16",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Grup Analizörler",
           "filter" : {
             "type" : "stateEntityOwner",
@@ -18067,7 +18067,7 @@
           }
         },
         "350310a4-a034-c51f-00ec-4462c4fcb8d7" : {
-          "id" : "350310a4-a034-c51f-00ec-4462c4fcb8d7",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "B Analizörler",
           "filter" : {
             "type" : "relationsQuery",
@@ -18089,7 +18089,7 @@
           }
         },
         "a28d5402-9d88-6d0c-6761-179a4d11bae9" : {
-          "id" : "a28d5402-9d88-6d0c-6761-179a4d11bae9",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "A Analizörler",
           "filter" : {
             "type" : "relationsQuery",
@@ -18111,7 +18111,7 @@
           }
         },
         "787fc1c0-4624-7553-8dab-b3078c5d8078" : {
-          "id" : "787fc1c0-4624-7553-8dab-b3078c5d8078",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "C Analizörler",
           "filter" : {
             "type" : "relationsQuery",
@@ -18133,7 +18133,7 @@
           }
         },
         "04fc4a03-08fe-37cd-ced3-d9cebe088462" : {
-          "id" : "04fc4a03-08fe-37cd-ced3-d9cebe088462",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Analizor Karsilastirma",
           "filter" : {
             "type" : "assetType",
@@ -18143,7 +18143,7 @@
           }
         },
         "25dbadc4-b149-119e-3713-405b9ba83005" : {
-          "id" : "25dbadc4-b149-119e-3713-405b9ba83005",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Current Asset",
           "filter" : {
             "type" : "stateEntity",
@@ -18156,7 +18156,7 @@
           }
         },
         "b82f7155-7550-8fca-d787-de1daed8fed1" : {
-          "id" : "b82f7155-7550-8fca-d787-de1daed8fed1",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "Fancoil Güney",
           "filter" : {
             "type" : "singleEntity",
@@ -18168,7 +18168,7 @@
           }
         },
         "3dbc825d-bb6c-4cf1-d6ea-43f8c9ea2b16" : {
-          "id" : "3dbc825d-bb6c-4cf1-d6ea-43f8c9ea2b16",
+          "id" : "3ee09690-27d7-11eb-9587-73a58adaa31c",
           "alias" : "All Meters",
           "filter" : {
             "type" : "deviceSearchQuery",
@@ -18215,11 +18215,11 @@
       },
       "filters" : { }
     },
-    "customerId" : {
-      "entityType" : "CUSTOMER",
-      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    "customerId" : null,
+    "externalId" : {
+      "entityType" : "DASHBOARD",
+      "id" : "96ebcec0-411f-11eb-9f07-81d1409b4781"
     },
-    "externalId" : null,
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "96ebcec0-411f-11eb-9f07-81d1409b4781"

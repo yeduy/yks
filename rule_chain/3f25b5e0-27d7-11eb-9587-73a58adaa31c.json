@@ -10,7 +10,7 @@
     },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "7a6a8222-b69b-11ed-a59b-fb6dc01397e0"
+      "id" : "799f99d2-0915-11ee-b0a4-334e6b7a2b43"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -101,7 +101,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6a8220-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799f99d0-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Check AssetType Kilit",
       "ruleChainId" : null,
@@ -116,11 +116,11 @@
         "ruleChainId" : "eab084f0-f0b0-11ec-99a7-e5336b968b50"
       },
       "createdTime" : 0,
-      "debugMode" : true,
+      "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6a8221-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799f99d1-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Kilit Status",
       "ruleChainId" : null,
@@ -140,7 +140,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6a8222-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799f99d2-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Device Profile Node",
       "ruleChainId" : null,
@@ -159,7 +159,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6a8223-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fc0e0-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Pencere Rule Chain",
       "ruleChainId" : null,
@@ -179,7 +179,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6aa930-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fc0e1-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Save Attributes",
       "ruleChainId" : null,
@@ -197,7 +197,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6aa931-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fc0e2-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Message Type Switch",
       "ruleChainId" : null,
@@ -215,7 +215,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6aa932-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fc0e3-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Log RPC from Device",
       "ruleChainId" : null,
@@ -233,7 +233,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6aa933-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fc0e4-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Log Other",
       "ruleChainId" : null,
@@ -251,7 +251,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6aa934-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fc0e5-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "RPC Call Request",
       "ruleChainId" : null,
@@ -269,7 +269,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6ad040-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fe7f0-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Is Entity Group",
       "ruleChainId" : null,
@@ -287,7 +287,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6ad041-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fe7f1-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Post attributes or RPC request",
       "ruleChainId" : null,
@@ -306,7 +306,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6ad042-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fe7f2-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Duplicate To Group Entities",
       "ruleChainId" : null,
@@ -326,7 +326,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6ad043-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fe7f3-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Energy Delta Value",
       "ruleChainId" : null,
@@ -345,7 +345,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "7a6ad044-b69b-11ed-a59b-fb6dc01397e0"
+        "id" : "799fe7f4-0915-11ee-b0a4-334e6b7a2b43"
       },
       "name" : "Generate Report",
       "ruleChainId" : null,
